@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grammar Gym — Practice English Grammar</title>
+  <meta name="description" content="Free English grammar exercises for non-native speakers. No paywall, no signup." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#" id="homeLink">Grammar&nbsp;Gym</a>
+      <p class="tagline">Free grammar reps for non-native speakers.</p>
+    </div>
+  </header>
+
+  <main class="wrap" id="app">
+    <!-- Topic picker -->
+    <section id="topicView">
+      <h1 class="lead">Pick a topic. Do the reps.</h1>
+      <div class="topic-grid" id="topicGrid"></div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quizView" hidden>
+      <div class="quiz-top">
+        <button class="ghost" id="backBtn">← Topics</button>
+        <span class="progress" id="progress"></span>
+      </div>
+      <h2 id="quizTitle"></h2>
+      <div class="card" id="questionCard"></div>
+      <div class="quiz-actions">
+        <button class="primary" id="checkBtn">Check</button>
+        <button class="primary" id="nextBtn" hidden>Next →</button>
+      </div>
+      <p class="explain" id="explain" hidden></p>
+    </section>
+
+    <!-- Results -->
+    <section id="resultView" hidden>
+      <h2>Done.</h2>
+      <p class="score" id="scoreText"></p>
+      <div class="quiz-actions">
+        <button class="primary" id="retryBtn">Retry topic</button>
+        <button class="ghost" id="homeBtn">Pick another topic</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>No paywall. No signup. No tracking.</span>
+    </div>
+  </footer>
+
+  <script src="exercises.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
