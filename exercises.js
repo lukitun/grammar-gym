@@ -1,4 +1,4 @@
-// Auto-generated grammar exercise bank. 600 exercises across 20 topics.
+// Auto-generated grammar exercise bank. 695 exercises across 20 topics.
 // Edit build/topics/*.json and run build/assemble.mjs to regenerate.
 window.TOPICS = [
   {
@@ -351,6 +351,62 @@ window.TOPICS = [
           "—"
         ],
         "why": "Single mountain names take no article."
+      },
+      {
+        "type": "mc",
+        "q": "I need ___ advice about my visa application.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "answer": "—",
+        "why": "'Advice' is uncountable, so it takes no article in a general sense."
+      },
+      {
+        "type": "mc",
+        "q": "She plays ___ tennis every weekend.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "answer": "—",
+        "why": "Sports take no article: play tennis, play football."
+      },
+      {
+        "type": "mc",
+        "q": "We stayed at ___ same hotel as last year.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "answer": "the",
+        "why": "'Same' is always preceded by 'the'."
+      },
+      {
+        "type": "mc",
+        "q": "He was sent to ___ prison for fraud.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "—"
+        ],
+        "answer": "—",
+        "why": "'Go to prison' (as a prisoner) uses no article, like 'go to school'."
+      },
+      {
+        "type": "fill",
+        "q": "Type the article: '___ Netherlands is famous for its canals.'",
+        "answer": [
+          "the"
+        ],
+        "why": "Plural-form country names (the Netherlands, the Philippines) take 'the'."
       }
     ]
   },
@@ -706,6 +762,58 @@ window.TOPICS = [
           "'ll be flying"
         ],
         "why": "Future continuous describes an action in progress at a precise future time."
+      },
+      {
+        "type": "mc",
+        "q": "By the time we arrived, the film ___.",
+        "options": [
+          "had started",
+          "has started",
+          "started"
+        ],
+        "answer": "had started",
+        "why": "Past perfect for the earlier of two past events."
+      },
+      {
+        "type": "mc",
+        "q": "This time next week I ___ on a beach.",
+        "options": [
+          "will be lying",
+          "will lie",
+          "am lying"
+        ],
+        "answer": "will be lying",
+        "why": "Future continuous for an action in progress at a future time."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ TV when the phone rang.",
+        "options": [
+          "was watching",
+          "watched",
+          "is watching"
+        ],
+        "answer": "was watching",
+        "why": "Past continuous for the background action interrupted by a past simple event."
+      },
+      {
+        "type": "mc",
+        "q": "Look at those clouds — it ___ rain.",
+        "options": [
+          "is going to",
+          "will",
+          "would"
+        ],
+        "answer": "is going to",
+        "why": "'Going to' for predictions based on present evidence."
+      },
+      {
+        "type": "fill",
+        "q": "Type the verb: 'Water ___ at 100 degrees Celsius.' (boil)",
+        "answer": [
+          "boils"
+        ],
+        "why": "Present simple for scientific facts; third person singular adds -s."
       }
     ]
   },
@@ -1057,6 +1165,50 @@ window.TOPICS = [
           "saw"
         ],
         "why": "'Yesterday' is finished time, so past simple is required."
+      },
+      {
+        "type": "mc",
+        "q": "I ___ him since we left school.",
+        "options": [
+          "haven't seen",
+          "didn't see",
+          "don't see"
+        ],
+        "answer": "haven't seen",
+        "why": "'Since' + unfinished period → present perfect."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ her keys — she can't get in.",
+        "options": [
+          "has lost",
+          "lost",
+          "loses"
+        ],
+        "answer": "has lost",
+        "why": "Past action with a present result → present perfect."
+      },
+      {
+        "type": "mc",
+        "q": "He ___ in Rome in the 1990s.",
+        "options": [
+          "lived",
+          "has lived",
+          "has been living"
+        ],
+        "answer": "lived",
+        "why": "A finished time period ('in the 1990s') → past simple."
+      },
+      {
+        "type": "mc",
+        "q": "We've been friends ___ twenty years.",
+        "options": [
+          "for",
+          "since",
+          "from"
+        ],
+        "answer": "for",
+        "why": "'For' + duration (twenty years); 'since' + starting point."
       }
     ]
   },
@@ -1392,6 +1544,61 @@ window.TOPICS = [
           "by"
         ],
         "why": "Use 'by' for modes of transport."
+      },
+      {
+        "type": "mc",
+        "q": "The results depend ___ several factors.",
+        "options": [
+          "on",
+          "of",
+          "from"
+        ],
+        "answer": "on",
+        "why": "'Depend' always takes 'on': depend on something."
+      },
+      {
+        "type": "mc",
+        "q": "She's very good ___ solving problems.",
+        "options": [
+          "at",
+          "in",
+          "on"
+        ],
+        "answer": "at",
+        "why": "'Good at' + noun/gerund is the fixed combination."
+      },
+      {
+        "type": "mc",
+        "q": "We've lived here ___ 2015.",
+        "options": [
+          "since",
+          "for",
+          "from"
+        ],
+        "answer": "since",
+        "why": "'Since' + a starting point (2015); 'for' + a duration."
+      },
+      {
+        "type": "mc",
+        "q": "He apologized ___ being late.",
+        "options": [
+          "for",
+          "about",
+          "of"
+        ],
+        "answer": "for",
+        "why": "'Apologize for' + noun/gerund is the fixed pattern."
+      },
+      {
+        "type": "mc",
+        "q": "The meeting is ___ Monday morning.",
+        "options": [
+          "on",
+          "in",
+          "at"
+        ],
+        "answer": "on",
+        "why": "Use 'on' with days and dates, including 'on Monday morning'."
       }
     ]
   },
@@ -1727,6 +1934,61 @@ window.TOPICS = [
         ],
         "answer": "look / up",
         "why": "'Look up' means to search for information in a dictionary or online."
+      },
+      {
+        "type": "mc",
+        "q": "The plane ___ on time despite the storm.",
+        "options": [
+          "took off",
+          "took up",
+          "took over"
+        ],
+        "answer": "took off",
+        "why": "'Take off' = leave the ground (plane)."
+      },
+      {
+        "type": "mc",
+        "q": "I'll ___ the kids from school today.",
+        "options": [
+          "pick up",
+          "pick out",
+          "pick on"
+        ],
+        "answer": "pick up",
+        "why": "'Pick up' = collect someone."
+      },
+      {
+        "type": "mc",
+        "q": "We had to ___ the meeting until Friday.",
+        "options": [
+          "put off",
+          "put out",
+          "put up"
+        ],
+        "answer": "put off",
+        "why": "'Put off' = postpone."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ the whole story — none of it was true.",
+        "options": [
+          "made up",
+          "made out",
+          "made off"
+        ],
+        "answer": "made up",
+        "why": "'Make up' = invent (a story, an excuse)."
+      },
+      {
+        "type": "mc",
+        "q": "Never ___ ! You're almost at the finish line.",
+        "options": [
+          "give up",
+          "give in",
+          "give away"
+        ],
+        "answer": "give up",
+        "why": "'Give up' = stop trying."
       }
     ]
   },
@@ -2072,6 +2334,50 @@ window.TOPICS = [
           "unless"
         ],
         "why": "'Unless' means 'if not' and introduces the saving condition."
+      },
+      {
+        "type": "mc",
+        "q": "If I ___ enough money, I'd travel more.",
+        "options": [
+          "had",
+          "have",
+          "would have"
+        ],
+        "answer": "had",
+        "why": "Second conditional: if + past simple, would + base verb."
+      },
+      {
+        "type": "mc",
+        "q": "If you heat metal, it ___ .",
+        "options": [
+          "expands",
+          "will expand",
+          "would expand"
+        ],
+        "answer": "expands",
+        "why": "Zero conditional for general truths: if + present, present."
+      },
+      {
+        "type": "mc",
+        "q": "___ I known about the delay, I would have called you.",
+        "options": [
+          "Had",
+          "If",
+          "Should"
+        ],
+        "answer": "Had",
+        "why": "Formal inversion replaces 'if': 'Had I known' = 'If I had known'."
+      },
+      {
+        "type": "mc",
+        "q": "Unless we hurry, we ___ the bus.",
+        "options": [
+          "will miss",
+          "would miss",
+          "missed"
+        ],
+        "answer": "will miss",
+        "why": "'Unless' = 'if not'; first conditional takes 'will' in the main clause."
       }
     ]
   },
@@ -2415,6 +2721,50 @@ window.TOPICS = [
           "got"
         ],
         "why": "Get-passive in the past uses 'got + past participle'."
+      },
+      {
+        "type": "mc",
+        "q": "The report ___ by Friday, I promise.",
+        "options": [
+          "will be finished",
+          "will finish",
+          "is finishing"
+        ],
+        "answer": "will be finished",
+        "why": "The report receives the action → future passive 'will be finished'."
+      },
+      {
+        "type": "mc",
+        "q": "The suspect ___ last night.",
+        "options": [
+          "was arrested",
+          "arrested",
+          "has arrested"
+        ],
+        "answer": "was arrested",
+        "why": "Past simple passive: was/were + past participle."
+      },
+      {
+        "type": "mc",
+        "q": "The road ___ at the moment, so take another route.",
+        "options": [
+          "is being repaired",
+          "is repairing",
+          "repairs"
+        ],
+        "answer": "is being repaired",
+        "why": "Present continuous passive: is being + past participle."
+      },
+      {
+        "type": "mc",
+        "q": "He ___ a medal for bravery.",
+        "options": [
+          "was given",
+          "gave",
+          "is giving"
+        ],
+        "answer": "was given",
+        "why": "Passive with two-object verbs: he received the medal."
       }
     ]
   },
@@ -2763,6 +3113,61 @@ window.TOPICS = [
           "could"
         ],
         "why": "'Could' is used for ability in the past."
+      },
+      {
+        "type": "mc",
+        "q": "You ___ smoke in here — it's forbidden.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "shouldn't"
+        ],
+        "answer": "mustn't",
+        "why": "'Mustn't' = prohibition; 'don't have to' = no obligation."
+      },
+      {
+        "type": "mc",
+        "q": "You ___ pay — the entrance is free.",
+        "options": [
+          "don't have to",
+          "mustn't",
+          "can't"
+        ],
+        "answer": "don't have to",
+        "why": "'Don't have to' = it is not necessary."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ be home; all the lights are on.",
+        "options": [
+          "must",
+          "can",
+          "should"
+        ],
+        "answer": "must",
+        "why": "'Must' for a logical deduction based on evidence."
+      },
+      {
+        "type": "mc",
+        "q": "___ I borrow your pen for a moment?",
+        "options": [
+          "May",
+          "Must",
+          "Should"
+        ],
+        "answer": "May",
+        "why": "'May' asks for permission politely."
+      },
+      {
+        "type": "mc",
+        "q": "You look exhausted. You ___ take a break.",
+        "options": [
+          "should",
+          "must",
+          "can"
+        ],
+        "answer": "should",
+        "why": "'Should' gives advice."
       }
     ]
   },
@@ -3108,6 +3513,61 @@ window.TOPICS = [
           "which"
         ],
         "why": "After a preposition, use 'which' for things, not 'that'."
+      },
+      {
+        "type": "mc",
+        "q": "The woman ___ car was stolen called the police.",
+        "options": [
+          "whose",
+          "who",
+          "which"
+        ],
+        "answer": "whose",
+        "why": "'Whose' shows possession: her car."
+      },
+      {
+        "type": "mc",
+        "q": "Everything ___ he said was true.",
+        "options": [
+          "that",
+          "what",
+          "who"
+        ],
+        "answer": "that",
+        "why": "After 'everything', use 'that' (never 'what')."
+      },
+      {
+        "type": "mc",
+        "q": "My brother, ___ lives in Madrid, is visiting us.",
+        "options": [
+          "who",
+          "that",
+          "which"
+        ],
+        "answer": "who",
+        "why": "Non-defining clauses (with commas) can't use 'that'."
+      },
+      {
+        "type": "mc",
+        "q": "The hotel ___ we stayed was lovely.",
+        "options": [
+          "where",
+          "which",
+          "that"
+        ],
+        "answer": "where",
+        "why": "'Where' replaces 'in which' for places."
+      },
+      {
+        "type": "mc",
+        "q": "She got the job, ___ surprised everyone.",
+        "options": [
+          "which",
+          "that",
+          "what"
+        ],
+        "answer": "which",
+        "why": "'Which' can refer to the whole previous clause."
       }
     ]
   },
@@ -3451,6 +3911,61 @@ window.TOPICS = [
           "as"
         ],
         "why": "'Not as ... as' shows two things are unequal."
+      },
+      {
+        "type": "mc",
+        "q": "This test was ___ than the last one.",
+        "options": [
+          "easier",
+          "more easy",
+          "easiest"
+        ],
+        "answer": "easier",
+        "why": "Two-syllable adjectives ending in -y take -ier: easy → easier."
+      },
+      {
+        "type": "mc",
+        "q": "It's the ___ interesting book I've ever read.",
+        "options": [
+          "most",
+          "more",
+          "much"
+        ],
+        "answer": "most",
+        "why": "Long adjectives form the superlative with 'the most'."
+      },
+      {
+        "type": "mc",
+        "q": "The weather is getting ___ .",
+        "options": [
+          "worse and worse",
+          "worst and worst",
+          "more and more bad"
+        ],
+        "answer": "worse and worse",
+        "why": "Repeated comparative 'worse and worse' shows continuing change."
+      },
+      {
+        "type": "mc",
+        "q": "She's far ___ experienced than her colleague.",
+        "options": [
+          "more",
+          "most",
+          "much"
+        ],
+        "answer": "more",
+        "why": "Comparative with long adjective: 'more experienced'; 'far' just intensifies it."
+      },
+      {
+        "type": "mc",
+        "q": "The ___ you practice, the better you get.",
+        "options": [
+          "more",
+          "most",
+          "much"
+        ],
+        "answer": "more",
+        "why": "Parallel comparative: 'the more…, the better…'."
       }
     ]
   },
@@ -3798,6 +4313,61 @@ window.TOPICS = [
           "to buy"
         ],
         "why": "Use 'to + verb' to express the purpose of an action."
+      },
+      {
+        "type": "mc",
+        "q": "He suggested ___ early to avoid traffic.",
+        "options": [
+          "leaving",
+          "to leave",
+          "leave"
+        ],
+        "answer": "leaving",
+        "why": "'Suggest' is followed by a gerund."
+      },
+      {
+        "type": "mc",
+        "q": "I can't afford ___ a new car this year.",
+        "options": [
+          "to buy",
+          "buying",
+          "buy"
+        ],
+        "answer": "to buy",
+        "why": "'Afford' is followed by the to-infinitive."
+      },
+      {
+        "type": "mc",
+        "q": "She stopped ___ when the teacher came in.",
+        "options": [
+          "talking",
+          "to talk",
+          "talk"
+        ],
+        "answer": "talking",
+        "why": "'Stop + -ing' = quit the activity; 'stop to talk' = pause in order to talk."
+      },
+      {
+        "type": "mc",
+        "q": "Remember ___ the door when you leave.",
+        "options": [
+          "to lock",
+          "locking",
+          "lock"
+        ],
+        "answer": "to lock",
+        "why": "'Remember to do' = don't forget a duty; 'remember doing' = recall a memory."
+      },
+      {
+        "type": "mc",
+        "q": "It's no use ___ about it now.",
+        "options": [
+          "worrying",
+          "to worry",
+          "worry"
+        ],
+        "answer": "worrying",
+        "why": "'It's no use' + gerund is a fixed pattern."
       }
     ]
   },
@@ -4149,6 +4719,61 @@ window.TOPICS = [
           "to sit"
         ],
         "why": "Reported commands use 'tell someone to + base verb'."
+      },
+      {
+        "type": "mc",
+        "q": "'I'm tired,' he said. → He said he ___ tired.",
+        "options": [
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": "was",
+        "why": "Present simple shifts back to past simple in reported speech."
+      },
+      {
+        "type": "mc",
+        "q": "'I'll help you,' she said. → She said she ___ help me.",
+        "options": [
+          "would",
+          "will",
+          "can"
+        ],
+        "answer": "would",
+        "why": "'Will' becomes 'would' in reported speech."
+      },
+      {
+        "type": "mc",
+        "q": "'Where do you live?' → He asked me where I ___ .",
+        "options": [
+          "lived",
+          "live",
+          "do live"
+        ],
+        "answer": "lived",
+        "why": "Reported questions: statement order + tense shift."
+      },
+      {
+        "type": "mc",
+        "q": "'Don't touch it!' → She told me ___ it.",
+        "options": [
+          "not to touch",
+          "to not touching",
+          "don't touch"
+        ],
+        "answer": "not to touch",
+        "why": "Negative reported commands: told + object + not to + verb."
+      },
+      {
+        "type": "mc",
+        "q": "'I saw the film yesterday.' → He said he had seen the film ___ .",
+        "options": [
+          "the day before",
+          "yesterday",
+          "last day"
+        ],
+        "answer": "the day before",
+        "why": "'Yesterday' becomes 'the day before' in reported speech."
       }
     ]
   },
@@ -4504,6 +5129,58 @@ window.TOPICS = [
           "did"
         ],
         "why": "This is an object question, so it needs the auxiliary 'did'."
+      },
+      {
+        "type": "mc",
+        "q": "___ told you that?",
+        "options": [
+          "Who",
+          "Whom",
+          "Who did"
+        ],
+        "answer": "Who",
+        "why": "Subject questions use no auxiliary: 'Who told you?', not 'Who did tell you?'"
+      },
+      {
+        "type": "mc",
+        "q": "She's coming tonight, ___?",
+        "options": [
+          "isn't she",
+          "doesn't she",
+          "is she"
+        ],
+        "answer": "isn't she",
+        "why": "Positive statement → negative tag with the same auxiliary ('is')."
+      },
+      {
+        "type": "mc",
+        "q": "Could you tell me where ___?",
+        "options": [
+          "the station is",
+          "is the station",
+          "is station"
+        ],
+        "answer": "the station is",
+        "why": "Indirect questions use statement word order: 'where the station is'."
+      },
+      {
+        "type": "mc",
+        "q": "___ does the film start?",
+        "options": [
+          "What time",
+          "How long",
+          "How often"
+        ],
+        "answer": "What time",
+        "why": "'What time' asks for the exact starting time."
+      },
+      {
+        "type": "fill",
+        "q": "Complete the tag: 'You haven't seen my keys, ___ you?'",
+        "answer": [
+          "have"
+        ],
+        "why": "Negative statement → positive tag: 'haven't seen… have you?'"
       }
     ]
   },
@@ -4855,6 +5532,50 @@ window.TOPICS = [
           "little"
         ],
         "why": "'Patience' is uncountable, and 'very little' means almost none."
+      },
+      {
+        "type": "mc",
+        "q": "There isn't ___ time left.",
+        "options": [
+          "much",
+          "many",
+          "a few"
+        ],
+        "answer": "much",
+        "why": "'Time' is uncountable → 'much' in negatives and questions."
+      },
+      {
+        "type": "mc",
+        "q": "___ of the students passed the exam.",
+        "options": [
+          "Most",
+          "The most",
+          "Almost"
+        ],
+        "answer": "Most",
+        "why": "'Most of the' + noun; 'almost' is an adverb, not a quantifier."
+      },
+      {
+        "type": "mc",
+        "q": "I have ___ money than you.",
+        "options": [
+          "less",
+          "fewer",
+          "least"
+        ],
+        "answer": "less",
+        "why": "'Less' with uncountable nouns (money); 'fewer' with plurals."
+      },
+      {
+        "type": "mc",
+        "q": "There are too ___ mistakes in this report.",
+        "options": [
+          "many",
+          "much",
+          "more"
+        ],
+        "answer": "many",
+        "why": "'Mistakes' is a plural countable noun → 'too many'."
       }
     ]
   },
@@ -5182,6 +5903,58 @@ window.TOPICS = [
           "advice"
         ],
         "why": "'Advice' stays singular even after 'pieces of'; never 'advices'."
+      },
+      {
+        "type": "mc",
+        "q": "Can you give me some ___?",
+        "options": [
+          "information",
+          "informations",
+          "an information"
+        ],
+        "answer": "information",
+        "why": "'Information' is uncountable — no plural, no 'a/an'."
+      },
+      {
+        "type": "mc",
+        "q": "We bought new ___ for the office.",
+        "options": [
+          "furniture",
+          "furnitures",
+          "a furniture"
+        ],
+        "answer": "furniture",
+        "why": "'Furniture' is uncountable in English."
+      },
+      {
+        "type": "mc",
+        "q": "How ___ luggage are you taking?",
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
+        "answer": "much",
+        "why": "'Luggage' is uncountable → 'how much', not 'how many'."
+      },
+      {
+        "type": "mc",
+        "q": "There are only a ___ seats left.",
+        "options": [
+          "few",
+          "little",
+          "less"
+        ],
+        "answer": "few",
+        "why": "'A few' + plural countable noun (seats); 'a little' + uncountable."
+      },
+      {
+        "type": "fill",
+        "q": "Type the answer: 'She gave me a useful piece of ___ .' (advise/advice)",
+        "answer": [
+          "advice"
+        ],
+        "why": "'Advice' is the noun; 'advise' is the verb. It stays singular: a piece of advice."
       }
     ]
   },
@@ -5517,6 +6290,58 @@ window.TOPICS = [
           "who"
         ],
         "why": "Use 'who' as the relative pronoun referring to a person who is the subject."
+      },
+      {
+        "type": "mc",
+        "q": "Between you and ___, the plan will not work.",
+        "options": [
+          "me",
+          "I",
+          "myself"
+        ],
+        "answer": "me",
+        "why": "After a preposition ('between'), use the object pronoun 'me'."
+      },
+      {
+        "type": "mc",
+        "q": "This umbrella isn't ___; mine is black.",
+        "options": [
+          "yours",
+          "your",
+          "you"
+        ],
+        "answer": "yours",
+        "why": "Possessive pronoun 'yours' stands alone; 'your' needs a noun after it."
+      },
+      {
+        "type": "mc",
+        "q": "Neither of them brought ___ passport.",
+        "options": [
+          "their",
+          "theirs",
+          "them"
+        ],
+        "answer": "their",
+        "why": "Possessive adjective 'their' goes before the noun 'passport'."
+      },
+      {
+        "type": "mc",
+        "q": "The dog hurt ___ paw.",
+        "options": [
+          "its",
+          "it's",
+          "their"
+        ],
+        "answer": "its",
+        "why": "'Its' is possessive; 'it's' means 'it is'."
+      },
+      {
+        "type": "fill",
+        "q": "Type the reflexive pronoun: 'I taught ___ to play the guitar.'",
+        "answer": [
+          "myself"
+        ],
+        "why": "Subject and object are the same person → reflexive 'myself'."
       }
     ]
   },
@@ -5861,6 +6686,61 @@ window.TOPICS = [
           "a small round wooden"
         ],
         "why": "Order is size, shape, then material: small, round, wooden."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ late for work.",
+        "options": [
+          "is never",
+          "never is",
+          "is being never"
+        ],
+        "answer": "is never",
+        "why": "Frequency adverbs go after the verb 'be'."
+      },
+      {
+        "type": "mc",
+        "q": "He speaks English ___ .",
+        "options": [
+          "fluently",
+          "fluent",
+          "more fluent"
+        ],
+        "answer": "fluently",
+        "why": "An adverb ('fluently') modifies the verb 'speaks'."
+      },
+      {
+        "type": "mc",
+        "q": "I ___ go to the gym on Fridays.",
+        "options": [
+          "usually",
+          "usual",
+          "most usual"
+        ],
+        "answer": "usually",
+        "why": "Frequency adverb before the main verb: 'I usually go'."
+      },
+      {
+        "type": "mc",
+        "q": "The soup tastes ___ .",
+        "options": [
+          "good",
+          "well",
+          "goodly"
+        ],
+        "answer": "good",
+        "why": "'Taste' is a linking verb, so it takes an adjective, not an adverb."
+      },
+      {
+        "type": "mc",
+        "q": "She ___ finished the report.",
+        "options": [
+          "has almost",
+          "almost has",
+          "has finished almost"
+        ],
+        "answer": "has almost",
+        "why": "'Almost' goes between the auxiliary and the main verb."
       }
     ]
   },
@@ -6204,6 +7084,61 @@ window.TOPICS = [
           "to"
         ],
         "why": "'Be used to' always takes the preposition 'to' before a noun or -ing."
+      },
+      {
+        "type": "mc",
+        "q": "I ___ coffee, but now I love it.",
+        "options": [
+          "didn't use to like",
+          "didn't used to like",
+          "don't use to like"
+        ],
+        "answer": "didn't use to like",
+        "why": "After 'didn't', use the base form 'use to' (no d)."
+      },
+      {
+        "type": "mc",
+        "q": "She's not ___ up early.",
+        "options": [
+          "used to getting",
+          "used to get",
+          "use to getting"
+        ],
+        "answer": "used to getting",
+        "why": "'Be used to' + -ing means 'be accustomed to'."
+      },
+      {
+        "type": "mc",
+        "q": "There ___ be a cinema here.",
+        "options": [
+          "used to",
+          "use to",
+          "was used to"
+        ],
+        "answer": "used to",
+        "why": "'Used to' + base verb for past states that are no longer true."
+      },
+      {
+        "type": "mc",
+        "q": "He'll soon get ___ in the city.",
+        "options": [
+          "used to living",
+          "used to live",
+          "use to living"
+        ],
+        "answer": "used to living",
+        "why": "'Get used to' + -ing describes becoming accustomed."
+      },
+      {
+        "type": "mc",
+        "q": "___ you use to play chess?",
+        "options": [
+          "Did",
+          "Do",
+          "Were"
+        ],
+        "answer": "Did",
+        "why": "Questions about past habits: 'Did you use to…?'"
       }
     ]
   },
@@ -6547,6 +7482,50 @@ window.TOPICS = [
           "are"
         ],
         "why": "'A number of' takes a plural verb."
+      },
+      {
+        "type": "mc",
+        "q": "The news ___ worse than we expected.",
+        "options": [
+          "is",
+          "are",
+          "were"
+        ],
+        "answer": "is",
+        "why": "'News' looks plural but is uncountable and takes a singular verb."
+      },
+      {
+        "type": "mc",
+        "q": "Either the manager or the assistants ___ the keys.",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": "have",
+        "why": "With 'either… or', the verb agrees with the nearer subject ('assistants')."
+      },
+      {
+        "type": "mc",
+        "q": "Everyone in the offices ___ gone home.",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": "has",
+        "why": "'Everyone' is grammatically singular."
+      },
+      {
+        "type": "mc",
+        "q": "The number of complaints ___ falling.",
+        "options": [
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "why": "'The number of' refers to the number itself → singular verb."
       }
     ]
   },
@@ -6890,6 +7869,61 @@ window.TOPICS = [
           "fewer"
         ],
         "why": "Use 'fewer' with countable nouns."
+      },
+      {
+        "type": "mc",
+        "q": "The medicine had no ___ on him at all.",
+        "options": [
+          "effect",
+          "affect",
+          "afect"
+        ],
+        "answer": "effect",
+        "why": "'Effect' is the noun; 'affect' is the verb."
+      },
+      {
+        "type": "mc",
+        "q": "These trousers are too ___ — I need a belt.",
+        "options": [
+          "loose",
+          "lose",
+          "loss"
+        ],
+        "answer": "loose",
+        "why": "'Loose' (adjective) = not tight; 'lose' (verb) = misplace."
+      },
+      {
+        "type": "mc",
+        "q": "I'd rather have tea ___ coffee.",
+        "options": [
+          "than",
+          "then",
+          "that"
+        ],
+        "answer": "than",
+        "why": "'Than' for comparisons; 'then' for time sequence."
+      },
+      {
+        "type": "mc",
+        "q": "___ turn is it to cook tonight?",
+        "options": [
+          "Whose",
+          "Who's",
+          "Whos"
+        ],
+        "answer": "Whose",
+        "why": "'Whose' is possessive; 'who's' = 'who is'."
+      },
+      {
+        "type": "mc",
+        "q": "Everyone accepted the decision ___ the coach.",
+        "options": [
+          "except",
+          "accept",
+          "expect"
+        ],
+        "answer": "except",
+        "why": "'Except' = excluding; 'accept' = agree to receive."
       }
     ]
   }

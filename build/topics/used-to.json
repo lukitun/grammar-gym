@@ -3,35 +3,396 @@
   "title": "Used to / Be used to",
   "blurb": "past habits vs familiarity",
   "questions": [
-    {"type":"mc","q":"I ___ smoke, but I quit five years ago.","options":["use to","used to","am used to","was used to"],"answer":"used to","why":"'Used to + infinitive' describes a past habit that is no longer true."},
-    {"type":"mc","q":"She ___ living alone now; she enjoys the quiet.","options":["used to","use to","is used to","didn't use to"],"answer":"is used to","why":"'Be used to + -ing' means accustomed to or familiar with something."},
-    {"type":"mc","q":"It took time, but I finally ___ driving on the left.","options":["used to","got used to","use to","was use to"],"answer":"got used to","why":"'Get used to + -ing' describes the process of becoming accustomed."},
-    {"type":"mc","q":"When we were kids, we ___ play in the street for hours.","options":["would","are used to","get used to","use to"],"answer":"would","why":"'Would' can describe repeated past actions, like 'used to' for habits."},
-    {"type":"mc","q":"I ___ like vegetables when I was young, but I do now.","options":["didn't used to","didn't use to","wasn't used to","don't use to"],"answer":"didn't use to","why":"In the negative, drop the '-d': 'didn't use to'."},
-    {"type":"mc","q":"Are you ___ the cold weather here yet?","options":["use to","used to","using to","use for"],"answer":"used to","why":"'Be used to + noun/-ing' means accustomed to; here it's followed by a noun."},
-    {"type":"mc","q":"There ___ be a cinema here, but they knocked it down.","options":["used to","is used to","would","got used to"],"answer":"used to","why":"'Used to' describes a past state that no longer exists."},
-    {"type":"mc","q":"He's a nurse, so he ___ working nights.","options":["used to","is used to","use to","would"],"answer":"is used to","why":"'Be used to + -ing' shows he is accustomed to night shifts."},
-    {"type":"mc","q":"Did you ___ have long hair?","options":["used to","use to","are used to","would"],"answer":"use to","why":"In questions with 'did', use the base form 'use to'."},
-    {"type":"mc","q":"After a month, she ___ to the spicy food.","options":["used","got used","is using","use"],"answer":"got used","why":"'Got used to' shows the gradual process of becoming accustomed."},
-    {"type":"mc","q":"My grandfather ___ tell us stories every evening.","options":["is used to","would","gets used to","use to"],"answer":"would","why":"'Would' expresses a repeated past action or habit."},
-    {"type":"mc","q":"I'm not ___ getting up so early.","options":["use to","used to","would","use for"],"answer":"used to","why":"'Be used to + -ing' for familiarity; the negative is 'not used to'."},
-    {"type":"mc","q":"We ___ have a dog when I was a child.","options":["are used to","used to","get used to","would have"],"answer":"used to","why":"'Used to' describes a past situation that is no longer true."},
-    {"type":"mc","q":"It was hard at first, but he's ___ the noise now.","options":["used to","use to","using to","used for"],"answer":"used to","why":"'Be used to + noun' means accustomed to: used to the noise."},
-    {"type":"mc","q":"How do you ___ working from home?","options":["used to","get used to","are used to","use to"],"answer":"get used to","why":"'Get used to' refers to the process of becoming accustomed."},
-    {"type":"mc","q":"She ___ be very shy, but now she's confident.","options":["used to","is used to","gets used to","would be"],"answer":"used to","why":"Use 'used to' for a past state; 'would' is avoided with state verbs like 'be'."},
-    {"type":"mc","q":"They aren't ___ such cold winters.","options":["use to","used to","using to","would"],"answer":"used to","why":"'Be used to + noun' for familiarity; negative form keeps 'used to'."},
-    {"type":"mc","q":"I ___ to the long commute after a few weeks.","options":["used","got used","am use","would get"],"answer":"got used","why":"'Got used to' shows becoming accustomed over time."},
-    {"type":"mc","q":"___ you use to live in London?","options":["Did","Were","Are","Do"],"answer":"Did","why":"Questions about past habits use 'did' + 'use to'."},
-    {"type":"mc","q":"As a boy, he ___ spend summers at the lake.","options":["is used to","would","gets used to","use to"],"answer":"would","why":"'Would' describes a repeated action in the past, like a habit."},
-    {"type":"mc","q":"Now that she's a teacher, she ___ speaking in public.","options":["used to","is used to","use to","would"],"answer":"is used to","why":"'Be used to + -ing' means she is comfortable with it now."},
-    {"type":"mc","q":"I can't ___ this hot climate.","options":["used to","get used to","use to","am used to"],"answer":"get used to","why":"'Get used to' refers to the (here, difficult) process of adjusting."},
-    {"type":"mc","q":"We ___ have much money, so we never travelled.","options":["didn't use to","didn't used to","weren't used to","don't use to"],"answer":"didn't use to","why":"The negative past habit form is 'didn't use to' (no '-d')."},
-    {"type":"mc","q":"He ___ wearing glasses now; they don't bother him.","options":["used to","got use to","is used to","would"],"answer":"is used to","why":"'Be used to + -ing' shows present familiarity."},
-    {"type":"fill","q":"Type the answer: 'I ___ to play tennis every Sunday, but I stopped.' (past habit)","answer":["used"],"why":"'Used to + infinitive' expresses a discontinued past habit."},
-    {"type":"fill","q":"Type the answer: 'She is used to ___ (work) long hours.'","answer":["working"],"why":"After 'be used to' we use the -ing form."},
-    {"type":"fill","q":"Type the answer: 'It took a while, but I got used to ___ (drive) on the right.'","answer":["driving"],"why":"'Get used to' is followed by the -ing form."},
-    {"type":"fill","q":"Type the answer: 'They didn't ___ to have a car.' (negative past habit)","answer":["use"],"why":"In the negative, the form is 'didn't use to' without the '-d'."},
-    {"type":"fill","q":"Type the answer: 'When I was young, I ___ (would, habit) walk to school every day.' Give the modal.","answer":["would"],"why":"'Would' describes repeated past actions or habits."},
-    {"type":"fill","q":"Type the answer: 'Are you used ___ the weather here?' (preposition)","answer":["to"],"why":"'Be used to' always takes the preposition 'to' before a noun or -ing."}
+    {
+      "type": "mc",
+      "q": "I ___ smoke, but I quit five years ago.",
+      "options": [
+        "use to",
+        "used to",
+        "am used to",
+        "was used to"
+      ],
+      "answer": "used to",
+      "why": "'Used to + infinitive' describes a past habit that is no longer true."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ living alone now; she enjoys the quiet.",
+      "options": [
+        "used to",
+        "use to",
+        "is used to",
+        "didn't use to"
+      ],
+      "answer": "is used to",
+      "why": "'Be used to + -ing' means accustomed to or familiar with something."
+    },
+    {
+      "type": "mc",
+      "q": "It took time, but I finally ___ driving on the left.",
+      "options": [
+        "used to",
+        "got used to",
+        "use to",
+        "was use to"
+      ],
+      "answer": "got used to",
+      "why": "'Get used to + -ing' describes the process of becoming accustomed."
+    },
+    {
+      "type": "mc",
+      "q": "When we were kids, we ___ play in the street for hours.",
+      "options": [
+        "would",
+        "are used to",
+        "get used to",
+        "use to"
+      ],
+      "answer": "would",
+      "why": "'Would' can describe repeated past actions, like 'used to' for habits."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ like vegetables when I was young, but I do now.",
+      "options": [
+        "didn't used to",
+        "didn't use to",
+        "wasn't used to",
+        "don't use to"
+      ],
+      "answer": "didn't use to",
+      "why": "In the negative, drop the '-d': 'didn't use to'."
+    },
+    {
+      "type": "mc",
+      "q": "Are you ___ the cold weather here yet?",
+      "options": [
+        "use to",
+        "used to",
+        "using to",
+        "use for"
+      ],
+      "answer": "used to",
+      "why": "'Be used to + noun/-ing' means accustomed to; here it's followed by a noun."
+    },
+    {
+      "type": "mc",
+      "q": "There ___ be a cinema here, but they knocked it down.",
+      "options": [
+        "used to",
+        "is used to",
+        "would",
+        "got used to"
+      ],
+      "answer": "used to",
+      "why": "'Used to' describes a past state that no longer exists."
+    },
+    {
+      "type": "mc",
+      "q": "He's a nurse, so he ___ working nights.",
+      "options": [
+        "used to",
+        "is used to",
+        "use to",
+        "would"
+      ],
+      "answer": "is used to",
+      "why": "'Be used to + -ing' shows he is accustomed to night shifts."
+    },
+    {
+      "type": "mc",
+      "q": "Did you ___ have long hair?",
+      "options": [
+        "used to",
+        "use to",
+        "are used to",
+        "would"
+      ],
+      "answer": "use to",
+      "why": "In questions with 'did', use the base form 'use to'."
+    },
+    {
+      "type": "mc",
+      "q": "After a month, she ___ to the spicy food.",
+      "options": [
+        "used",
+        "got used",
+        "is using",
+        "use"
+      ],
+      "answer": "got used",
+      "why": "'Got used to' shows the gradual process of becoming accustomed."
+    },
+    {
+      "type": "mc",
+      "q": "My grandfather ___ tell us stories every evening.",
+      "options": [
+        "is used to",
+        "would",
+        "gets used to",
+        "use to"
+      ],
+      "answer": "would",
+      "why": "'Would' expresses a repeated past action or habit."
+    },
+    {
+      "type": "mc",
+      "q": "I'm not ___ getting up so early.",
+      "options": [
+        "use to",
+        "used to",
+        "would",
+        "use for"
+      ],
+      "answer": "used to",
+      "why": "'Be used to + -ing' for familiarity; the negative is 'not used to'."
+    },
+    {
+      "type": "mc",
+      "q": "We ___ have a dog when I was a child.",
+      "options": [
+        "are used to",
+        "used to",
+        "get used to",
+        "would have"
+      ],
+      "answer": "used to",
+      "why": "'Used to' describes a past situation that is no longer true."
+    },
+    {
+      "type": "mc",
+      "q": "It was hard at first, but he's ___ the noise now.",
+      "options": [
+        "used to",
+        "use to",
+        "using to",
+        "used for"
+      ],
+      "answer": "used to",
+      "why": "'Be used to + noun' means accustomed to: used to the noise."
+    },
+    {
+      "type": "mc",
+      "q": "How do you ___ working from home?",
+      "options": [
+        "used to",
+        "get used to",
+        "are used to",
+        "use to"
+      ],
+      "answer": "get used to",
+      "why": "'Get used to' refers to the process of becoming accustomed."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ be very shy, but now she's confident.",
+      "options": [
+        "used to",
+        "is used to",
+        "gets used to",
+        "would be"
+      ],
+      "answer": "used to",
+      "why": "Use 'used to' for a past state; 'would' is avoided with state verbs like 'be'."
+    },
+    {
+      "type": "mc",
+      "q": "They aren't ___ such cold winters.",
+      "options": [
+        "use to",
+        "used to",
+        "using to",
+        "would"
+      ],
+      "answer": "used to",
+      "why": "'Be used to + noun' for familiarity; negative form keeps 'used to'."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ to the long commute after a few weeks.",
+      "options": [
+        "used",
+        "got used",
+        "am use",
+        "would get"
+      ],
+      "answer": "got used",
+      "why": "'Got used to' shows becoming accustomed over time."
+    },
+    {
+      "type": "mc",
+      "q": "___ you use to live in London?",
+      "options": [
+        "Did",
+        "Were",
+        "Are",
+        "Do"
+      ],
+      "answer": "Did",
+      "why": "Questions about past habits use 'did' + 'use to'."
+    },
+    {
+      "type": "mc",
+      "q": "As a boy, he ___ spend summers at the lake.",
+      "options": [
+        "is used to",
+        "would",
+        "gets used to",
+        "use to"
+      ],
+      "answer": "would",
+      "why": "'Would' describes a repeated action in the past, like a habit."
+    },
+    {
+      "type": "mc",
+      "q": "Now that she's a teacher, she ___ speaking in public.",
+      "options": [
+        "used to",
+        "is used to",
+        "use to",
+        "would"
+      ],
+      "answer": "is used to",
+      "why": "'Be used to + -ing' means she is comfortable with it now."
+    },
+    {
+      "type": "mc",
+      "q": "I can't ___ this hot climate.",
+      "options": [
+        "used to",
+        "get used to",
+        "use to",
+        "am used to"
+      ],
+      "answer": "get used to",
+      "why": "'Get used to' refers to the (here, difficult) process of adjusting."
+    },
+    {
+      "type": "mc",
+      "q": "We ___ have much money, so we never travelled.",
+      "options": [
+        "didn't use to",
+        "didn't used to",
+        "weren't used to",
+        "don't use to"
+      ],
+      "answer": "didn't use to",
+      "why": "The negative past habit form is 'didn't use to' (no '-d')."
+    },
+    {
+      "type": "mc",
+      "q": "He ___ wearing glasses now; they don't bother him.",
+      "options": [
+        "used to",
+        "got use to",
+        "is used to",
+        "would"
+      ],
+      "answer": "is used to",
+      "why": "'Be used to + -ing' shows present familiarity."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I ___ to play tennis every Sunday, but I stopped.' (past habit)",
+      "answer": [
+        "used"
+      ],
+      "why": "'Used to + infinitive' expresses a discontinued past habit."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She is used to ___ (work) long hours.'",
+      "answer": [
+        "working"
+      ],
+      "why": "After 'be used to' we use the -ing form."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'It took a while, but I got used to ___ (drive) on the right.'",
+      "answer": [
+        "driving"
+      ],
+      "why": "'Get used to' is followed by the -ing form."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'They didn't ___ to have a car.' (negative past habit)",
+      "answer": [
+        "use"
+      ],
+      "why": "In the negative, the form is 'didn't use to' without the '-d'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'When I was young, I ___ (would, habit) walk to school every day.' Give the modal.",
+      "answer": [
+        "would"
+      ],
+      "why": "'Would' describes repeated past actions or habits."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Are you used ___ the weather here?' (preposition)",
+      "answer": [
+        "to"
+      ],
+      "why": "'Be used to' always takes the preposition 'to' before a noun or -ing."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ coffee, but now I love it.",
+      "options": [
+        "didn't use to like",
+        "didn't used to like",
+        "don't use to like"
+      ],
+      "answer": "didn't use to like",
+      "why": "After 'didn't', use the base form 'use to' (no d)."
+    },
+    {
+      "type": "mc",
+      "q": "She's not ___ up early.",
+      "options": [
+        "used to getting",
+        "used to get",
+        "use to getting"
+      ],
+      "answer": "used to getting",
+      "why": "'Be used to' + -ing means 'be accustomed to'."
+    },
+    {
+      "type": "mc",
+      "q": "There ___ be a cinema here.",
+      "options": [
+        "used to",
+        "use to",
+        "was used to"
+      ],
+      "answer": "used to",
+      "why": "'Used to' + base verb for past states that are no longer true."
+    },
+    {
+      "type": "mc",
+      "q": "He'll soon get ___ in the city.",
+      "options": [
+        "used to living",
+        "used to live",
+        "use to living"
+      ],
+      "answer": "used to living",
+      "why": "'Get used to' + -ing describes becoming accustomed."
+    },
+    {
+      "type": "mc",
+      "q": "___ you use to play chess?",
+      "options": [
+        "Did",
+        "Do",
+        "Were"
+      ],
+      "answer": "Did",
+      "why": "Questions about past habits: 'Did you use to…?'"
+    }
   ]
 }

@@ -3,35 +3,385 @@
   "title": "Pronouns",
   "blurb": "subject, object, reflexive…",
   "questions": [
-    {"type":"mc","q":"___ am going to the cinema tonight.","options":["Me","I","My","Mine"],"answer":"I","why":"Use the subject pronoun 'I' before the verb as the doer of the action."},
-    {"type":"mc","q":"Can you help ___ with this box?","options":["I","my","me","mine"],"answer":"me","why":"Use the object pronoun 'me' after a verb as the receiver of the action."},
-    {"type":"mc","q":"___ is a doctor at the local hospital.","options":["Him","He","His","Himself"],"answer":"He","why":"Use the subject pronoun 'He' before the verb as the subject."},
-    {"type":"mc","q":"I saw ___ at the party last night.","options":["he","his","him","himself"],"answer":"him","why":"Use the object pronoun 'him' after the verb 'saw'."},
-    {"type":"mc","q":"This is ___ book; please don't take it.","options":["mine","my","me","I"],"answer":"my","why":"'My' is a possessive adjective and must come before a noun like 'book'."},
-    {"type":"mc","q":"That book is ___, not yours.","options":["my","me","mine","I"],"answer":"mine","why":"'Mine' is a possessive pronoun that stands alone without a noun after it."},
-    {"type":"mc","q":"Is this ___ coat or hers?","options":["your","yours","you","yourself"],"answer":"your","why":"'Your' is a possessive adjective and comes before the noun 'coat'."},
-    {"type":"mc","q":"The red umbrella is ___.","options":["your","you","yours","yourself"],"answer":"yours","why":"'Yours' is a possessive pronoun used alone, with no noun following."},
-    {"type":"mc","q":"I cut ___ while chopping vegetables.","options":["me","my","myself","mine"],"answer":"myself","why":"Use the reflexive 'myself' when the subject and object are the same person."},
-    {"type":"mc","q":"The children dressed ___ for school.","options":["themself","themselves","theirselves","them"],"answer":"themselves","why":"The correct reflexive for 'they' is 'themselves'; 'theirselves' is not standard."},
-    {"type":"mc","q":"He hurt ___ playing football.","options":["him","his","himself","he"],"answer":"himself","why":"Use 'himself' because the subject 'he' acts on the same person."},
-    {"type":"mc","q":"Tom and Jerry always help ___.","options":["themselves","each other","theirselves","them"],"answer":"each other","why":"Use 'each other' when two people do the same thing to one another."},
-    {"type":"mc","q":"The woman ___ lives next door is a nurse.","options":["which","who","whom","whose"],"answer":"who","why":"Use 'who' as a relative pronoun for people who are the subject."},
-    {"type":"mc","q":"That's the car ___ I want to buy.","options":["who","whose","which","whom"],"answer":"which","why":"Use 'which' as a relative pronoun for things, not people."},
-    {"type":"mc","q":"___ and I went to the market together.","options":["Me","Him","He","His"],"answer":"He","why":"In the subject 'He and I', use the subject pronoun 'He'."},
-    {"type":"mc","q":"She gave the tickets to John and ___.","options":["I","me","my","mine"],"answer":"me","why":"After the preposition 'to', use the object pronoun 'me'."},
-    {"type":"mc","q":"We enjoyed ___ at the beach.","options":["ourself","ourselves","us","our"],"answer":"ourselves","why":"The reflexive for 'we' is 'ourselves' when the action returns to the subject."},
-    {"type":"mc","q":"Whose phone is this? It's ___.","options":["her","hers","she","herself"],"answer":"hers","why":"'Hers' is a possessive pronoun used alone, without a following noun."},
-    {"type":"mc","q":"The students looked at ___ in the mirror.","options":["themselves","each other","them","theirselves"],"answer":"themselves","why":"Each student looked at his or her own reflection, so use the reflexive 'themselves'."},
-    {"type":"mc","q":"Do you know the man ___ car is parked outside?","options":["who","which","whose","whom"],"answer":"whose","why":"'Whose' is the relative pronoun showing possession."},
-    {"type":"mc","q":"It was ___ who broke the window, not us.","options":["them","they","their","theirs"],"answer":"they","why":"After 'It was', formal English uses the subject pronoun 'they'."},
-    {"type":"mc","q":"Please pass ___ the salt.","options":["I","me","my","mine"],"answer":"me","why":"'Me' is the object pronoun receiving the action of passing."},
-    {"type":"fill","q":"Type the answer: '___ (subject pronoun for yourself) and Sarah are good friends.'","answer":["i"],"why":"Use the subject pronoun 'I' as part of the subject 'I and Sarah'."},
-    {"type":"fill","q":"Type the answer: 'She made the cake ___ (reflexive for she), with no help.'","answer":["herself"],"why":"Use 'herself' when the subject does the action alone or to herself."},
-    {"type":"fill","q":"Type the answer: 'This pen isn't mine; it's ___ (belonging to you, used alone).'","answer":["yours"],"why":"'Yours' is a possessive pronoun used without a noun after it."},
-    {"type":"fill","q":"Type the answer: 'The two brothers wrote letters to ___ ___ for years.' (two-word phrase meaning one another)","answer":["each other"],"why":"Use 'each other' for an action two people do to one another."},
-    {"type":"fill","q":"Type the answer: 'I bought ___ (possessive adjective for me) ticket online.'","answer":["my"],"why":"'My' is a possessive adjective and comes before the noun 'ticket'."},
-    {"type":"fill","q":"Type the answer: 'Give the book to ___ (object pronoun for him).'","answer":["him"],"why":"After the preposition 'to', use the object pronoun 'him'."},
-    {"type":"fill","q":"Type the answer: 'The dog hurt ___ (reflexive) when it jumped the fence.'","answer":["itself"],"why":"Use 'itself' as the reflexive pronoun for an animal or thing."},
-    {"type":"fill","q":"Type the answer: 'The teacher ___ (relative pronoun for a person) taught us has retired.'","answer":["who"],"why":"Use 'who' as the relative pronoun referring to a person who is the subject."}
+    {
+      "type": "mc",
+      "q": "___ am going to the cinema tonight.",
+      "options": [
+        "Me",
+        "I",
+        "My",
+        "Mine"
+      ],
+      "answer": "I",
+      "why": "Use the subject pronoun 'I' before the verb as the doer of the action."
+    },
+    {
+      "type": "mc",
+      "q": "Can you help ___ with this box?",
+      "options": [
+        "I",
+        "my",
+        "me",
+        "mine"
+      ],
+      "answer": "me",
+      "why": "Use the object pronoun 'me' after a verb as the receiver of the action."
+    },
+    {
+      "type": "mc",
+      "q": "___ is a doctor at the local hospital.",
+      "options": [
+        "Him",
+        "He",
+        "His",
+        "Himself"
+      ],
+      "answer": "He",
+      "why": "Use the subject pronoun 'He' before the verb as the subject."
+    },
+    {
+      "type": "mc",
+      "q": "I saw ___ at the party last night.",
+      "options": [
+        "he",
+        "his",
+        "him",
+        "himself"
+      ],
+      "answer": "him",
+      "why": "Use the object pronoun 'him' after the verb 'saw'."
+    },
+    {
+      "type": "mc",
+      "q": "This is ___ book; please don't take it.",
+      "options": [
+        "mine",
+        "my",
+        "me",
+        "I"
+      ],
+      "answer": "my",
+      "why": "'My' is a possessive adjective and must come before a noun like 'book'."
+    },
+    {
+      "type": "mc",
+      "q": "That book is ___, not yours.",
+      "options": [
+        "my",
+        "me",
+        "mine",
+        "I"
+      ],
+      "answer": "mine",
+      "why": "'Mine' is a possessive pronoun that stands alone without a noun after it."
+    },
+    {
+      "type": "mc",
+      "q": "Is this ___ coat or hers?",
+      "options": [
+        "your",
+        "yours",
+        "you",
+        "yourself"
+      ],
+      "answer": "your",
+      "why": "'Your' is a possessive adjective and comes before the noun 'coat'."
+    },
+    {
+      "type": "mc",
+      "q": "The red umbrella is ___.",
+      "options": [
+        "your",
+        "you",
+        "yours",
+        "yourself"
+      ],
+      "answer": "yours",
+      "why": "'Yours' is a possessive pronoun used alone, with no noun following."
+    },
+    {
+      "type": "mc",
+      "q": "I cut ___ while chopping vegetables.",
+      "options": [
+        "me",
+        "my",
+        "myself",
+        "mine"
+      ],
+      "answer": "myself",
+      "why": "Use the reflexive 'myself' when the subject and object are the same person."
+    },
+    {
+      "type": "mc",
+      "q": "The children dressed ___ for school.",
+      "options": [
+        "themself",
+        "themselves",
+        "theirselves",
+        "them"
+      ],
+      "answer": "themselves",
+      "why": "The correct reflexive for 'they' is 'themselves'; 'theirselves' is not standard."
+    },
+    {
+      "type": "mc",
+      "q": "He hurt ___ playing football.",
+      "options": [
+        "him",
+        "his",
+        "himself",
+        "he"
+      ],
+      "answer": "himself",
+      "why": "Use 'himself' because the subject 'he' acts on the same person."
+    },
+    {
+      "type": "mc",
+      "q": "Tom and Jerry always help ___.",
+      "options": [
+        "themselves",
+        "each other",
+        "theirselves",
+        "them"
+      ],
+      "answer": "each other",
+      "why": "Use 'each other' when two people do the same thing to one another."
+    },
+    {
+      "type": "mc",
+      "q": "The woman ___ lives next door is a nurse.",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "answer": "who",
+      "why": "Use 'who' as a relative pronoun for people who are the subject."
+    },
+    {
+      "type": "mc",
+      "q": "That's the car ___ I want to buy.",
+      "options": [
+        "who",
+        "whose",
+        "which",
+        "whom"
+      ],
+      "answer": "which",
+      "why": "Use 'which' as a relative pronoun for things, not people."
+    },
+    {
+      "type": "mc",
+      "q": "___ and I went to the market together.",
+      "options": [
+        "Me",
+        "Him",
+        "He",
+        "His"
+      ],
+      "answer": "He",
+      "why": "In the subject 'He and I', use the subject pronoun 'He'."
+    },
+    {
+      "type": "mc",
+      "q": "She gave the tickets to John and ___.",
+      "options": [
+        "I",
+        "me",
+        "my",
+        "mine"
+      ],
+      "answer": "me",
+      "why": "After the preposition 'to', use the object pronoun 'me'."
+    },
+    {
+      "type": "mc",
+      "q": "We enjoyed ___ at the beach.",
+      "options": [
+        "ourself",
+        "ourselves",
+        "us",
+        "our"
+      ],
+      "answer": "ourselves",
+      "why": "The reflexive for 'we' is 'ourselves' when the action returns to the subject."
+    },
+    {
+      "type": "mc",
+      "q": "Whose phone is this? It's ___.",
+      "options": [
+        "her",
+        "hers",
+        "she",
+        "herself"
+      ],
+      "answer": "hers",
+      "why": "'Hers' is a possessive pronoun used alone, without a following noun."
+    },
+    {
+      "type": "mc",
+      "q": "The students looked at ___ in the mirror.",
+      "options": [
+        "themselves",
+        "each other",
+        "them",
+        "theirselves"
+      ],
+      "answer": "themselves",
+      "why": "Each student looked at his or her own reflection, so use the reflexive 'themselves'."
+    },
+    {
+      "type": "mc",
+      "q": "Do you know the man ___ car is parked outside?",
+      "options": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "answer": "whose",
+      "why": "'Whose' is the relative pronoun showing possession."
+    },
+    {
+      "type": "mc",
+      "q": "It was ___ who broke the window, not us.",
+      "options": [
+        "them",
+        "they",
+        "their",
+        "theirs"
+      ],
+      "answer": "they",
+      "why": "After 'It was', formal English uses the subject pronoun 'they'."
+    },
+    {
+      "type": "mc",
+      "q": "Please pass ___ the salt.",
+      "options": [
+        "I",
+        "me",
+        "my",
+        "mine"
+      ],
+      "answer": "me",
+      "why": "'Me' is the object pronoun receiving the action of passing."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: '___ (subject pronoun for yourself) and Sarah are good friends.'",
+      "answer": [
+        "i"
+      ],
+      "why": "Use the subject pronoun 'I' as part of the subject 'I and Sarah'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She made the cake ___ (reflexive for she), with no help.'",
+      "answer": [
+        "herself"
+      ],
+      "why": "Use 'herself' when the subject does the action alone or to herself."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'This pen isn't mine; it's ___ (belonging to you, used alone).'",
+      "answer": [
+        "yours"
+      ],
+      "why": "'Yours' is a possessive pronoun used without a noun after it."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'The two brothers wrote letters to ___ ___ for years.' (two-word phrase meaning one another)",
+      "answer": [
+        "each other"
+      ],
+      "why": "Use 'each other' for an action two people do to one another."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I bought ___ (possessive adjective for me) ticket online.'",
+      "answer": [
+        "my"
+      ],
+      "why": "'My' is a possessive adjective and comes before the noun 'ticket'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Give the book to ___ (object pronoun for him).'",
+      "answer": [
+        "him"
+      ],
+      "why": "After the preposition 'to', use the object pronoun 'him'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'The dog hurt ___ (reflexive) when it jumped the fence.'",
+      "answer": [
+        "itself"
+      ],
+      "why": "Use 'itself' as the reflexive pronoun for an animal or thing."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'The teacher ___ (relative pronoun for a person) taught us has retired.'",
+      "answer": [
+        "who"
+      ],
+      "why": "Use 'who' as the relative pronoun referring to a person who is the subject."
+    },
+    {
+      "type": "mc",
+      "q": "Between you and ___, the plan will not work.",
+      "options": [
+        "me",
+        "I",
+        "myself"
+      ],
+      "answer": "me",
+      "why": "After a preposition ('between'), use the object pronoun 'me'."
+    },
+    {
+      "type": "mc",
+      "q": "This umbrella isn't ___; mine is black.",
+      "options": [
+        "yours",
+        "your",
+        "you"
+      ],
+      "answer": "yours",
+      "why": "Possessive pronoun 'yours' stands alone; 'your' needs a noun after it."
+    },
+    {
+      "type": "mc",
+      "q": "Neither of them brought ___ passport.",
+      "options": [
+        "their",
+        "theirs",
+        "them"
+      ],
+      "answer": "their",
+      "why": "Possessive adjective 'their' goes before the noun 'passport'."
+    },
+    {
+      "type": "mc",
+      "q": "The dog hurt ___ paw.",
+      "options": [
+        "its",
+        "it's",
+        "their"
+      ],
+      "answer": "its",
+      "why": "'Its' is possessive; 'it's' means 'it is'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the reflexive pronoun: 'I taught ___ to play the guitar.'",
+      "answer": [
+        "myself"
+      ],
+      "why": "Subject and object are the same person → reflexive 'myself'."
+    }
   ]
 }

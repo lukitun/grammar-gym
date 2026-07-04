@@ -3,35 +3,387 @@
   "title": "Conditionals",
   "blurb": "zero → third + mixed",
   "questions": [
-    {"type":"mc","q":"If you heat ice, it ___.","options":["melts","will melt","would melt","melted"],"answer":"melts","why":"Zero conditional uses present simple in both clauses for general truths."},
-    {"type":"mc","q":"If water reaches 100°C, it ___.","options":["boils","boiled","will boil","would boil"],"answer":"boils","why":"Zero conditional describes scientific facts with present simple."},
-    {"type":"mc","q":"If it rains tomorrow, we ___ the picnic.","options":["will cancel","cancel","would cancel","cancelled"],"answer":"will cancel","why":"First conditional uses 'will' in the result clause for likely future situations."},
-    {"type":"mc","q":"If she ___ hard, she will pass the exam.","options":["studies","will study","studied","would study"],"answer":"studies","why":"After 'if' in the first conditional, use present simple, not 'will'."},
-    {"type":"mc","q":"I ___ you as soon as I arrive.","options":["will call","call","would call","called"],"answer":"will call","why":"First conditional: the main clause takes 'will' for a future result."},
-    {"type":"mc","q":"If I ___ rich, I would buy a yacht.","options":["were","am","will be","had been"],"answer":"were","why":"Second conditional uses 'were' for all persons in the 'if' clause."},
-    {"type":"mc","q":"If he ___ more time, he would learn the guitar.","options":["had","has","would have","will have"],"answer":"had","why":"Second conditional uses past simple in the 'if' clause for unreal present situations."},
-    {"type":"mc","q":"If I were you, I ___ that offer.","options":["would accept","will accept","accept","accepted"],"answer":"would accept","why":"Second conditional uses 'would' in the result clause for hypothetical advice."},
-    {"type":"mc","q":"What ___ you do if you won the lottery?","options":["would","will","do","did"],"answer":"would","why":"Second conditional questions about unreal situations use 'would'."},
-    {"type":"mc","q":"If they had left earlier, they ___ the train.","options":["would have caught","would catch","caught","will catch"],"answer":"would have caught","why":"Third conditional uses 'would have + past participle' for unreal past results."},
-    {"type":"mc","q":"If she ___ harder, she would have passed.","options":["had studied","studied","has studied","would study"],"answer":"had studied","why":"Third conditional uses past perfect in the 'if' clause for the unreal past."},
-    {"type":"mc","q":"I would have helped you if you ___ me.","options":["had asked","asked","have asked","would ask"],"answer":"had asked","why":"Third conditional pairs past perfect ('had asked') with 'would have'."},
-    {"type":"mc","q":"If I had taken that job, I ___ in London now.","options":["would be living","would have lived","will live","lived"],"answer":"would be living","why":"Mixed conditional: past condition with a present result uses 'would + base verb'."},
-    {"type":"mc","q":"If she weren't so shy, she ___ that speech yesterday.","options":["would have given","would give","gave","will give"],"answer":"would have given","why":"Mixed conditional: present condition with a past result uses 'would have + past participle'."},
-    {"type":"mc","q":"If I had saved more money, I ___ a car today.","options":["would have","would have had","will have","have"],"answer":"would have","why":"Mixed conditional links a past cause to a present result with 'would + base verb'."},
-    {"type":"mc","q":"___ you study, you will fail the test.","options":["Unless","If","When","Because"],"answer":"Unless","why":"'Unless' means 'if not' and introduces the only condition that avoids the result."},
-    {"type":"mc","q":"We won't go out ___ the rain stops.","options":["unless","if","when","while"],"answer":"unless","why":"'Unless the rain stops' means 'if the rain does not stop'."},
-    {"type":"mc","q":"I wish I ___ taller.","options":["were","am","was being","will be"],"answer":"were","why":"'Wish' about the present uses past simple, with 'were' for all persons."},
-    {"type":"mc","q":"I wish I ___ how to swim.","options":["knew","know","will know","have known"],"answer":"knew","why":"'Wish' + past simple expresses a regret about a present situation."},
-    {"type":"mc","q":"If only I ___ harder for that exam last year.","options":["had studied","studied","study","would study"],"answer":"had studied","why":"'If only' + past perfect expresses regret about the past."},
-    {"type":"mc","q":"I wish I ___ that rude email yesterday.","options":["hadn't sent","didn't send","don't send","wouldn't send"],"answer":"hadn't sent","why":"'Wish' about a past regret uses the past perfect."},
-    {"type":"mc","q":"If only she ___ here to see this!","options":["were","is","would be","has been"],"answer":"were","why":"'If only' about an unreal present uses past simple, with 'were' for all persons."},
-    {"type":"mc","q":"Unless you hurry, you ___ the bus.","options":["will miss","miss","would miss","missed"],"answer":"will miss","why":"'Unless' clauses follow first-conditional patterns, so the result uses 'will'."},
-    {"type":"mc","q":"If I ___ you were ill, I would have visited.","options":["had known","knew","have known","would know"],"answer":"had known","why":"Third conditional uses past perfect after 'if' for an unreal past condition."},
-    {"type":"fill","q":"Type the answer: 'If you mix blue and yellow, you ___ green.' (get)","answer":["get"],"why":"Zero conditional uses present simple for a general truth."},
-    {"type":"fill","q":"Type the answer: 'If it ___ tomorrow, I'll take an umbrella.' (rain)","answer":["rains"],"why":"After 'if' in the first conditional, use present simple."},
-    {"type":"fill","q":"Type the answer: 'If I ___ you, I'd apologise.' (be)","answer":["were","was"],"why":"Second conditional prefers 'were' for all persons, though 'was' is common in speech."},
-    {"type":"fill","q":"Type the answer: 'If they had asked, I ___ helped them.' (would)","answer":["would have","would've"],"why":"Third conditional uses 'would have + past participle' for the result."},
-    {"type":"fill","q":"Type the answer: 'I wish I ___ more languages.' (speak)","answer":["spoke"],"why":"'Wish' about the present uses past simple."},
-    {"type":"fill","q":"Type the answer: 'We'll stay home ___ the weather improves.' (if not, one word)","answer":["unless"],"why":"'Unless' means 'if not' and introduces the saving condition."}
+    {
+      "type": "mc",
+      "q": "If you heat ice, it ___.",
+      "options": [
+        "melts",
+        "will melt",
+        "would melt",
+        "melted"
+      ],
+      "answer": "melts",
+      "why": "Zero conditional uses present simple in both clauses for general truths."
+    },
+    {
+      "type": "mc",
+      "q": "If water reaches 100°C, it ___.",
+      "options": [
+        "boils",
+        "boiled",
+        "will boil",
+        "would boil"
+      ],
+      "answer": "boils",
+      "why": "Zero conditional describes scientific facts with present simple."
+    },
+    {
+      "type": "mc",
+      "q": "If it rains tomorrow, we ___ the picnic.",
+      "options": [
+        "will cancel",
+        "cancel",
+        "would cancel",
+        "cancelled"
+      ],
+      "answer": "will cancel",
+      "why": "First conditional uses 'will' in the result clause for likely future situations."
+    },
+    {
+      "type": "mc",
+      "q": "If she ___ hard, she will pass the exam.",
+      "options": [
+        "studies",
+        "will study",
+        "studied",
+        "would study"
+      ],
+      "answer": "studies",
+      "why": "After 'if' in the first conditional, use present simple, not 'will'."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ you as soon as I arrive.",
+      "options": [
+        "will call",
+        "call",
+        "would call",
+        "called"
+      ],
+      "answer": "will call",
+      "why": "First conditional: the main clause takes 'will' for a future result."
+    },
+    {
+      "type": "mc",
+      "q": "If I ___ rich, I would buy a yacht.",
+      "options": [
+        "were",
+        "am",
+        "will be",
+        "had been"
+      ],
+      "answer": "were",
+      "why": "Second conditional uses 'were' for all persons in the 'if' clause."
+    },
+    {
+      "type": "mc",
+      "q": "If he ___ more time, he would learn the guitar.",
+      "options": [
+        "had",
+        "has",
+        "would have",
+        "will have"
+      ],
+      "answer": "had",
+      "why": "Second conditional uses past simple in the 'if' clause for unreal present situations."
+    },
+    {
+      "type": "mc",
+      "q": "If I were you, I ___ that offer.",
+      "options": [
+        "would accept",
+        "will accept",
+        "accept",
+        "accepted"
+      ],
+      "answer": "would accept",
+      "why": "Second conditional uses 'would' in the result clause for hypothetical advice."
+    },
+    {
+      "type": "mc",
+      "q": "What ___ you do if you won the lottery?",
+      "options": [
+        "would",
+        "will",
+        "do",
+        "did"
+      ],
+      "answer": "would",
+      "why": "Second conditional questions about unreal situations use 'would'."
+    },
+    {
+      "type": "mc",
+      "q": "If they had left earlier, they ___ the train.",
+      "options": [
+        "would have caught",
+        "would catch",
+        "caught",
+        "will catch"
+      ],
+      "answer": "would have caught",
+      "why": "Third conditional uses 'would have + past participle' for unreal past results."
+    },
+    {
+      "type": "mc",
+      "q": "If she ___ harder, she would have passed.",
+      "options": [
+        "had studied",
+        "studied",
+        "has studied",
+        "would study"
+      ],
+      "answer": "had studied",
+      "why": "Third conditional uses past perfect in the 'if' clause for the unreal past."
+    },
+    {
+      "type": "mc",
+      "q": "I would have helped you if you ___ me.",
+      "options": [
+        "had asked",
+        "asked",
+        "have asked",
+        "would ask"
+      ],
+      "answer": "had asked",
+      "why": "Third conditional pairs past perfect ('had asked') with 'would have'."
+    },
+    {
+      "type": "mc",
+      "q": "If I had taken that job, I ___ in London now.",
+      "options": [
+        "would be living",
+        "would have lived",
+        "will live",
+        "lived"
+      ],
+      "answer": "would be living",
+      "why": "Mixed conditional: past condition with a present result uses 'would + base verb'."
+    },
+    {
+      "type": "mc",
+      "q": "If she weren't so shy, she ___ that speech yesterday.",
+      "options": [
+        "would have given",
+        "would give",
+        "gave",
+        "will give"
+      ],
+      "answer": "would have given",
+      "why": "Mixed conditional: present condition with a past result uses 'would have + past participle'."
+    },
+    {
+      "type": "mc",
+      "q": "If I had saved more money, I ___ a car today.",
+      "options": [
+        "would have",
+        "would have had",
+        "will have",
+        "have"
+      ],
+      "answer": "would have",
+      "why": "Mixed conditional links a past cause to a present result with 'would + base verb'."
+    },
+    {
+      "type": "mc",
+      "q": "___ you study, you will fail the test.",
+      "options": [
+        "Unless",
+        "If",
+        "When",
+        "Because"
+      ],
+      "answer": "Unless",
+      "why": "'Unless' means 'if not' and introduces the only condition that avoids the result."
+    },
+    {
+      "type": "mc",
+      "q": "We won't go out ___ the rain stops.",
+      "options": [
+        "unless",
+        "if",
+        "when",
+        "while"
+      ],
+      "answer": "unless",
+      "why": "'Unless the rain stops' means 'if the rain does not stop'."
+    },
+    {
+      "type": "mc",
+      "q": "I wish I ___ taller.",
+      "options": [
+        "were",
+        "am",
+        "was being",
+        "will be"
+      ],
+      "answer": "were",
+      "why": "'Wish' about the present uses past simple, with 'were' for all persons."
+    },
+    {
+      "type": "mc",
+      "q": "I wish I ___ how to swim.",
+      "options": [
+        "knew",
+        "know",
+        "will know",
+        "have known"
+      ],
+      "answer": "knew",
+      "why": "'Wish' + past simple expresses a regret about a present situation."
+    },
+    {
+      "type": "mc",
+      "q": "If only I ___ harder for that exam last year.",
+      "options": [
+        "had studied",
+        "studied",
+        "study",
+        "would study"
+      ],
+      "answer": "had studied",
+      "why": "'If only' + past perfect expresses regret about the past."
+    },
+    {
+      "type": "mc",
+      "q": "I wish I ___ that rude email yesterday.",
+      "options": [
+        "hadn't sent",
+        "didn't send",
+        "don't send",
+        "wouldn't send"
+      ],
+      "answer": "hadn't sent",
+      "why": "'Wish' about a past regret uses the past perfect."
+    },
+    {
+      "type": "mc",
+      "q": "If only she ___ here to see this!",
+      "options": [
+        "were",
+        "is",
+        "would be",
+        "has been"
+      ],
+      "answer": "were",
+      "why": "'If only' about an unreal present uses past simple, with 'were' for all persons."
+    },
+    {
+      "type": "mc",
+      "q": "Unless you hurry, you ___ the bus.",
+      "options": [
+        "will miss",
+        "miss",
+        "would miss",
+        "missed"
+      ],
+      "answer": "will miss",
+      "why": "'Unless' clauses follow first-conditional patterns, so the result uses 'will'."
+    },
+    {
+      "type": "mc",
+      "q": "If I ___ you were ill, I would have visited.",
+      "options": [
+        "had known",
+        "knew",
+        "have known",
+        "would know"
+      ],
+      "answer": "had known",
+      "why": "Third conditional uses past perfect after 'if' for an unreal past condition."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'If you mix blue and yellow, you ___ green.' (get)",
+      "answer": [
+        "get"
+      ],
+      "why": "Zero conditional uses present simple for a general truth."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'If it ___ tomorrow, I'll take an umbrella.' (rain)",
+      "answer": [
+        "rains"
+      ],
+      "why": "After 'if' in the first conditional, use present simple."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'If I ___ you, I'd apologise.' (be)",
+      "answer": [
+        "were",
+        "was"
+      ],
+      "why": "Second conditional prefers 'were' for all persons, though 'was' is common in speech."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'If they had asked, I ___ helped them.' (would)",
+      "answer": [
+        "would have",
+        "would've"
+      ],
+      "why": "Third conditional uses 'would have + past participle' for the result."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I wish I ___ more languages.' (speak)",
+      "answer": [
+        "spoke"
+      ],
+      "why": "'Wish' about the present uses past simple."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'We'll stay home ___ the weather improves.' (if not, one word)",
+      "answer": [
+        "unless"
+      ],
+      "why": "'Unless' means 'if not' and introduces the saving condition."
+    },
+    {
+      "type": "mc",
+      "q": "If I ___ enough money, I'd travel more.",
+      "options": [
+        "had",
+        "have",
+        "would have"
+      ],
+      "answer": "had",
+      "why": "Second conditional: if + past simple, would + base verb."
+    },
+    {
+      "type": "mc",
+      "q": "If you heat metal, it ___ .",
+      "options": [
+        "expands",
+        "will expand",
+        "would expand"
+      ],
+      "answer": "expands",
+      "why": "Zero conditional for general truths: if + present, present."
+    },
+    {
+      "type": "mc",
+      "q": "___ I known about the delay, I would have called you.",
+      "options": [
+        "Had",
+        "If",
+        "Should"
+      ],
+      "answer": "Had",
+      "why": "Formal inversion replaces 'if': 'Had I known' = 'If I had known'."
+    },
+    {
+      "type": "mc",
+      "q": "Unless we hurry, we ___ the bus.",
+      "options": [
+        "will miss",
+        "would miss",
+        "missed"
+      ],
+      "answer": "will miss",
+      "why": "'Unless' = 'if not'; first conditional takes 'will' in the main clause."
+    }
   ]
 }

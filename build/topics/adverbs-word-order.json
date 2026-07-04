@@ -3,35 +3,397 @@
   "title": "Adverbs & Word Order",
   "blurb": "adjective vs adverb, position",
   "questions": [
-    {"type":"mc","q":"She sings very ___.","options":["good","well","goodly","best"],"answer":"well","why":"Use the adverb 'well' to describe how she sings, not the adjective 'good'."},
-    {"type":"mc","q":"This soup tastes ___.","options":["well","goodly","good","greatly"],"answer":"good","why":"After linking verbs like 'taste', use an adjective: 'good', not 'well'."},
-    {"type":"mc","q":"He worked ___ all weekend to finish the report.","options":["hardly","hard","hardness","harder"],"answer":"hard","why":"'Hard' is both adjective and adverb; 'hardly' means 'almost not'."},
-    {"type":"mc","q":"I ___ know anything about cars.","options":["hard","hardly","hardness","hards"],"answer":"hardly","why":"'Hardly' means 'almost not', so it fits 'know almost nothing'."},
-    {"type":"mc","q":"She drives very ___.","options":["careful","carefuly","carefully","carefull"],"answer":"carefully","why":"Adverbs of manner usually end in '-ly' and describe the verb 'drives'."},
-    {"type":"mc","q":"They are ___ late for meetings.","options":["never","ever","nowhere","yet"],"answer":"never","why":"Adverbs of frequency like 'never' go before the main verb but after 'be'."},
-    {"type":"mc","q":"I ___ go to the gym before work.","options":["go usually","usually","usual","am usually"],"answer":"usually","why":"Frequency adverbs go before the main verb: 'usually go'."},
-    {"type":"mc","q":"He has ___ been to Japan.","options":["never","ever never","not never","nowhere"],"answer":"never","why":"With perfect tenses, the frequency adverb goes between 'have' and the past participle."},
-    {"type":"mc","q":"Which is correct word order?","options":["a red big old car","a big old red car","an old red big car","a red old big car"],"answer":"a big old red car","why":"Adjective order is size, then age, then colour: big (size), old (age), red (colour)."},
-    {"type":"mc","q":"She bought ___.","options":["a leather black nice bag","a black nice leather bag","a nice black leather bag","a leather nice black bag"],"answer":"a nice black leather bag","why":"Opinion comes first, then colour, then material: nice, black, leather."},
-    {"type":"mc","q":"We saw ___ at the museum.","options":["some Chinese ancient beautiful vases","some beautiful ancient Chinese vases","some ancient beautiful Chinese vases","some Chinese beautiful ancient vases"],"answer":"some beautiful ancient Chinese vases","why":"Order is opinion, age, then origin: beautiful, ancient, Chinese."},
-    {"type":"mc","q":"He spoke to me ___.","options":["angrily yesterday in the office","yesterday angrily in the office","in the office yesterday angrily","angrily"],"answer":"angrily","why":"With multiple adverbials the natural order is manner, place, time: 'angrily in the office yesterday'."},
-    {"type":"mc","q":"They arrived ___.","options":["late at the station","at the station late","lately the station","the station at late"],"answer":"at the station late","why":"Place usually comes before time/manner in this case: 'at the station late'."},
-    {"type":"mc","q":"It was ___ a boring film that I fell asleep.","options":["so","such","too","very"],"answer":"such","why":"Use 'such' before a noun phrase (a + adjective + noun); 'so' goes before an adjective alone."},
-    {"type":"mc","q":"The test was ___ difficult.","options":["such","so","such a","enough"],"answer":"so","why":"Use 'so' before an adjective with no noun: 'so difficult'."},
-    {"type":"mc","q":"This coffee is ___ hot to drink.","options":["enough","so","too","such"],"answer":"too","why":"'Too' before an adjective means 'more than acceptable': too hot."},
-    {"type":"mc","q":"He isn't ___ to reach the shelf.","options":["enough tall","tall enough","too tall","so tall"],"answer":"tall enough","why":"'Enough' comes after the adjective: 'tall enough'."},
-    {"type":"mc","q":"She is ___ student that everyone admires her.","options":["so clever","such clever","such a clever","too clever"],"answer":"such a clever","why":"With a singular countable noun use 'such a + adjective + noun'."},
-    {"type":"mc","q":"I have ___ time to finish this.","options":["enough","too","so","such"],"answer":"enough","why":"Before a noun, 'enough' means a sufficient amount: 'enough time'."},
-    {"type":"mc","q":"The children behaved ___.","options":["good","well","goodly","best of"],"answer":"well","why":"Use the adverb 'well' to describe how they behaved."},
-    {"type":"mc","q":"He ___ arrives on time.","options":["always","is always","always is","ever"],"answer":"always","why":"Frequency adverbs go before the main verb: 'always arrives'."},
-    {"type":"mc","q":"We had ___ a wonderful time.","options":["so","such","too","very much"],"answer":"such","why":"'Such' is used before 'a + adjective + noun': such a wonderful time."},
-    {"type":"mc","q":"This box is ___ heavy for me to lift.","options":["enough","such","too","so much"],"answer":"too","why":"'Too + adjective' shows excess preventing an action."},
-    {"type":"mc","q":"She speaks English ___.","options":["fluent","fluently","fluentily","fluence"],"answer":"fluently","why":"Use the '-ly' adverb to describe how she speaks."},
-    {"type":"fill","q":"Type the answer: 'He plays the piano very ___ (good).'","answer":["well"],"why":"The adverb of 'good' is 'well' when describing how someone does something."},
-    {"type":"fill","q":"Type the answer: 'I ___ (frequency: never) eat breakfast before 9.' Use the frequency adverb before the verb.","answer":["never"],"why":"'Never' is placed before the main verb to show zero frequency."},
-    {"type":"fill","q":"Type the answer: 'It was ___ a long day that we all went to bed early.'","answer":["such"],"why":"Use 'such' before 'a + adjective + noun'."},
-    {"type":"fill","q":"Type the answer: 'The water was ___ cold to swim in.' (excess)","answer":["too"],"why":"'Too + adjective' expresses excess that prevents the action."},
-    {"type":"fill","q":"Type the answer: 'She isn't old ___ to drive.' (sufficiency, after adjective)","answer":["enough"],"why":"'Enough' follows the adjective: 'old enough'."},
-    {"type":"fill","q":"Type the answer: 'Put the adjectives in order: a ___ ___ ___ table (round / wooden / small).'","answer":["small round wooden","a small round wooden"],"why":"Order is size, shape, then material: small, round, wooden."}
+    {
+      "type": "mc",
+      "q": "She sings very ___.",
+      "options": [
+        "good",
+        "well",
+        "goodly",
+        "best"
+      ],
+      "answer": "well",
+      "why": "Use the adverb 'well' to describe how she sings, not the adjective 'good'."
+    },
+    {
+      "type": "mc",
+      "q": "This soup tastes ___.",
+      "options": [
+        "well",
+        "goodly",
+        "good",
+        "greatly"
+      ],
+      "answer": "good",
+      "why": "After linking verbs like 'taste', use an adjective: 'good', not 'well'."
+    },
+    {
+      "type": "mc",
+      "q": "He worked ___ all weekend to finish the report.",
+      "options": [
+        "hardly",
+        "hard",
+        "hardness",
+        "harder"
+      ],
+      "answer": "hard",
+      "why": "'Hard' is both adjective and adverb; 'hardly' means 'almost not'."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ know anything about cars.",
+      "options": [
+        "hard",
+        "hardly",
+        "hardness",
+        "hards"
+      ],
+      "answer": "hardly",
+      "why": "'Hardly' means 'almost not', so it fits 'know almost nothing'."
+    },
+    {
+      "type": "mc",
+      "q": "She drives very ___.",
+      "options": [
+        "careful",
+        "carefuly",
+        "carefully",
+        "carefull"
+      ],
+      "answer": "carefully",
+      "why": "Adverbs of manner usually end in '-ly' and describe the verb 'drives'."
+    },
+    {
+      "type": "mc",
+      "q": "They are ___ late for meetings.",
+      "options": [
+        "never",
+        "ever",
+        "nowhere",
+        "yet"
+      ],
+      "answer": "never",
+      "why": "Adverbs of frequency like 'never' go before the main verb but after 'be'."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ go to the gym before work.",
+      "options": [
+        "go usually",
+        "usually",
+        "usual",
+        "am usually"
+      ],
+      "answer": "usually",
+      "why": "Frequency adverbs go before the main verb: 'usually go'."
+    },
+    {
+      "type": "mc",
+      "q": "He has ___ been to Japan.",
+      "options": [
+        "never",
+        "ever never",
+        "not never",
+        "nowhere"
+      ],
+      "answer": "never",
+      "why": "With perfect tenses, the frequency adverb goes between 'have' and the past participle."
+    },
+    {
+      "type": "mc",
+      "q": "Which is correct word order?",
+      "options": [
+        "a red big old car",
+        "a big old red car",
+        "an old red big car",
+        "a red old big car"
+      ],
+      "answer": "a big old red car",
+      "why": "Adjective order is size, then age, then colour: big (size), old (age), red (colour)."
+    },
+    {
+      "type": "mc",
+      "q": "She bought ___.",
+      "options": [
+        "a leather black nice bag",
+        "a black nice leather bag",
+        "a nice black leather bag",
+        "a leather nice black bag"
+      ],
+      "answer": "a nice black leather bag",
+      "why": "Opinion comes first, then colour, then material: nice, black, leather."
+    },
+    {
+      "type": "mc",
+      "q": "We saw ___ at the museum.",
+      "options": [
+        "some Chinese ancient beautiful vases",
+        "some beautiful ancient Chinese vases",
+        "some ancient beautiful Chinese vases",
+        "some Chinese beautiful ancient vases"
+      ],
+      "answer": "some beautiful ancient Chinese vases",
+      "why": "Order is opinion, age, then origin: beautiful, ancient, Chinese."
+    },
+    {
+      "type": "mc",
+      "q": "He spoke to me ___.",
+      "options": [
+        "angrily yesterday in the office",
+        "yesterday angrily in the office",
+        "in the office yesterday angrily",
+        "angrily"
+      ],
+      "answer": "angrily",
+      "why": "With multiple adverbials the natural order is manner, place, time: 'angrily in the office yesterday'."
+    },
+    {
+      "type": "mc",
+      "q": "They arrived ___.",
+      "options": [
+        "late at the station",
+        "at the station late",
+        "lately the station",
+        "the station at late"
+      ],
+      "answer": "at the station late",
+      "why": "Place usually comes before time/manner in this case: 'at the station late'."
+    },
+    {
+      "type": "mc",
+      "q": "It was ___ a boring film that I fell asleep.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "very"
+      ],
+      "answer": "such",
+      "why": "Use 'such' before a noun phrase (a + adjective + noun); 'so' goes before an adjective alone."
+    },
+    {
+      "type": "mc",
+      "q": "The test was ___ difficult.",
+      "options": [
+        "such",
+        "so",
+        "such a",
+        "enough"
+      ],
+      "answer": "so",
+      "why": "Use 'so' before an adjective with no noun: 'so difficult'."
+    },
+    {
+      "type": "mc",
+      "q": "This coffee is ___ hot to drink.",
+      "options": [
+        "enough",
+        "so",
+        "too",
+        "such"
+      ],
+      "answer": "too",
+      "why": "'Too' before an adjective means 'more than acceptable': too hot."
+    },
+    {
+      "type": "mc",
+      "q": "He isn't ___ to reach the shelf.",
+      "options": [
+        "enough tall",
+        "tall enough",
+        "too tall",
+        "so tall"
+      ],
+      "answer": "tall enough",
+      "why": "'Enough' comes after the adjective: 'tall enough'."
+    },
+    {
+      "type": "mc",
+      "q": "She is ___ student that everyone admires her.",
+      "options": [
+        "so clever",
+        "such clever",
+        "such a clever",
+        "too clever"
+      ],
+      "answer": "such a clever",
+      "why": "With a singular countable noun use 'such a + adjective + noun'."
+    },
+    {
+      "type": "mc",
+      "q": "I have ___ time to finish this.",
+      "options": [
+        "enough",
+        "too",
+        "so",
+        "such"
+      ],
+      "answer": "enough",
+      "why": "Before a noun, 'enough' means a sufficient amount: 'enough time'."
+    },
+    {
+      "type": "mc",
+      "q": "The children behaved ___.",
+      "options": [
+        "good",
+        "well",
+        "goodly",
+        "best of"
+      ],
+      "answer": "well",
+      "why": "Use the adverb 'well' to describe how they behaved."
+    },
+    {
+      "type": "mc",
+      "q": "He ___ arrives on time.",
+      "options": [
+        "always",
+        "is always",
+        "always is",
+        "ever"
+      ],
+      "answer": "always",
+      "why": "Frequency adverbs go before the main verb: 'always arrives'."
+    },
+    {
+      "type": "mc",
+      "q": "We had ___ a wonderful time.",
+      "options": [
+        "so",
+        "such",
+        "too",
+        "very much"
+      ],
+      "answer": "such",
+      "why": "'Such' is used before 'a + adjective + noun': such a wonderful time."
+    },
+    {
+      "type": "mc",
+      "q": "This box is ___ heavy for me to lift.",
+      "options": [
+        "enough",
+        "such",
+        "too",
+        "so much"
+      ],
+      "answer": "too",
+      "why": "'Too + adjective' shows excess preventing an action."
+    },
+    {
+      "type": "mc",
+      "q": "She speaks English ___.",
+      "options": [
+        "fluent",
+        "fluently",
+        "fluentily",
+        "fluence"
+      ],
+      "answer": "fluently",
+      "why": "Use the '-ly' adverb to describe how she speaks."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'He plays the piano very ___ (good).'",
+      "answer": [
+        "well"
+      ],
+      "why": "The adverb of 'good' is 'well' when describing how someone does something."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I ___ (frequency: never) eat breakfast before 9.' Use the frequency adverb before the verb.",
+      "answer": [
+        "never"
+      ],
+      "why": "'Never' is placed before the main verb to show zero frequency."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'It was ___ a long day that we all went to bed early.'",
+      "answer": [
+        "such"
+      ],
+      "why": "Use 'such' before 'a + adjective + noun'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'The water was ___ cold to swim in.' (excess)",
+      "answer": [
+        "too"
+      ],
+      "why": "'Too + adjective' expresses excess that prevents the action."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She isn't old ___ to drive.' (sufficiency, after adjective)",
+      "answer": [
+        "enough"
+      ],
+      "why": "'Enough' follows the adjective: 'old enough'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Put the adjectives in order: a ___ ___ ___ table (round / wooden / small).'",
+      "answer": [
+        "small round wooden",
+        "a small round wooden"
+      ],
+      "why": "Order is size, shape, then material: small, round, wooden."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ late for work.",
+      "options": [
+        "is never",
+        "never is",
+        "is being never"
+      ],
+      "answer": "is never",
+      "why": "Frequency adverbs go after the verb 'be'."
+    },
+    {
+      "type": "mc",
+      "q": "He speaks English ___ .",
+      "options": [
+        "fluently",
+        "fluent",
+        "more fluent"
+      ],
+      "answer": "fluently",
+      "why": "An adverb ('fluently') modifies the verb 'speaks'."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ go to the gym on Fridays.",
+      "options": [
+        "usually",
+        "usual",
+        "most usual"
+      ],
+      "answer": "usually",
+      "why": "Frequency adverb before the main verb: 'I usually go'."
+    },
+    {
+      "type": "mc",
+      "q": "The soup tastes ___ .",
+      "options": [
+        "good",
+        "well",
+        "goodly"
+      ],
+      "answer": "good",
+      "why": "'Taste' is a linking verb, so it takes an adjective, not an adverb."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ finished the report.",
+      "options": [
+        "has almost",
+        "almost has",
+        "has finished almost"
+      ],
+      "answer": "has almost",
+      "why": "'Almost' goes between the auxiliary and the main verb."
+    }
   ]
 }

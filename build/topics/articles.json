@@ -3,35 +3,407 @@
   "title": "Articles",
   "blurb": "a / an / the / —",
   "questions": [
-    {"type":"mc","q":"She works as ___ engineer at a tech company.","options":["a","an","the","—"],"answer":"an","why":"Use 'an' before a vowel sound; 'engineer' starts with the /e/ sound."},
-    {"type":"mc","q":"He bought ___ new car last week.","options":["a","an","the","—"],"answer":"a","why":"Use 'a' before a consonant sound; 'new' begins with the /n/ sound."},
-    {"type":"mc","q":"We had to wait for ___ hour before the doctor saw us.","options":["a","an","the","—"],"answer":"an","why":"'Hour' has a silent 'h', so it starts with a vowel sound and takes 'an'."},
-    {"type":"mc","q":"My brother lives in ___ university town in the north.","options":["a","an","the","—"],"answer":"a","why":"'University' starts with the /ju:/ sound (a consonant sound), so use 'a'."},
-    {"type":"mc","q":"It will take about ___ hour and a half to get there.","options":["a","an","the","—"],"answer":"an","why":"The silent 'h' in 'hour' gives a vowel sound, requiring 'an'."},
-    {"type":"mc","q":"She gave me ___ honest answer to my question.","options":["a","an","the","—"],"answer":"an","why":"'Honest' has a silent 'h', so the word begins with a vowel sound and takes 'an'."},
-    {"type":"mc","q":"That was ___ useful piece of advice, thank you.","options":["a","an","the","—"],"answer":"a","why":"'Useful' begins with the /ju:/ consonant sound, so it takes 'a', not 'an'."},
-    {"type":"mc","q":"He is ___ European tourist visiting for the summer.","options":["a","an","the","—"],"answer":"a","why":"'European' starts with the /ju:/ sound, a consonant sound, so use 'a'."},
-    {"type":"mc","q":"The sun is ___ brightest object in our sky.","options":["a","an","the","—"],"answer":"the","why":"Use 'the' before superlatives because they refer to one unique thing."},
-    {"type":"mc","q":"___ Earth orbits the sun once a year.","options":["A","An","The","—"],"answer":"The","why":"Use 'the' for unique objects that there is only one of, like the Earth and the sun."},
-    {"type":"mc","q":"She plays ___ violin beautifully in the orchestra.","options":["a","an","the","—"],"answer":"the","why":"Use 'the' before musical instruments when talking about playing them."},
-    {"type":"mc","q":"Can you play ___ piano?","options":["a","an","the","—"],"answer":"the","why":"With the verb 'play' plus an instrument, English uses 'the' (play the piano)."},
-    {"type":"mc","q":"___ water is essential for all living things.","options":["A","An","The","—"],"answer":"—","why":"Use no article for uncountable nouns spoken about in general."},
-    {"type":"mc","q":"I really enjoy ___ music when I am studying.","options":["a","an","the","—"],"answer":"—","why":"General uncountable nouns like 'music' take no article when meaning the concept in general."},
-    {"type":"mc","q":"___ dogs are loyal animals.","options":["A","An","The","—"],"answer":"—","why":"Use no article with plural nouns used to make general statements."},
-    {"type":"mc","q":"___ children learn languages faster than adults.","options":["A","An","The","—"],"answer":"—","why":"Plural nouns making a general statement take the zero article."},
-    {"type":"mc","q":"We are flying to ___ France for our holiday.","options":["a","an","the","—"],"answer":"—","why":"Most country names take no article (France, Spain, Japan)."},
-    {"type":"mc","q":"They sailed across ___ Atlantic Ocean.","options":["a","an","the","—"],"answer":"the","why":"Use 'the' with names of oceans, seas, and rivers."},
-    {"type":"mc","q":"Have you ever visited ___ United States?","options":["a","an","the","—"],"answer":"the","why":"Use 'the' with country names that include 'states', 'kingdom', or 'republic'."},
-    {"type":"mc","q":"___ Mount Everest is the highest mountain in the world.","options":["A","An","The","—"],"answer":"—","why":"Individual mountain names take no article, unlike mountain ranges (the Alps)."},
-    {"type":"mc","q":"It is late, so the kids have already gone to ___ bed.","options":["a","the","—","an"],"answer":"—","why":"The fixed expression 'go to bed' uses no article."},
-    {"type":"mc","q":"My grandmother is in ___ hospital after her operation.","options":["a","an","the","—"],"answer":"—","why":"In British English 'in hospital' (as a patient) uses no article."},
-    {"type":"mc","q":"The children go to ___ school every weekday morning.","options":["a","an","the","—"],"answer":"—","why":"'Go to school' as an activity (to study) takes no article."},
-    {"type":"mc","q":"I read ___ interesting book about space yesterday.","options":["a","an","the","—"],"answer":"an","why":"'Interesting' starts with a vowel sound, so use 'an'."},
-    {"type":"mc","q":"He is ___ MP for a town near London.","options":["a","an","the","—"],"answer":"an","why":"The letter 'M' is pronounced /em/, a vowel sound, so the abbreviation takes 'an'."},
-    {"type":"mc","q":"There was ___ strange noise, and then ___ noise stopped.","options":["a ... a","a ... the","the ... a","an ... the"],"answer":"a ... the","why":"Use 'a' to introduce something new, then 'the' to refer back to the now-known thing."},
-    {"type":"fill","q":"Type the answer: 'She is ___ university student studying biology.'","answer":["a"],"why":"'University' begins with the /ju:/ consonant sound, so use 'a', not 'an'."},
-    {"type":"fill","q":"Type the answer: 'I waited for ___ honest answer.' (article only)","answer":["an"],"why":"'Honest' has a silent 'h', creating a vowel sound that needs 'an'."},
-    {"type":"fill","q":"Type the article or '-' for none: '___ gold is a precious metal.'","answer":["-","—"],"why":"Uncountable nouns used in a general sense take no article."},
-    {"type":"fill","q":"Type the article or '-' for none: 'We climbed ___ Mont Blanc last year.'","answer":["-","—"],"why":"Single mountain names take no article."}
+    {
+      "type": "mc",
+      "q": "She works as ___ engineer at a tech company.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "Use 'an' before a vowel sound; 'engineer' starts with the /e/ sound."
+    },
+    {
+      "type": "mc",
+      "q": "He bought ___ new car last week.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "why": "Use 'a' before a consonant sound; 'new' begins with the /n/ sound."
+    },
+    {
+      "type": "mc",
+      "q": "We had to wait for ___ hour before the doctor saw us.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "'Hour' has a silent 'h', so it starts with a vowel sound and takes 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "My brother lives in ___ university town in the north.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "why": "'University' starts with the /ju:/ sound (a consonant sound), so use 'a'."
+    },
+    {
+      "type": "mc",
+      "q": "It will take about ___ hour and a half to get there.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "The silent 'h' in 'hour' gives a vowel sound, requiring 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "She gave me ___ honest answer to my question.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "'Honest' has a silent 'h', so the word begins with a vowel sound and takes 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "That was ___ useful piece of advice, thank you.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "why": "'Useful' begins with the /ju:/ consonant sound, so it takes 'a', not 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "He is ___ European tourist visiting for the summer.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "a",
+      "why": "'European' starts with the /ju:/ sound, a consonant sound, so use 'a'."
+    },
+    {
+      "type": "mc",
+      "q": "The sun is ___ brightest object in our sky.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "Use 'the' before superlatives because they refer to one unique thing."
+    },
+    {
+      "type": "mc",
+      "q": "___ Earth orbits the sun once a year.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "The",
+      "why": "Use 'the' for unique objects that there is only one of, like the Earth and the sun."
+    },
+    {
+      "type": "mc",
+      "q": "She plays ___ violin beautifully in the orchestra.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "Use 'the' before musical instruments when talking about playing them."
+    },
+    {
+      "type": "mc",
+      "q": "Can you play ___ piano?",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "With the verb 'play' plus an instrument, English uses 'the' (play the piano)."
+    },
+    {
+      "type": "mc",
+      "q": "___ water is essential for all living things.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Use no article for uncountable nouns spoken about in general."
+    },
+    {
+      "type": "mc",
+      "q": "I really enjoy ___ music when I am studying.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "General uncountable nouns like 'music' take no article when meaning the concept in general."
+    },
+    {
+      "type": "mc",
+      "q": "___ dogs are loyal animals.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Use no article with plural nouns used to make general statements."
+    },
+    {
+      "type": "mc",
+      "q": "___ children learn languages faster than adults.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Plural nouns making a general statement take the zero article."
+    },
+    {
+      "type": "mc",
+      "q": "We are flying to ___ France for our holiday.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Most country names take no article (France, Spain, Japan)."
+    },
+    {
+      "type": "mc",
+      "q": "They sailed across ___ Atlantic Ocean.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "Use 'the' with names of oceans, seas, and rivers."
+    },
+    {
+      "type": "mc",
+      "q": "Have you ever visited ___ United States?",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "Use 'the' with country names that include 'states', 'kingdom', or 'republic'."
+    },
+    {
+      "type": "mc",
+      "q": "___ Mount Everest is the highest mountain in the world.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Individual mountain names take no article, unlike mountain ranges (the Alps)."
+    },
+    {
+      "type": "mc",
+      "q": "It is late, so the kids have already gone to ___ bed.",
+      "options": [
+        "a",
+        "the",
+        "—",
+        "an"
+      ],
+      "answer": "—",
+      "why": "The fixed expression 'go to bed' uses no article."
+    },
+    {
+      "type": "mc",
+      "q": "My grandmother is in ___ hospital after her operation.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "In British English 'in hospital' (as a patient) uses no article."
+    },
+    {
+      "type": "mc",
+      "q": "The children go to ___ school every weekday morning.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "'Go to school' as an activity (to study) takes no article."
+    },
+    {
+      "type": "mc",
+      "q": "I read ___ interesting book about space yesterday.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "'Interesting' starts with a vowel sound, so use 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "He is ___ MP for a town near London.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "an",
+      "why": "The letter 'M' is pronounced /em/, a vowel sound, so the abbreviation takes 'an'."
+    },
+    {
+      "type": "mc",
+      "q": "There was ___ strange noise, and then ___ noise stopped.",
+      "options": [
+        "a ... a",
+        "a ... the",
+        "the ... a",
+        "an ... the"
+      ],
+      "answer": "a ... the",
+      "why": "Use 'a' to introduce something new, then 'the' to refer back to the now-known thing."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She is ___ university student studying biology.'",
+      "answer": [
+        "a"
+      ],
+      "why": "'University' begins with the /ju:/ consonant sound, so use 'a', not 'an'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I waited for ___ honest answer.' (article only)",
+      "answer": [
+        "an"
+      ],
+      "why": "'Honest' has a silent 'h', creating a vowel sound that needs 'an'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the article or '-' for none: '___ gold is a precious metal.'",
+      "answer": [
+        "-",
+        "—"
+      ],
+      "why": "Uncountable nouns used in a general sense take no article."
+    },
+    {
+      "type": "fill",
+      "q": "Type the article or '-' for none: 'We climbed ___ Mont Blanc last year.'",
+      "answer": [
+        "-",
+        "—"
+      ],
+      "why": "Single mountain names take no article."
+    },
+    {
+      "type": "mc",
+      "q": "I need ___ advice about my visa application.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "'Advice' is uncountable, so it takes no article in a general sense."
+    },
+    {
+      "type": "mc",
+      "q": "She plays ___ tennis every weekend.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "Sports take no article: play tennis, play football."
+    },
+    {
+      "type": "mc",
+      "q": "We stayed at ___ same hotel as last year.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "the",
+      "why": "'Same' is always preceded by 'the'."
+    },
+    {
+      "type": "mc",
+      "q": "He was sent to ___ prison for fraud.",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
+      "answer": "—",
+      "why": "'Go to prison' (as a prisoner) uses no article, like 'go to school'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the article: '___ Netherlands is famous for its canals.'",
+      "answer": [
+        "the"
+      ],
+      "why": "Plural-form country names (the Netherlands, the Philippines) take 'the'."
+    }
   ]
 }

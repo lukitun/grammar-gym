@@ -4,31 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grammar Gym — Practice English Grammar</title>
-  <meta name="description" content="Free English grammar exercises for non-native speakers. No paywall, no signup." />
+  <meta name="description" content="Free English grammar practice: 695 exercises in a structured path from basics to advanced, plus sentence-building and listening drills. No paywall, no signup." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💪</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="#" id="homeLink">Grammar&nbsp;Gym</a>
-      <p class="tagline">Free grammar reps for non-native speakers.</p>
+    <div class="wrap header-row">
+      <div>
+        <a class="brand" href="#" id="homeLink">Grammar&nbsp;Gym</a>
+        <p class="tagline">Practice-first English grammar. Free, no signup.</p>
+      </div>
+      <div class="mastery" id="masteryPill" title="Topics mastered (score 90%+)">🏅 <span id="masteryCount">0</span>/20</div>
     </div>
   </header>
 
   <main class="wrap" id="app">
-    <!-- Topic picker -->
-    <section id="topicView">
-      <h1 class="lead">Pick a topic. Do the reps.</h1>
-      <div class="topic-grid" id="topicGrid"></div>
+
+    <!-- Home -->
+    <section id="homeView">
+      <div class="hero">
+        <h1 class="lead">695 reps. Start at Level 1, work up.</h1>
+        <button class="primary big" id="workoutBtn">⚡ Quick workout — 15 mixed questions</button>
+      </div>
+
+      <h2 class="section-title">Trainers</h2>
+      <div class="trainer-grid">
+        <button class="trainer-card" id="builderCard">
+          <span class="tr-title">Sentence Builder</span>
+          <span class="tr-blurb">Rebuild scrambled sentences word by word — tenses, passives, conditionals.</span>
+          <span class="tr-count" id="builderCount"></span>
+        </button>
+        <button class="trainer-card" id="listenCard">
+          <span class="tr-title">Listening Drill</span>
+          <span class="tr-blurb">Hear a word, type what you hear. Trains spelling and your ear.</span>
+          <span class="tr-count" id="listenCount"></span>
+        </button>
+      </div>
+
+      <div id="levels"></div>
     </section>
 
-    <!-- Quiz -->
+    <!-- Quiz (topic / workout / mistakes) -->
     <section id="quizView" hidden>
       <div class="quiz-top">
-        <button class="ghost" id="backBtn">← Topics</button>
+        <button class="ghost" id="backBtn">← Back</button>
         <span class="progress" id="progress"></span>
       </div>
       <h2 id="quizTitle"></h2>
@@ -40,25 +63,68 @@
       <p class="explain" id="explain" hidden></p>
     </section>
 
-    <!-- Results -->
-    <section id="resultView" hidden>
-      <h2>Done.</h2>
-      <p class="score" id="scoreText"></p>
-      <div class="quiz-actions">
-        <button class="primary" id="retryBtn">Retry topic</button>
-        <button class="ghost" id="homeBtn">Pick another topic</button>
+    <!-- Sentence Builder -->
+    <section id="builderView" hidden>
+      <div class="quiz-top">
+        <button class="ghost" id="backBuilder">← Back</button>
+        <span class="progress" id="bProgress"></span>
+      </div>
+      <h2>Sentence Builder</h2>
+      <div class="card builder-card">
+        <span class="tag" id="bTag"></span>
+        <div class="slots" id="bSlots"></div>
+        <div class="tiles" id="bTiles"></div>
+        <div class="builder-foot">
+          <button class="ghost" id="bReveal">Show answer</button>
+          <button class="primary" id="bNext" hidden>Next →</button>
+        </div>
       </div>
     </section>
+
+    <!-- Listening Drill -->
+    <section id="listenView" hidden>
+      <div class="quiz-top">
+        <button class="ghost" id="backListen">← Back</button>
+        <span class="progress" id="lProgress"></span>
+      </div>
+      <h2>Listening Drill</h2>
+      <div class="card listen-card">
+        <button class="primary speak-btn" id="lPlay">🔊 Play word</button>
+        <input class="fill-input" id="lInput" type="text" autocomplete="off" spellcheck="false" placeholder="Type what you hear…" />
+        <p class="explain listen-reveal" id="lReveal" hidden></p>
+      </div>
+      <div class="quiz-actions">
+        <button class="primary" id="lCheck">Check</button>
+        <button class="primary" id="lNext" hidden>Next →</button>
+      </div>
+    </section>
+
+    <!-- Result -->
+    <section id="resultView" hidden>
+      <h2 id="resultTitle">Done.</h2>
+      <p class="score" id="scoreText"></p>
+      <div class="quiz-actions wrap-actions">
+        <button class="primary" id="mistakesBtn" hidden></button>
+        <button class="primary" id="retryBtn">Go again</button>
+        <button class="ghost" id="homeBtn">← All topics</button>
+      </div>
+      <div class="quiz-actions">
+        <button class="ghost ai-btn" id="aiBtn" hidden>🤖 AI coach — explain my mistakes</button>
+      </div>
+      <p class="explain ai-out" id="aiOut" hidden></p>
+    </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
       <span>No paywall. No signup. No tracking.</span>
-      <span> · </span><a href="kids/">For kids: Word Parrot 🦜</a>
     </div>
   </footer>
 
   <script src="exercises.js"></script>
+  <script src="builder.js"></script>
+  <script src="vocab.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

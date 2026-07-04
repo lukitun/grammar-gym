@@ -3,35 +3,393 @@
   "title": "Quantifiers",
   "blurb": "some / any / much / many",
   "questions": [
-    {"type":"mc","q":"I bought ___ apples at the market this morning.","options":["some","any","much","a little"],"answer":"some","why":"Use 'some' in affirmative sentences with plural countable nouns."},
-    {"type":"mc","q":"Do you have ___ questions about the lesson?","options":["some","any","much","a little"],"answer":"any","why":"Use 'any' in questions and negatives with plural or uncountable nouns."},
-    {"type":"mc","q":"There isn't ___ milk left in the fridge.","options":["some","any","many","a few"],"answer":"any","why":"Use 'any' in negative sentences for both countable and uncountable nouns."},
-    {"type":"mc","q":"Would you like ___ coffee?","options":["any","some","many","few"],"answer":"some","why":"Use 'some' in offers and requests even though they are questions."},
-    {"type":"mc","q":"How ___ money do you have with you?","options":["many","much","few","little"],"answer":"much","why":"Use 'much' with uncountable nouns like 'money'."},
-    {"type":"mc","q":"How ___ people came to the party?","options":["many","much","little","a little"],"answer":"many","why":"Use 'many' with plural countable nouns like 'people'."},
-    {"type":"mc","q":"There is too ___ traffic on the roads today.","options":["many","much","few","little"],"answer":"much","why":"'Traffic' is uncountable, so use 'much'."},
-    {"type":"mc","q":"She doesn't have ___ friends in this city.","options":["much","many","a little","little"],"answer":"many","why":"Use 'many' with countable nouns; 'friends' is countable."},
-    {"type":"mc","q":"I have ___ friends who can help us move.","options":["a few","a little","much","little"],"answer":"a few","why":"Use 'a few' with countable nouns to mean a small but positive number."},
-    {"type":"mc","q":"There is ___ water left, so we can still make tea.","options":["a few","a little","many","few"],"answer":"a little","why":"Use 'a little' with uncountable nouns to mean a small but sufficient amount."},
-    {"type":"mc","q":"We have ___ time, so let's not rush.","options":["a little","a few","many","few"],"answer":"a little","why":"'Time' is uncountable here, so use 'a little'."},
-    {"type":"mc","q":"Only ___ students passed the difficult exam.","options":["a little","much","a few","little"],"answer":"a few","why":"'Students' is countable, so use 'a few' for a small number."},
-    {"type":"mc","q":"There is ___ point in arguing; nobody will change their mind.","options":["a little","little","a few","few"],"answer":"little","why":"'Little' (without 'a') means almost none and is negative in meaning."},
-    {"type":"mc","q":"___ people understood the joke, so the room stayed silent.","options":["A few","Few","A little","Little"],"answer":"Few","why":"'Few' (without 'a') means almost none and carries a negative sense."},
-    {"type":"mc","q":"He has ___ of experience for someone so young.","options":["a lot","a lot of","many","much"],"answer":"a lot","why":"After 'a lot' use 'of' before a noun; here 'a lot of experience' is correct, and 'a lot of' stands alone in this slot."},
-    {"type":"mc","q":"She has ___ books on her shelf.","options":["a lot of","much","a little","little"],"answer":"a lot of","why":"'A lot of' works with both countable and uncountable nouns in affirmative sentences."},
-    {"type":"mc","q":"There are too ___ cars in the parking lot.","options":["much","many","little","a little"],"answer":"many","why":"Use 'too many' with countable nouns to mean an excessive number."},
-    {"type":"mc","q":"You added too ___ salt to the soup.","options":["many","much","few","little"],"answer":"much","why":"Use 'too much' with uncountable nouns to mean an excessive amount."},
-    {"type":"mc","q":"We don't have ___ chairs for all the guests.","options":["enough","too much","a little","much"],"answer":"enough","why":"'Enough' means a sufficient quantity and goes before the noun it describes."},
-    {"type":"mc","q":"This coffee isn't sweet ___.","options":["enough","too much","many","some"],"answer":"enough","why":"'Enough' comes after an adjective: 'sweet enough'."},
-    {"type":"mc","q":"___ of the students finished the test on time.","options":["No","None","Any","Much"],"answer":"None","why":"Use 'none of' before 'the' plus a noun; 'no' is used directly before a noun without 'of'."},
-    {"type":"mc","q":"There are ___ tickets left for tonight's show.","options":["no","none","any","much"],"answer":"no","why":"'No' goes directly before a noun to mean zero."},
-    {"type":"mc","q":"'How many eggs are there?' 'There are ___.'","options":["no","none","any","not"],"answer":"none","why":"'None' stands alone without a following noun as a pronoun."},
-    {"type":"mc","q":"I'd like ___ information about your courses, please.","options":["a few","some","many","a number of"],"answer":"some","why":"'Information' is uncountable, so use 'some' (not 'a few' or 'many')."},
-    {"type":"mc","q":"There weren't ___ seats available on the late train.","options":["some","much","many","a little"],"answer":"many","why":"Use 'many' with countable 'seats' in a negative sentence."},
-    {"type":"mc","q":"If you have ___ questions, feel free to ask after class.","options":["any","some","much","a little"],"answer":"any","why":"Use 'any' in conditional 'if' clauses with plural countable nouns."},
-    {"type":"fill","q":"Type much or many: 'How ___ sugar do you take in your tea?'","answer":["much"],"why":"'Sugar' is uncountable, so use 'much'."},
-    {"type":"fill","q":"Type 'a few' or 'a little': 'I need ___ help with this exercise.'","answer":["a little"],"why":"'Help' is uncountable, so use 'a little' for a small amount."},
-    {"type":"fill","q":"Type some or any: 'She didn't make ___ mistakes on the test.'","answer":["any"],"why":"Use 'any' in negative sentences."},
-    {"type":"fill","q":"Type 'few' or 'little': 'He has very ___ patience, so don't keep him waiting.'","answer":["little"],"why":"'Patience' is uncountable, and 'very little' means almost none."}
+    {
+      "type": "mc",
+      "q": "I bought ___ apples at the market this morning.",
+      "options": [
+        "some",
+        "any",
+        "much",
+        "a little"
+      ],
+      "answer": "some",
+      "why": "Use 'some' in affirmative sentences with plural countable nouns."
+    },
+    {
+      "type": "mc",
+      "q": "Do you have ___ questions about the lesson?",
+      "options": [
+        "some",
+        "any",
+        "much",
+        "a little"
+      ],
+      "answer": "any",
+      "why": "Use 'any' in questions and negatives with plural or uncountable nouns."
+    },
+    {
+      "type": "mc",
+      "q": "There isn't ___ milk left in the fridge.",
+      "options": [
+        "some",
+        "any",
+        "many",
+        "a few"
+      ],
+      "answer": "any",
+      "why": "Use 'any' in negative sentences for both countable and uncountable nouns."
+    },
+    {
+      "type": "mc",
+      "q": "Would you like ___ coffee?",
+      "options": [
+        "any",
+        "some",
+        "many",
+        "few"
+      ],
+      "answer": "some",
+      "why": "Use 'some' in offers and requests even though they are questions."
+    },
+    {
+      "type": "mc",
+      "q": "How ___ money do you have with you?",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "answer": "much",
+      "why": "Use 'much' with uncountable nouns like 'money'."
+    },
+    {
+      "type": "mc",
+      "q": "How ___ people came to the party?",
+      "options": [
+        "many",
+        "much",
+        "little",
+        "a little"
+      ],
+      "answer": "many",
+      "why": "Use 'many' with plural countable nouns like 'people'."
+    },
+    {
+      "type": "mc",
+      "q": "There is too ___ traffic on the roads today.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "answer": "much",
+      "why": "'Traffic' is uncountable, so use 'much'."
+    },
+    {
+      "type": "mc",
+      "q": "She doesn't have ___ friends in this city.",
+      "options": [
+        "much",
+        "many",
+        "a little",
+        "little"
+      ],
+      "answer": "many",
+      "why": "Use 'many' with countable nouns; 'friends' is countable."
+    },
+    {
+      "type": "mc",
+      "q": "I have ___ friends who can help us move.",
+      "options": [
+        "a few",
+        "a little",
+        "much",
+        "little"
+      ],
+      "answer": "a few",
+      "why": "Use 'a few' with countable nouns to mean a small but positive number."
+    },
+    {
+      "type": "mc",
+      "q": "There is ___ water left, so we can still make tea.",
+      "options": [
+        "a few",
+        "a little",
+        "many",
+        "few"
+      ],
+      "answer": "a little",
+      "why": "Use 'a little' with uncountable nouns to mean a small but sufficient amount."
+    },
+    {
+      "type": "mc",
+      "q": "We have ___ time, so let's not rush.",
+      "options": [
+        "a little",
+        "a few",
+        "many",
+        "few"
+      ],
+      "answer": "a little",
+      "why": "'Time' is uncountable here, so use 'a little'."
+    },
+    {
+      "type": "mc",
+      "q": "Only ___ students passed the difficult exam.",
+      "options": [
+        "a little",
+        "much",
+        "a few",
+        "little"
+      ],
+      "answer": "a few",
+      "why": "'Students' is countable, so use 'a few' for a small number."
+    },
+    {
+      "type": "mc",
+      "q": "There is ___ point in arguing; nobody will change their mind.",
+      "options": [
+        "a little",
+        "little",
+        "a few",
+        "few"
+      ],
+      "answer": "little",
+      "why": "'Little' (without 'a') means almost none and is negative in meaning."
+    },
+    {
+      "type": "mc",
+      "q": "___ people understood the joke, so the room stayed silent.",
+      "options": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+      ],
+      "answer": "Few",
+      "why": "'Few' (without 'a') means almost none and carries a negative sense."
+    },
+    {
+      "type": "mc",
+      "q": "He has ___ of experience for someone so young.",
+      "options": [
+        "a lot",
+        "a lot of",
+        "many",
+        "much"
+      ],
+      "answer": "a lot",
+      "why": "After 'a lot' use 'of' before a noun; here 'a lot of experience' is correct, and 'a lot of' stands alone in this slot."
+    },
+    {
+      "type": "mc",
+      "q": "She has ___ books on her shelf.",
+      "options": [
+        "a lot of",
+        "much",
+        "a little",
+        "little"
+      ],
+      "answer": "a lot of",
+      "why": "'A lot of' works with both countable and uncountable nouns in affirmative sentences."
+    },
+    {
+      "type": "mc",
+      "q": "There are too ___ cars in the parking lot.",
+      "options": [
+        "much",
+        "many",
+        "little",
+        "a little"
+      ],
+      "answer": "many",
+      "why": "Use 'too many' with countable nouns to mean an excessive number."
+    },
+    {
+      "type": "mc",
+      "q": "You added too ___ salt to the soup.",
+      "options": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "answer": "much",
+      "why": "Use 'too much' with uncountable nouns to mean an excessive amount."
+    },
+    {
+      "type": "mc",
+      "q": "We don't have ___ chairs for all the guests.",
+      "options": [
+        "enough",
+        "too much",
+        "a little",
+        "much"
+      ],
+      "answer": "enough",
+      "why": "'Enough' means a sufficient quantity and goes before the noun it describes."
+    },
+    {
+      "type": "mc",
+      "q": "This coffee isn't sweet ___.",
+      "options": [
+        "enough",
+        "too much",
+        "many",
+        "some"
+      ],
+      "answer": "enough",
+      "why": "'Enough' comes after an adjective: 'sweet enough'."
+    },
+    {
+      "type": "mc",
+      "q": "___ of the students finished the test on time.",
+      "options": [
+        "No",
+        "None",
+        "Any",
+        "Much"
+      ],
+      "answer": "None",
+      "why": "Use 'none of' before 'the' plus a noun; 'no' is used directly before a noun without 'of'."
+    },
+    {
+      "type": "mc",
+      "q": "There are ___ tickets left for tonight's show.",
+      "options": [
+        "no",
+        "none",
+        "any",
+        "much"
+      ],
+      "answer": "no",
+      "why": "'No' goes directly before a noun to mean zero."
+    },
+    {
+      "type": "mc",
+      "q": "'How many eggs are there?' 'There are ___.'",
+      "options": [
+        "no",
+        "none",
+        "any",
+        "not"
+      ],
+      "answer": "none",
+      "why": "'None' stands alone without a following noun as a pronoun."
+    },
+    {
+      "type": "mc",
+      "q": "I'd like ___ information about your courses, please.",
+      "options": [
+        "a few",
+        "some",
+        "many",
+        "a number of"
+      ],
+      "answer": "some",
+      "why": "'Information' is uncountable, so use 'some' (not 'a few' or 'many')."
+    },
+    {
+      "type": "mc",
+      "q": "There weren't ___ seats available on the late train.",
+      "options": [
+        "some",
+        "much",
+        "many",
+        "a little"
+      ],
+      "answer": "many",
+      "why": "Use 'many' with countable 'seats' in a negative sentence."
+    },
+    {
+      "type": "mc",
+      "q": "If you have ___ questions, feel free to ask after class.",
+      "options": [
+        "any",
+        "some",
+        "much",
+        "a little"
+      ],
+      "answer": "any",
+      "why": "Use 'any' in conditional 'if' clauses with plural countable nouns."
+    },
+    {
+      "type": "fill",
+      "q": "Type much or many: 'How ___ sugar do you take in your tea?'",
+      "answer": [
+        "much"
+      ],
+      "why": "'Sugar' is uncountable, so use 'much'."
+    },
+    {
+      "type": "fill",
+      "q": "Type 'a few' or 'a little': 'I need ___ help with this exercise.'",
+      "answer": [
+        "a little"
+      ],
+      "why": "'Help' is uncountable, so use 'a little' for a small amount."
+    },
+    {
+      "type": "fill",
+      "q": "Type some or any: 'She didn't make ___ mistakes on the test.'",
+      "answer": [
+        "any"
+      ],
+      "why": "Use 'any' in negative sentences."
+    },
+    {
+      "type": "fill",
+      "q": "Type 'few' or 'little': 'He has very ___ patience, so don't keep him waiting.'",
+      "answer": [
+        "little"
+      ],
+      "why": "'Patience' is uncountable, and 'very little' means almost none."
+    },
+    {
+      "type": "mc",
+      "q": "There isn't ___ time left.",
+      "options": [
+        "much",
+        "many",
+        "a few"
+      ],
+      "answer": "much",
+      "why": "'Time' is uncountable → 'much' in negatives and questions."
+    },
+    {
+      "type": "mc",
+      "q": "___ of the students passed the exam.",
+      "options": [
+        "Most",
+        "The most",
+        "Almost"
+      ],
+      "answer": "Most",
+      "why": "'Most of the' + noun; 'almost' is an adverb, not a quantifier."
+    },
+    {
+      "type": "mc",
+      "q": "I have ___ money than you.",
+      "options": [
+        "less",
+        "fewer",
+        "least"
+      ],
+      "answer": "less",
+      "why": "'Less' with uncountable nouns (money); 'fewer' with plurals."
+    },
+    {
+      "type": "mc",
+      "q": "There are too ___ mistakes in this report.",
+      "options": [
+        "many",
+        "much",
+        "more"
+      ],
+      "answer": "many",
+      "why": "'Mistakes' is a plural countable noun → 'too many'."
+    }
   ]
 }

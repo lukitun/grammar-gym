@@ -3,35 +3,400 @@
   "title": "Gerunds & Infinitives",
   "blurb": "-ing vs to do",
   "questions": [
-    {"type":"mc","q":"I enjoy ___ to music in the evening.","options":["to listen","listening","listen","listened"],"answer":"listening","why":"'Enjoy' is always followed by a gerund (-ing)."},
-    {"type":"mc","q":"You should avoid ___ so much sugar.","options":["to eat","eating","eat","eaten"],"answer":"eating","why":"'Avoid' takes a gerund, never an infinitive."},
-    {"type":"mc","q":"Have you finished ___ your homework?","options":["to do","doing","do","done"],"answer":"doing","why":"'Finish' is followed by a gerund."},
-    {"type":"mc","q":"They want ___ a new house next year.","options":["buying","to buy","buy","bought"],"answer":"to buy","why":"'Want' is followed by the infinitive with 'to'."},
-    {"type":"mc","q":"We decided ___ early in the morning.","options":["leaving","to leave","leave","left"],"answer":"to leave","why":"'Decide' takes the infinitive with 'to'."},
-    {"type":"mc","q":"She hopes ___ the exam this time.","options":["passing","to pass","pass","passed"],"answer":"to pass","why":"'Hope' is followed by the infinitive."},
-    {"type":"mc","q":"He stopped ___ because his legs hurt.","options":["to walk","walking","walk","walked"],"answer":"walking","why":"'Stop + gerund' means to quit the activity itself."},
-    {"type":"mc","q":"On the way home he stopped ___ some bread.","options":["buying","to buy","buy","bought"],"answer":"to buy","why":"'Stop + infinitive' shows the purpose for stopping."},
-    {"type":"mc","q":"Please remember ___ the door when you leave.","options":["locking","to lock","lock","locked"],"answer":"to lock","why":"'Remember + infinitive' means not to forget a future task."},
-    {"type":"mc","q":"I remember ___ him at the party last year.","options":["to meet","meeting","meet","met"],"answer":"meeting","why":"'Remember + gerund' refers to a past memory."},
-    {"type":"mc","q":"Don't forget ___ me when you arrive.","options":["calling","to call","call","called"],"answer":"to call","why":"'Forget + infinitive' is about a future duty."},
-    {"type":"mc","q":"I will never forget ___ the ocean for the first time.","options":["to see","seeing","see","saw"],"answer":"seeing","why":"'Forget + gerund' refers to a memorable past experience."},
-    {"type":"mc","q":"My computer froze, so I tried ___ it.","options":["restarting","to restart","restart","restarted"],"answer":"restarting","why":"'Try + gerund' means to experiment with a solution."},
-    {"type":"mc","q":"The shelf is high, so she tried ___ the box but couldn't reach.","options":["touching","to touch","touch","touched"],"answer":"to touch","why":"'Try + infinitive' means to attempt something difficult."},
-    {"type":"mc","q":"He is good ___ solving puzzles.","options":["to","at","for","in"],"answer":"at","why":"After a preposition like 'at', use a gerund."},
-    {"type":"mc","q":"They are interested in ___ Spanish.","options":["to learn","learning","learn","learned"],"answer":"learning","why":"A verb after a preposition must be a gerund."},
-    {"type":"mc","q":"Thank you for ___ me.","options":["to help","helping","help","helped"],"answer":"helping","why":"After the preposition 'for', use the -ing form."},
-    {"type":"mc","q":"She apologised for ___ late.","options":["to be","being","be","been"],"answer":"being","why":"Prepositions are always followed by a gerund."},
-    {"type":"mc","q":"It is important ___ on time.","options":["being","to be","be","been"],"answer":"to be","why":"After 'it is + adjective', use the infinitive with 'to'."},
-    {"type":"mc","q":"This problem is hard ___ .","options":["solving","to solve","solve","solved"],"answer":"to solve","why":"An adjective like 'hard' is followed by the infinitive."},
-    {"type":"mc","q":"I am happy ___ you again.","options":["seeing","to see","see","saw"],"answer":"to see","why":"Adjectives describing feelings take the infinitive."},
-    {"type":"mc","q":"He used a knife ___ the rope.","options":["for cut","to cut","cutting","for cutting"],"answer":"to cut","why":"Use 'to + verb' to express purpose with an action."},
-    {"type":"mc","q":"This tool is used ___ wood.","options":["to cutting","for cutting","to cut wood for","cutting"],"answer":"for cutting","why":"Use 'for + gerund' to describe a thing's general function."},
-    {"type":"mc","q":"She suggested ___ a taxi.","options":["to take","taking","take","took"],"answer":"taking","why":"'Suggest' is followed by a gerund, not an infinitive."},
-    {"type":"mc","q":"We can't afford ___ a new car.","options":["buying","to buy","buy","bought"],"answer":"to buy","why":"'Afford' takes the infinitive with 'to'."},
-    {"type":"fill","q":"Type the answer: 'I enjoy ___ (cook) for my family.'","answer":["cooking"],"why":"'Enjoy' is always followed by the gerund."},
-    {"type":"fill","q":"Type the answer: 'They decided ___ (move) abroad.'","answer":["to move"],"why":"'Decide' is followed by the infinitive with 'to'."},
-    {"type":"fill","q":"Type the answer: 'She is afraid of ___ (fly).'","answer":["flying"],"why":"After the preposition 'of', use the gerund."},
-    {"type":"fill","q":"Type the answer: 'It was nice ___ (meet) you.'","answer":["to meet"],"why":"Adjectives like 'nice' are followed by the infinitive."},
-    {"type":"fill","q":"Type the answer: 'He went to the shop ___ (buy) milk.'","answer":["to buy"],"why":"Use 'to + verb' to express the purpose of an action."}
+    {
+      "type": "mc",
+      "q": "I enjoy ___ to music in the evening.",
+      "options": [
+        "to listen",
+        "listening",
+        "listen",
+        "listened"
+      ],
+      "answer": "listening",
+      "why": "'Enjoy' is always followed by a gerund (-ing)."
+    },
+    {
+      "type": "mc",
+      "q": "You should avoid ___ so much sugar.",
+      "options": [
+        "to eat",
+        "eating",
+        "eat",
+        "eaten"
+      ],
+      "answer": "eating",
+      "why": "'Avoid' takes a gerund, never an infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "Have you finished ___ your homework?",
+      "options": [
+        "to do",
+        "doing",
+        "do",
+        "done"
+      ],
+      "answer": "doing",
+      "why": "'Finish' is followed by a gerund."
+    },
+    {
+      "type": "mc",
+      "q": "They want ___ a new house next year.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy",
+        "bought"
+      ],
+      "answer": "to buy",
+      "why": "'Want' is followed by the infinitive with 'to'."
+    },
+    {
+      "type": "mc",
+      "q": "We decided ___ early in the morning.",
+      "options": [
+        "leaving",
+        "to leave",
+        "leave",
+        "left"
+      ],
+      "answer": "to leave",
+      "why": "'Decide' takes the infinitive with 'to'."
+    },
+    {
+      "type": "mc",
+      "q": "She hopes ___ the exam this time.",
+      "options": [
+        "passing",
+        "to pass",
+        "pass",
+        "passed"
+      ],
+      "answer": "to pass",
+      "why": "'Hope' is followed by the infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "He stopped ___ because his legs hurt.",
+      "options": [
+        "to walk",
+        "walking",
+        "walk",
+        "walked"
+      ],
+      "answer": "walking",
+      "why": "'Stop + gerund' means to quit the activity itself."
+    },
+    {
+      "type": "mc",
+      "q": "On the way home he stopped ___ some bread.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy",
+        "bought"
+      ],
+      "answer": "to buy",
+      "why": "'Stop + infinitive' shows the purpose for stopping."
+    },
+    {
+      "type": "mc",
+      "q": "Please remember ___ the door when you leave.",
+      "options": [
+        "locking",
+        "to lock",
+        "lock",
+        "locked"
+      ],
+      "answer": "to lock",
+      "why": "'Remember + infinitive' means not to forget a future task."
+    },
+    {
+      "type": "mc",
+      "q": "I remember ___ him at the party last year.",
+      "options": [
+        "to meet",
+        "meeting",
+        "meet",
+        "met"
+      ],
+      "answer": "meeting",
+      "why": "'Remember + gerund' refers to a past memory."
+    },
+    {
+      "type": "mc",
+      "q": "Don't forget ___ me when you arrive.",
+      "options": [
+        "calling",
+        "to call",
+        "call",
+        "called"
+      ],
+      "answer": "to call",
+      "why": "'Forget + infinitive' is about a future duty."
+    },
+    {
+      "type": "mc",
+      "q": "I will never forget ___ the ocean for the first time.",
+      "options": [
+        "to see",
+        "seeing",
+        "see",
+        "saw"
+      ],
+      "answer": "seeing",
+      "why": "'Forget + gerund' refers to a memorable past experience."
+    },
+    {
+      "type": "mc",
+      "q": "My computer froze, so I tried ___ it.",
+      "options": [
+        "restarting",
+        "to restart",
+        "restart",
+        "restarted"
+      ],
+      "answer": "restarting",
+      "why": "'Try + gerund' means to experiment with a solution."
+    },
+    {
+      "type": "mc",
+      "q": "The shelf is high, so she tried ___ the box but couldn't reach.",
+      "options": [
+        "touching",
+        "to touch",
+        "touch",
+        "touched"
+      ],
+      "answer": "to touch",
+      "why": "'Try + infinitive' means to attempt something difficult."
+    },
+    {
+      "type": "mc",
+      "q": "He is good ___ solving puzzles.",
+      "options": [
+        "to",
+        "at",
+        "for",
+        "in"
+      ],
+      "answer": "at",
+      "why": "After a preposition like 'at', use a gerund."
+    },
+    {
+      "type": "mc",
+      "q": "They are interested in ___ Spanish.",
+      "options": [
+        "to learn",
+        "learning",
+        "learn",
+        "learned"
+      ],
+      "answer": "learning",
+      "why": "A verb after a preposition must be a gerund."
+    },
+    {
+      "type": "mc",
+      "q": "Thank you for ___ me.",
+      "options": [
+        "to help",
+        "helping",
+        "help",
+        "helped"
+      ],
+      "answer": "helping",
+      "why": "After the preposition 'for', use the -ing form."
+    },
+    {
+      "type": "mc",
+      "q": "She apologised for ___ late.",
+      "options": [
+        "to be",
+        "being",
+        "be",
+        "been"
+      ],
+      "answer": "being",
+      "why": "Prepositions are always followed by a gerund."
+    },
+    {
+      "type": "mc",
+      "q": "It is important ___ on time.",
+      "options": [
+        "being",
+        "to be",
+        "be",
+        "been"
+      ],
+      "answer": "to be",
+      "why": "After 'it is + adjective', use the infinitive with 'to'."
+    },
+    {
+      "type": "mc",
+      "q": "This problem is hard ___ .",
+      "options": [
+        "solving",
+        "to solve",
+        "solve",
+        "solved"
+      ],
+      "answer": "to solve",
+      "why": "An adjective like 'hard' is followed by the infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "I am happy ___ you again.",
+      "options": [
+        "seeing",
+        "to see",
+        "see",
+        "saw"
+      ],
+      "answer": "to see",
+      "why": "Adjectives describing feelings take the infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "He used a knife ___ the rope.",
+      "options": [
+        "for cut",
+        "to cut",
+        "cutting",
+        "for cutting"
+      ],
+      "answer": "to cut",
+      "why": "Use 'to + verb' to express purpose with an action."
+    },
+    {
+      "type": "mc",
+      "q": "This tool is used ___ wood.",
+      "options": [
+        "to cutting",
+        "for cutting",
+        "to cut wood for",
+        "cutting"
+      ],
+      "answer": "for cutting",
+      "why": "Use 'for + gerund' to describe a thing's general function."
+    },
+    {
+      "type": "mc",
+      "q": "She suggested ___ a taxi.",
+      "options": [
+        "to take",
+        "taking",
+        "take",
+        "took"
+      ],
+      "answer": "taking",
+      "why": "'Suggest' is followed by a gerund, not an infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "We can't afford ___ a new car.",
+      "options": [
+        "buying",
+        "to buy",
+        "buy",
+        "bought"
+      ],
+      "answer": "to buy",
+      "why": "'Afford' takes the infinitive with 'to'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I enjoy ___ (cook) for my family.'",
+      "answer": [
+        "cooking"
+      ],
+      "why": "'Enjoy' is always followed by the gerund."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'They decided ___ (move) abroad.'",
+      "answer": [
+        "to move"
+      ],
+      "why": "'Decide' is followed by the infinitive with 'to'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She is afraid of ___ (fly).'",
+      "answer": [
+        "flying"
+      ],
+      "why": "After the preposition 'of', use the gerund."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'It was nice ___ (meet) you.'",
+      "answer": [
+        "to meet"
+      ],
+      "why": "Adjectives like 'nice' are followed by the infinitive."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'He went to the shop ___ (buy) milk.'",
+      "answer": [
+        "to buy"
+      ],
+      "why": "Use 'to + verb' to express the purpose of an action."
+    },
+    {
+      "type": "mc",
+      "q": "He suggested ___ early to avoid traffic.",
+      "options": [
+        "leaving",
+        "to leave",
+        "leave"
+      ],
+      "answer": "leaving",
+      "why": "'Suggest' is followed by a gerund."
+    },
+    {
+      "type": "mc",
+      "q": "I can't afford ___ a new car this year.",
+      "options": [
+        "to buy",
+        "buying",
+        "buy"
+      ],
+      "answer": "to buy",
+      "why": "'Afford' is followed by the to-infinitive."
+    },
+    {
+      "type": "mc",
+      "q": "She stopped ___ when the teacher came in.",
+      "options": [
+        "talking",
+        "to talk",
+        "talk"
+      ],
+      "answer": "talking",
+      "why": "'Stop + -ing' = quit the activity; 'stop to talk' = pause in order to talk."
+    },
+    {
+      "type": "mc",
+      "q": "Remember ___ the door when you leave.",
+      "options": [
+        "to lock",
+        "locking",
+        "lock"
+      ],
+      "answer": "to lock",
+      "why": "'Remember to do' = don't forget a duty; 'remember doing' = recall a memory."
+    },
+    {
+      "type": "mc",
+      "q": "It's no use ___ about it now.",
+      "options": [
+        "worrying",
+        "to worry",
+        "worry"
+      ],
+      "answer": "worrying",
+      "why": "'It's no use' + gerund is a fixed pattern."
+    }
   ]
 }

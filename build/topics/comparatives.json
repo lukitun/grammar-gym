@@ -3,35 +3,396 @@
   "title": "Comparatives & Superlatives",
   "blurb": "bigger, the most…",
   "questions": [
-    {"type":"mc","q":"This box is ___ than that one.","options":["heavy","heavier","heaviest","more heavy"],"answer":"heavier","why":"Short adjectives add -er for the comparative, not 'more'."},
-    {"type":"mc","q":"Today is the ___ day of the year.","options":["hot","hotter","hottest","most hot"],"answer":"hottest","why":"One-syllable adjectives take -est for the superlative."},
-    {"type":"mc","q":"This film is ___ than the book.","options":["interestinger","more interesting","most interesting","interesting"],"answer":"more interesting","why":"Long adjectives use 'more' for the comparative, never -er."},
-    {"type":"mc","q":"She is the ___ student in the class.","options":["intelligentest","most intelligent","more intelligent","intelligenter"],"answer":"most intelligent","why":"Long adjectives use 'the most' for the superlative."},
-    {"type":"mc","q":"My grades are ___ than last year.","options":["gooder","better","more good","best"],"answer":"better","why":"'Good' is irregular: good → better → best."},
-    {"type":"mc","q":"That was the ___ meal I have ever had.","options":["baddest","worst","worse","most bad"],"answer":"worst","why":"'Bad' is irregular: bad → worse → worst."},
-    {"type":"mc","q":"He lives ___ from school than I do.","options":["farther","farer","more far","farthest"],"answer":"farther","why":"'Far' is irregular: far → farther/further → farthest."},
-    {"type":"mc","q":"This bag is ___ than mine.","options":["biger","bigger","more big","biggest"],"answer":"bigger","why":"With a short vowel + single consonant, double the consonant: big → bigger."},
-    {"type":"mc","q":"She seems ___ today than yesterday.","options":["happier","happyer","more happy","happiest"],"answer":"happier","why":"Adjectives ending in consonant + y change y to i: happy → happier."},
-    {"type":"mc","q":"My new phone is ___ than the old one.","options":["thiner","thinner","more thin","thinnest"],"answer":"thinner","why":"Double the final consonant after a short stressed vowel: thin → thinner."},
-    {"type":"mc","q":"Tom is as tall ___ his brother.","options":["than","as","that","then"],"answer":"as","why":"Equality is shown with 'as ... as', not 'as ... than'."},
-    {"type":"mc","q":"This test was not as hard ___ I expected.","options":["than","as","then","like"],"answer":"as","why":"'Not as ... as' compares two things showing they are unequal."},
-    {"type":"mc","q":"___ you practise, the better you get.","options":["The most","The more","More","The much"],"answer":"The more","why":"The 'the + comparative, the + comparative' structure links two changes."},
-    {"type":"mc","q":"The older he gets, ___ he becomes.","options":["the wiser","wiser","the most wise","more wise"],"answer":"the wiser","why":"Both halves of this structure need 'the' + comparative."},
-    {"type":"mc","q":"I would rather have tea ___ coffee.","options":["then","than","that","as"],"answer":"than","why":"Use 'than' for comparisons; 'then' refers to time."},
-    {"type":"mc","q":"First we ate, and ___ we went home.","options":["than","then","that","thus"],"answer":"then","why":"'Then' means 'next/after that'; don't confuse it with 'than'."},
-    {"type":"mc","q":"Winter days are ___ than summer days.","options":["shorter","shortter","more short","shortest"],"answer":"shorter","why":"One-syllable adjectives take -er for the comparative."},
-    {"type":"mc","q":"It is ___ restaurant in town.","options":["the most expensive","the expensivest","most expensive","more expensive"],"answer":"the most expensive","why":"Superlatives of long adjectives use 'the most'."},
-    {"type":"mc","q":"This road is ___ than that one.","options":["narrower","narrow","more narrow","narrowest"],"answer":"narrower","why":"Two-syllable adjectives ending in -ow usually take -er."},
-    {"type":"mc","q":"He runs ___ than anyone else on the team.","options":["faster","more fast","fastest","fastly"],"answer":"faster","why":"'Fast' is short, so the comparative is 'faster'."},
-    {"type":"mc","q":"This is ___ chair in the house.","options":["the comfortabler","the most comfortable","the comfortablest","most comfortable"],"answer":"the most comfortable","why":"Long adjectives form the superlative with 'the most'."},
-    {"type":"mc","q":"Your idea is ___ as mine.","options":["as good","gooder","better","so good"],"answer":"as good","why":"To say two things are equal, use 'as + adjective + as'."},
-    {"type":"mc","q":"She is ___ than her sister.","options":["more careful","carefuller","most careful","careful"],"answer":"more careful","why":"Two-syllable adjectives ending in -ful take 'more'."},
-    {"type":"mc","q":"This is the ___ book I own.","options":["heaviest","heavyest","most heavy","heavier"],"answer":"heaviest","why":"Change y to i and add -est: heavy → heaviest."},
-    {"type":"fill","q":"Type the answer: 'A cheetah is ___ (fast) than a lion.'","answer":["faster"],"why":"Short adjectives add -er for the comparative."},
-    {"type":"fill","q":"Type the answer: 'This is the ___ (good) day of my life.'","answer":["best"],"why":"'Good' is irregular: the superlative is 'best'."},
-    {"type":"fill","q":"Type the answer: 'My room is ___ (big) than yours.'","answer":["bigger"],"why":"Double the consonant after a short vowel: big → bigger."},
-    {"type":"fill","q":"Type the answer: 'She is ___ (happy) now than before.'","answer":["happier"],"why":"Consonant + y becomes -ier: happy → happier."},
-    {"type":"fill","q":"Type the answer: 'I am taller ___ my father.' (than or then)","answer":["than"],"why":"Comparisons use 'than', not the time word 'then'."},
-    {"type":"fill","q":"Type the answer: 'This chair is not as soft ___ that one.'","answer":["as"],"why":"'Not as ... as' shows two things are unequal."}
+    {
+      "type": "mc",
+      "q": "This box is ___ than that one.",
+      "options": [
+        "heavy",
+        "heavier",
+        "heaviest",
+        "more heavy"
+      ],
+      "answer": "heavier",
+      "why": "Short adjectives add -er for the comparative, not 'more'."
+    },
+    {
+      "type": "mc",
+      "q": "Today is the ___ day of the year.",
+      "options": [
+        "hot",
+        "hotter",
+        "hottest",
+        "most hot"
+      ],
+      "answer": "hottest",
+      "why": "One-syllable adjectives take -est for the superlative."
+    },
+    {
+      "type": "mc",
+      "q": "This film is ___ than the book.",
+      "options": [
+        "interestinger",
+        "more interesting",
+        "most interesting",
+        "interesting"
+      ],
+      "answer": "more interesting",
+      "why": "Long adjectives use 'more' for the comparative, never -er."
+    },
+    {
+      "type": "mc",
+      "q": "She is the ___ student in the class.",
+      "options": [
+        "intelligentest",
+        "most intelligent",
+        "more intelligent",
+        "intelligenter"
+      ],
+      "answer": "most intelligent",
+      "why": "Long adjectives use 'the most' for the superlative."
+    },
+    {
+      "type": "mc",
+      "q": "My grades are ___ than last year.",
+      "options": [
+        "gooder",
+        "better",
+        "more good",
+        "best"
+      ],
+      "answer": "better",
+      "why": "'Good' is irregular: good → better → best."
+    },
+    {
+      "type": "mc",
+      "q": "That was the ___ meal I have ever had.",
+      "options": [
+        "baddest",
+        "worst",
+        "worse",
+        "most bad"
+      ],
+      "answer": "worst",
+      "why": "'Bad' is irregular: bad → worse → worst."
+    },
+    {
+      "type": "mc",
+      "q": "He lives ___ from school than I do.",
+      "options": [
+        "farther",
+        "farer",
+        "more far",
+        "farthest"
+      ],
+      "answer": "farther",
+      "why": "'Far' is irregular: far → farther/further → farthest."
+    },
+    {
+      "type": "mc",
+      "q": "This bag is ___ than mine.",
+      "options": [
+        "biger",
+        "bigger",
+        "more big",
+        "biggest"
+      ],
+      "answer": "bigger",
+      "why": "With a short vowel + single consonant, double the consonant: big → bigger."
+    },
+    {
+      "type": "mc",
+      "q": "She seems ___ today than yesterday.",
+      "options": [
+        "happier",
+        "happyer",
+        "more happy",
+        "happiest"
+      ],
+      "answer": "happier",
+      "why": "Adjectives ending in consonant + y change y to i: happy → happier."
+    },
+    {
+      "type": "mc",
+      "q": "My new phone is ___ than the old one.",
+      "options": [
+        "thiner",
+        "thinner",
+        "more thin",
+        "thinnest"
+      ],
+      "answer": "thinner",
+      "why": "Double the final consonant after a short stressed vowel: thin → thinner."
+    },
+    {
+      "type": "mc",
+      "q": "Tom is as tall ___ his brother.",
+      "options": [
+        "than",
+        "as",
+        "that",
+        "then"
+      ],
+      "answer": "as",
+      "why": "Equality is shown with 'as ... as', not 'as ... than'."
+    },
+    {
+      "type": "mc",
+      "q": "This test was not as hard ___ I expected.",
+      "options": [
+        "than",
+        "as",
+        "then",
+        "like"
+      ],
+      "answer": "as",
+      "why": "'Not as ... as' compares two things showing they are unequal."
+    },
+    {
+      "type": "mc",
+      "q": "___ you practise, the better you get.",
+      "options": [
+        "The most",
+        "The more",
+        "More",
+        "The much"
+      ],
+      "answer": "The more",
+      "why": "The 'the + comparative, the + comparative' structure links two changes."
+    },
+    {
+      "type": "mc",
+      "q": "The older he gets, ___ he becomes.",
+      "options": [
+        "the wiser",
+        "wiser",
+        "the most wise",
+        "more wise"
+      ],
+      "answer": "the wiser",
+      "why": "Both halves of this structure need 'the' + comparative."
+    },
+    {
+      "type": "mc",
+      "q": "I would rather have tea ___ coffee.",
+      "options": [
+        "then",
+        "than",
+        "that",
+        "as"
+      ],
+      "answer": "than",
+      "why": "Use 'than' for comparisons; 'then' refers to time."
+    },
+    {
+      "type": "mc",
+      "q": "First we ate, and ___ we went home.",
+      "options": [
+        "than",
+        "then",
+        "that",
+        "thus"
+      ],
+      "answer": "then",
+      "why": "'Then' means 'next/after that'; don't confuse it with 'than'."
+    },
+    {
+      "type": "mc",
+      "q": "Winter days are ___ than summer days.",
+      "options": [
+        "shorter",
+        "shortter",
+        "more short",
+        "shortest"
+      ],
+      "answer": "shorter",
+      "why": "One-syllable adjectives take -er for the comparative."
+    },
+    {
+      "type": "mc",
+      "q": "It is ___ restaurant in town.",
+      "options": [
+        "the most expensive",
+        "the expensivest",
+        "most expensive",
+        "more expensive"
+      ],
+      "answer": "the most expensive",
+      "why": "Superlatives of long adjectives use 'the most'."
+    },
+    {
+      "type": "mc",
+      "q": "This road is ___ than that one.",
+      "options": [
+        "narrower",
+        "narrow",
+        "more narrow",
+        "narrowest"
+      ],
+      "answer": "narrower",
+      "why": "Two-syllable adjectives ending in -ow usually take -er."
+    },
+    {
+      "type": "mc",
+      "q": "He runs ___ than anyone else on the team.",
+      "options": [
+        "faster",
+        "more fast",
+        "fastest",
+        "fastly"
+      ],
+      "answer": "faster",
+      "why": "'Fast' is short, so the comparative is 'faster'."
+    },
+    {
+      "type": "mc",
+      "q": "This is ___ chair in the house.",
+      "options": [
+        "the comfortabler",
+        "the most comfortable",
+        "the comfortablest",
+        "most comfortable"
+      ],
+      "answer": "the most comfortable",
+      "why": "Long adjectives form the superlative with 'the most'."
+    },
+    {
+      "type": "mc",
+      "q": "Your idea is ___ as mine.",
+      "options": [
+        "as good",
+        "gooder",
+        "better",
+        "so good"
+      ],
+      "answer": "as good",
+      "why": "To say two things are equal, use 'as + adjective + as'."
+    },
+    {
+      "type": "mc",
+      "q": "She is ___ than her sister.",
+      "options": [
+        "more careful",
+        "carefuller",
+        "most careful",
+        "careful"
+      ],
+      "answer": "more careful",
+      "why": "Two-syllable adjectives ending in -ful take 'more'."
+    },
+    {
+      "type": "mc",
+      "q": "This is the ___ book I own.",
+      "options": [
+        "heaviest",
+        "heavyest",
+        "most heavy",
+        "heavier"
+      ],
+      "answer": "heaviest",
+      "why": "Change y to i and add -est: heavy → heaviest."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'A cheetah is ___ (fast) than a lion.'",
+      "answer": [
+        "faster"
+      ],
+      "why": "Short adjectives add -er for the comparative."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'This is the ___ (good) day of my life.'",
+      "answer": [
+        "best"
+      ],
+      "why": "'Good' is irregular: the superlative is 'best'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'My room is ___ (big) than yours.'",
+      "answer": [
+        "bigger"
+      ],
+      "why": "Double the consonant after a short vowel: big → bigger."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She is ___ (happy) now than before.'",
+      "answer": [
+        "happier"
+      ],
+      "why": "Consonant + y becomes -ier: happy → happier."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I am taller ___ my father.' (than or then)",
+      "answer": [
+        "than"
+      ],
+      "why": "Comparisons use 'than', not the time word 'then'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'This chair is not as soft ___ that one.'",
+      "answer": [
+        "as"
+      ],
+      "why": "'Not as ... as' shows two things are unequal."
+    },
+    {
+      "type": "mc",
+      "q": "This test was ___ than the last one.",
+      "options": [
+        "easier",
+        "more easy",
+        "easiest"
+      ],
+      "answer": "easier",
+      "why": "Two-syllable adjectives ending in -y take -ier: easy → easier."
+    },
+    {
+      "type": "mc",
+      "q": "It's the ___ interesting book I've ever read.",
+      "options": [
+        "most",
+        "more",
+        "much"
+      ],
+      "answer": "most",
+      "why": "Long adjectives form the superlative with 'the most'."
+    },
+    {
+      "type": "mc",
+      "q": "The weather is getting ___ .",
+      "options": [
+        "worse and worse",
+        "worst and worst",
+        "more and more bad"
+      ],
+      "answer": "worse and worse",
+      "why": "Repeated comparative 'worse and worse' shows continuing change."
+    },
+    {
+      "type": "mc",
+      "q": "She's far ___ experienced than her colleague.",
+      "options": [
+        "more",
+        "most",
+        "much"
+      ],
+      "answer": "more",
+      "why": "Comparative with long adjective: 'more experienced'; 'far' just intensifies it."
+    },
+    {
+      "type": "mc",
+      "q": "The ___ you practice, the better you get.",
+      "options": [
+        "more",
+        "most",
+        "much"
+      ],
+      "answer": "more",
+      "why": "Parallel comparative: 'the more…, the better…'."
+    }
   ]
 }

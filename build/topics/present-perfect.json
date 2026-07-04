@@ -3,35 +3,393 @@
   "title": "Present Perfect vs Past Simple",
   "blurb": "have done vs did",
   "questions": [
-    {"type":"mc","q":"I ___ in this city for ten years, and I still live here.","options":["live","lived","have lived","am living"],"answer":"have lived","why":"Present perfect links a past start to the present for an unfinished situation."},
-    {"type":"mc","q":"We ___ to Paris last summer.","options":["have gone","went","have been","go"],"answer":"went","why":"Past simple is used with a finished time expression like 'last summer'."},
-    {"type":"mc","q":"She has worked here ___ 2019.","options":["for","since","from","during"],"answer":"since","why":"'Since' is used with a point in time when the action started."},
-    {"type":"mc","q":"They have been married ___ twenty years.","options":["since","for","from","ago"],"answer":"for","why":"'For' is used with a length or period of time."},
-    {"type":"mc","q":"Have you finished your homework ___?","options":["yet","already","just","ever"],"answer":"yet","why":"'Yet' is used in questions and negatives to ask about expected completion."},
-    {"type":"mc","q":"I've ___ eaten, thanks, so I'm not hungry.","options":["yet","already","since","ago"],"answer":"already","why":"'Already' shows something happened sooner than expected."},
-    {"type":"mc","q":"___ you ever ___ sushi?","options":["Did / eat","Have / eaten","Have / ate","Did / eaten"],"answer":"Have / eaten","why":"Present perfect with 'ever' asks about life experience up to now."},
-    {"type":"mc","q":"I have ___ been to Japan, so I don't know what it's like.","options":["ever","never","yet","just"],"answer":"never","why":"'Never' with present perfect means 'not at any time in my life'."},
-    {"type":"mc","q":"Where's Tom? He ___ to the bank; he'll be back soon.","options":["has been","has gone","went","goes"],"answer":"has gone","why":"'Has gone' means he is still away at the destination."},
-    {"type":"mc","q":"Sarah looks tanned. She ___ to the beach.","options":["has been","has gone","is going","goes"],"answer":"has been","why":"'Has been' means she went and has now returned."},
-    {"type":"mc","q":"I ___ my keys this morning, but I found them.","options":["have lost","lost","have been losing","lose"],"answer":"lost","why":"'This morning' is finished now (said later), so past simple fits."},
-    {"type":"mc","q":"I ___ three coffees today, and the day isn't over.","options":["had","have had","drank","was having"],"answer":"have had","why":"'Today' is unfinished time, so present perfect is used."},
-    {"type":"mc","q":"He ___ his leg, so he can't play today.","options":["broke","has broken","breaks","was breaking"],"answer":"has broken","why":"Present perfect connects a past action to a present result."},
-    {"type":"mc","q":"Shakespeare ___ many famous plays.","options":["has written","wrote","has been writing","writes"],"answer":"wrote","why":"Past simple is used because the person's life is finished."},
-    {"type":"mc","q":"The train ___ just ___; you missed it.","options":["has / left","did / leave","have / left","was / leaving"],"answer":"has / left","why":"'Just' with present perfect means a very short time ago."},
-    {"type":"mc","q":"I ___ that film three times.","options":["saw","have seen","see","had seen"],"answer":"have seen","why":"Present perfect describes repeated experience in a time up to now."},
-    {"type":"mc","q":"When ___ you ___ your driving test?","options":["have / passed","did / pass","have / pass","did / passed"],"answer":"did / pass","why":"'When' asks about a definite past time, so use past simple."},
-    {"type":"mc","q":"It's the best meal I ___ ever ___.","options":["have / had","did / have","had / have","have / has"],"answer":"have / had","why":"Present perfect with superlatives describes experience up to the present."},
-    {"type":"mc","q":"We haven't seen each other ___ we left school.","options":["for","since","ago","from"],"answer":"since","why":"'Since' introduces the point in the past when something began."},
-    {"type":"mc","q":"I met my wife two years ___.","options":["since","for","ago","before"],"answer":"ago","why":"'Ago' measures back from now and takes past simple."},
-    {"type":"mc","q":"___ she finished the report yet?","options":["Has","Have","Did","Does"],"answer":"Has","why":"Present perfect questions with 'yet' use 'has/have' plus the past participle."},
-    {"type":"mc","q":"Did you call him ___?","options":["yesterday","yet","already","since"],"answer":"yesterday","why":"Past simple pairs with a finished time word like 'yesterday'."},
-    {"type":"mc","q":"They ___ the house in 1990 and sold it in 2005.","options":["have bought","bought","have been buying","buy"],"answer":"bought","why":"Two finished past dates require past simple throughout."},
-    {"type":"mc","q":"I've known her ___ we were children.","options":["for","since","ago","during"],"answer":"since","why":"'Since' is followed by a clause stating when the action began."},
-    {"type":"mc","q":"Oh no, I ___ my coffee all over the keyboard!","options":["spilled","have spilled","spill","was spilling"],"answer":"have spilled","why":"Present perfect emphasises a recent action with a present consequence."},
-    {"type":"mc","q":"My grandfather ___ in the war when he was young.","options":["has fought","fought","has been fighting","fights"],"answer":"fought","why":"A completed past period in a finished life takes past simple."},
-    {"type":"fill","q":"Type the answer: 'I have known him ___ five years.' (for/since)","answer":["for"],"why":"'For' is used with a duration of time."},
-    {"type":"fill","q":"Type the answer: 'She has lived here ___ 2010.' (for/since)","answer":["since"],"why":"'Since' is used with the point when something started."},
-    {"type":"fill","q":"Type the answer: 'Where's Mum? She has ___ (go) shopping and isn't back yet.'","answer":["gone"],"why":"'Gone' shows the person is still away at the place."},
-    {"type":"fill","q":"Type the answer: 'I ___ (see) that film yesterday.' (correct tense)","answer":["saw"],"why":"'Yesterday' is finished time, so past simple is required."}
+    {
+      "type": "mc",
+      "q": "I ___ in this city for ten years, and I still live here.",
+      "options": [
+        "live",
+        "lived",
+        "have lived",
+        "am living"
+      ],
+      "answer": "have lived",
+      "why": "Present perfect links a past start to the present for an unfinished situation."
+    },
+    {
+      "type": "mc",
+      "q": "We ___ to Paris last summer.",
+      "options": [
+        "have gone",
+        "went",
+        "have been",
+        "go"
+      ],
+      "answer": "went",
+      "why": "Past simple is used with a finished time expression like 'last summer'."
+    },
+    {
+      "type": "mc",
+      "q": "She has worked here ___ 2019.",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "answer": "since",
+      "why": "'Since' is used with a point in time when the action started."
+    },
+    {
+      "type": "mc",
+      "q": "They have been married ___ twenty years.",
+      "options": [
+        "since",
+        "for",
+        "from",
+        "ago"
+      ],
+      "answer": "for",
+      "why": "'For' is used with a length or period of time."
+    },
+    {
+      "type": "mc",
+      "q": "Have you finished your homework ___?",
+      "options": [
+        "yet",
+        "already",
+        "just",
+        "ever"
+      ],
+      "answer": "yet",
+      "why": "'Yet' is used in questions and negatives to ask about expected completion."
+    },
+    {
+      "type": "mc",
+      "q": "I've ___ eaten, thanks, so I'm not hungry.",
+      "options": [
+        "yet",
+        "already",
+        "since",
+        "ago"
+      ],
+      "answer": "already",
+      "why": "'Already' shows something happened sooner than expected."
+    },
+    {
+      "type": "mc",
+      "q": "___ you ever ___ sushi?",
+      "options": [
+        "Did / eat",
+        "Have / eaten",
+        "Have / ate",
+        "Did / eaten"
+      ],
+      "answer": "Have / eaten",
+      "why": "Present perfect with 'ever' asks about life experience up to now."
+    },
+    {
+      "type": "mc",
+      "q": "I have ___ been to Japan, so I don't know what it's like.",
+      "options": [
+        "ever",
+        "never",
+        "yet",
+        "just"
+      ],
+      "answer": "never",
+      "why": "'Never' with present perfect means 'not at any time in my life'."
+    },
+    {
+      "type": "mc",
+      "q": "Where's Tom? He ___ to the bank; he'll be back soon.",
+      "options": [
+        "has been",
+        "has gone",
+        "went",
+        "goes"
+      ],
+      "answer": "has gone",
+      "why": "'Has gone' means he is still away at the destination."
+    },
+    {
+      "type": "mc",
+      "q": "Sarah looks tanned. She ___ to the beach.",
+      "options": [
+        "has been",
+        "has gone",
+        "is going",
+        "goes"
+      ],
+      "answer": "has been",
+      "why": "'Has been' means she went and has now returned."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ my keys this morning, but I found them.",
+      "options": [
+        "have lost",
+        "lost",
+        "have been losing",
+        "lose"
+      ],
+      "answer": "lost",
+      "why": "'This morning' is finished now (said later), so past simple fits."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ three coffees today, and the day isn't over.",
+      "options": [
+        "had",
+        "have had",
+        "drank",
+        "was having"
+      ],
+      "answer": "have had",
+      "why": "'Today' is unfinished time, so present perfect is used."
+    },
+    {
+      "type": "mc",
+      "q": "He ___ his leg, so he can't play today.",
+      "options": [
+        "broke",
+        "has broken",
+        "breaks",
+        "was breaking"
+      ],
+      "answer": "has broken",
+      "why": "Present perfect connects a past action to a present result."
+    },
+    {
+      "type": "mc",
+      "q": "Shakespeare ___ many famous plays.",
+      "options": [
+        "has written",
+        "wrote",
+        "has been writing",
+        "writes"
+      ],
+      "answer": "wrote",
+      "why": "Past simple is used because the person's life is finished."
+    },
+    {
+      "type": "mc",
+      "q": "The train ___ just ___; you missed it.",
+      "options": [
+        "has / left",
+        "did / leave",
+        "have / left",
+        "was / leaving"
+      ],
+      "answer": "has / left",
+      "why": "'Just' with present perfect means a very short time ago."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ that film three times.",
+      "options": [
+        "saw",
+        "have seen",
+        "see",
+        "had seen"
+      ],
+      "answer": "have seen",
+      "why": "Present perfect describes repeated experience in a time up to now."
+    },
+    {
+      "type": "mc",
+      "q": "When ___ you ___ your driving test?",
+      "options": [
+        "have / passed",
+        "did / pass",
+        "have / pass",
+        "did / passed"
+      ],
+      "answer": "did / pass",
+      "why": "'When' asks about a definite past time, so use past simple."
+    },
+    {
+      "type": "mc",
+      "q": "It's the best meal I ___ ever ___.",
+      "options": [
+        "have / had",
+        "did / have",
+        "had / have",
+        "have / has"
+      ],
+      "answer": "have / had",
+      "why": "Present perfect with superlatives describes experience up to the present."
+    },
+    {
+      "type": "mc",
+      "q": "We haven't seen each other ___ we left school.",
+      "options": [
+        "for",
+        "since",
+        "ago",
+        "from"
+      ],
+      "answer": "since",
+      "why": "'Since' introduces the point in the past when something began."
+    },
+    {
+      "type": "mc",
+      "q": "I met my wife two years ___.",
+      "options": [
+        "since",
+        "for",
+        "ago",
+        "before"
+      ],
+      "answer": "ago",
+      "why": "'Ago' measures back from now and takes past simple."
+    },
+    {
+      "type": "mc",
+      "q": "___ she finished the report yet?",
+      "options": [
+        "Has",
+        "Have",
+        "Did",
+        "Does"
+      ],
+      "answer": "Has",
+      "why": "Present perfect questions with 'yet' use 'has/have' plus the past participle."
+    },
+    {
+      "type": "mc",
+      "q": "Did you call him ___?",
+      "options": [
+        "yesterday",
+        "yet",
+        "already",
+        "since"
+      ],
+      "answer": "yesterday",
+      "why": "Past simple pairs with a finished time word like 'yesterday'."
+    },
+    {
+      "type": "mc",
+      "q": "They ___ the house in 1990 and sold it in 2005.",
+      "options": [
+        "have bought",
+        "bought",
+        "have been buying",
+        "buy"
+      ],
+      "answer": "bought",
+      "why": "Two finished past dates require past simple throughout."
+    },
+    {
+      "type": "mc",
+      "q": "I've known her ___ we were children.",
+      "options": [
+        "for",
+        "since",
+        "ago",
+        "during"
+      ],
+      "answer": "since",
+      "why": "'Since' is followed by a clause stating when the action began."
+    },
+    {
+      "type": "mc",
+      "q": "Oh no, I ___ my coffee all over the keyboard!",
+      "options": [
+        "spilled",
+        "have spilled",
+        "spill",
+        "was spilling"
+      ],
+      "answer": "have spilled",
+      "why": "Present perfect emphasises a recent action with a present consequence."
+    },
+    {
+      "type": "mc",
+      "q": "My grandfather ___ in the war when he was young.",
+      "options": [
+        "has fought",
+        "fought",
+        "has been fighting",
+        "fights"
+      ],
+      "answer": "fought",
+      "why": "A completed past period in a finished life takes past simple."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I have known him ___ five years.' (for/since)",
+      "answer": [
+        "for"
+      ],
+      "why": "'For' is used with a duration of time."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She has lived here ___ 2010.' (for/since)",
+      "answer": [
+        "since"
+      ],
+      "why": "'Since' is used with the point when something started."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Where's Mum? She has ___ (go) shopping and isn't back yet.'",
+      "answer": [
+        "gone"
+      ],
+      "why": "'Gone' shows the person is still away at the place."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'I ___ (see) that film yesterday.' (correct tense)",
+      "answer": [
+        "saw"
+      ],
+      "why": "'Yesterday' is finished time, so past simple is required."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ him since we left school.",
+      "options": [
+        "haven't seen",
+        "didn't see",
+        "don't see"
+      ],
+      "answer": "haven't seen",
+      "why": "'Since' + unfinished period → present perfect."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ her keys — she can't get in.",
+      "options": [
+        "has lost",
+        "lost",
+        "loses"
+      ],
+      "answer": "has lost",
+      "why": "Past action with a present result → present perfect."
+    },
+    {
+      "type": "mc",
+      "q": "He ___ in Rome in the 1990s.",
+      "options": [
+        "lived",
+        "has lived",
+        "has been living"
+      ],
+      "answer": "lived",
+      "why": "A finished time period ('in the 1990s') → past simple."
+    },
+    {
+      "type": "mc",
+      "q": "We've been friends ___ twenty years.",
+      "options": [
+        "for",
+        "since",
+        "from"
+      ],
+      "answer": "for",
+      "why": "'For' + duration (twenty years); 'since' + starting point."
+    }
   ]
 }

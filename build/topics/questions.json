@@ -3,35 +3,405 @@
   "title": "Question Formation",
   "blurb": "do / did / who…",
   "questions": [
-    {"type":"mc","q":"___ you like coffee?","options":["Do","Does","Are","Is"],"answer":"Do","why":"Use 'Do' for yes/no questions with 'you' in the present simple."},
-    {"type":"mc","q":"___ she speak French?","options":["Do","Does","Is","Has"],"answer":"Does","why":"Use 'Does' with third person singular (he/she/it) in present simple questions."},
-    {"type":"mc","q":"___ they arrive on time yesterday?","options":["Do","Does","Did","Are"],"answer":"Did","why":"Use 'Did' for all subjects in past simple yes/no questions."},
-    {"type":"mc","q":"Where ___ you go last weekend?","options":["do","did","does","are"],"answer":"did","why":"Past simple wh-questions use 'did' + base verb."},
-    {"type":"mc","q":"What time ___ the film start?","options":["does","do","is","did"],"answer":"does","why":"'The film' is third person singular, so use 'does' in the present simple."},
-    {"type":"mc","q":"Which is correct?","options":["Where you are going?","Where are you going?","Where you going?","Where do you going?"],"answer":"Where are you going?","why":"In present continuous questions the auxiliary 'are' comes before the subject."},
-    {"type":"mc","q":"___ does this word mean?","options":["Who","What","Where","When"],"answer":"What","why":"'What' asks about things or meanings."},
-    {"type":"mc","q":"___ is your birthday?","options":["What","Who","When","How"],"answer":"When","why":"'When' asks about time."},
-    {"type":"mc","q":"___ many people came to the party?","options":["How","What","Which","Who"],"answer":"How","why":"'How many' asks about quantity with countable nouns."},
-    {"type":"mc","q":"Subject question: ___ broke the window?","options":["Who","Who did","Whom did","What did"],"answer":"Who","why":"When 'who' is the subject, use no auxiliary: 'Who broke...?'"},
-    {"type":"mc","q":"Object question: Who ___ you invite to dinner?","options":["did","do you","does","done"],"answer":"did","why":"When 'who' is the object, use the auxiliary 'did' + base verb."},
-    {"type":"mc","q":"Which sentence is a subject question?","options":["Who did you call?","What did she buy?","Who lives next door?","Where did they go?"],"answer":"Who lives next door?","why":"A subject question has no auxiliary; the verb agrees directly with 'who'."},
-    {"type":"mc","q":"___ wants ice cream? (asking which people)","options":["Who","Who does","Whom","Who do"],"answer":"Who","why":"Subject 'who' takes a singular verb and no auxiliary: 'Who wants...?'"},
-    {"type":"mc","q":"What ___? (asking what caused this)","options":["did happen","happened","does happen","happen"],"answer":"happened","why":"'What' is the subject here, so use no auxiliary: 'What happened?'"},
-    {"type":"mc","q":"You're coming, ___?","options":["aren't you","are you","don't you","isn't it"],"answer":"aren't you","why":"A positive statement takes a negative tag using the same auxiliary."},
-    {"type":"mc","q":"She doesn't eat meat, ___?","options":["does she","doesn't she","is she","do she"],"answer":"does she","why":"A negative statement takes a positive tag with the matching auxiliary."},
-    {"type":"mc","q":"They went home early, ___?","options":["did they","didn't they","do they","weren't they"],"answer":"didn't they","why":"Past simple statements use 'didn't' in the question tag."},
-    {"type":"mc","q":"Let's go out, ___?","options":["shall we","will we","do we","don't we"],"answer":"shall we","why":"After 'Let's', the question tag is 'shall we'."},
-    {"type":"mc","q":"I'm late, ___?","options":["am not I","aren't I","amn't I","isn't I"],"answer":"aren't I","why":"The tag for 'I am' is the irregular 'aren't I'."},
-    {"type":"mc","q":"Indirect: Could you tell me where ___?","options":["is the station","the station is","does the station","is station"],"answer":"the station is","why":"Indirect questions use statement word order, not inversion."},
-    {"type":"mc","q":"Indirect: Do you know what time ___?","options":["does it start","it starts","is it start","start it"],"answer":"it starts","why":"After 'Do you know...' use statement order with no 'does'."},
-    {"type":"mc","q":"Indirect: I wonder ___ she has arrived.","options":["that","if","does","is"],"answer":"if","why":"Indirect yes/no questions use 'if' or 'whether'."},
-    {"type":"mc","q":"Which indirect question is correct?","options":["Can you tell me where is the toilet?","Can you tell me where the toilet is?","Can you tell me where does the toilet?","Can you tell me where the toilet?"],"answer":"Can you tell me where the toilet is?","why":"Indirect questions keep subject-verb order with no auxiliary inversion."},
-    {"type":"mc","q":"___ are you waiting for?","options":["Who","Whom","Whose","Which"],"answer":"Who","why":"In everyday English 'Who...for?' is normal, keeping the preposition at the end."},
-    {"type":"mc","q":"What are you looking ___?","options":["at","for","to","on"],"answer":"for","why":"'Look for' means to search; the preposition 'for' goes to the end of the question."},
-    {"type":"mc","q":"Where do you come ___?","options":["from","to","at","of"],"answer":"from","why":"'Come from' shows origin; the preposition stays at the end of the question."},
-    {"type":"mc","q":"Who did you talk ___ at the meeting?","options":["to","at","with for","of"],"answer":"to","why":"'Talk to' takes 'to', which goes to the end of the question."},
-    {"type":"fill","q":"Type the auxiliary: '___ he play tennis on Sundays?'","answer":["does"],"why":"Third person singular present simple questions use 'does'."},
-    {"type":"fill","q":"Type the question tag: 'You can drive, ___?'","answer":["can't you"],"why":"A positive statement with 'can' takes the negative tag 'can't you'."},
-    {"type":"fill","q":"Subject or object? Type one word for the gap: 'Who ___ you meet yesterday?'","answer":["did"],"why":"This is an object question, so it needs the auxiliary 'did'."}
+    {
+      "type": "mc",
+      "q": "___ you like coffee?",
+      "options": [
+        "Do",
+        "Does",
+        "Are",
+        "Is"
+      ],
+      "answer": "Do",
+      "why": "Use 'Do' for yes/no questions with 'you' in the present simple."
+    },
+    {
+      "type": "mc",
+      "q": "___ she speak French?",
+      "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "answer": "Does",
+      "why": "Use 'Does' with third person singular (he/she/it) in present simple questions."
+    },
+    {
+      "type": "mc",
+      "q": "___ they arrive on time yesterday?",
+      "options": [
+        "Do",
+        "Does",
+        "Did",
+        "Are"
+      ],
+      "answer": "Did",
+      "why": "Use 'Did' for all subjects in past simple yes/no questions."
+    },
+    {
+      "type": "mc",
+      "q": "Where ___ you go last weekend?",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "are"
+      ],
+      "answer": "did",
+      "why": "Past simple wh-questions use 'did' + base verb."
+    },
+    {
+      "type": "mc",
+      "q": "What time ___ the film start?",
+      "options": [
+        "does",
+        "do",
+        "is",
+        "did"
+      ],
+      "answer": "does",
+      "why": "'The film' is third person singular, so use 'does' in the present simple."
+    },
+    {
+      "type": "mc",
+      "q": "Which is correct?",
+      "options": [
+        "Where you are going?",
+        "Where are you going?",
+        "Where you going?",
+        "Where do you going?"
+      ],
+      "answer": "Where are you going?",
+      "why": "In present continuous questions the auxiliary 'are' comes before the subject."
+    },
+    {
+      "type": "mc",
+      "q": "___ does this word mean?",
+      "options": [
+        "Who",
+        "What",
+        "Where",
+        "When"
+      ],
+      "answer": "What",
+      "why": "'What' asks about things or meanings."
+    },
+    {
+      "type": "mc",
+      "q": "___ is your birthday?",
+      "options": [
+        "What",
+        "Who",
+        "When",
+        "How"
+      ],
+      "answer": "When",
+      "why": "'When' asks about time."
+    },
+    {
+      "type": "mc",
+      "q": "___ many people came to the party?",
+      "options": [
+        "How",
+        "What",
+        "Which",
+        "Who"
+      ],
+      "answer": "How",
+      "why": "'How many' asks about quantity with countable nouns."
+    },
+    {
+      "type": "mc",
+      "q": "Subject question: ___ broke the window?",
+      "options": [
+        "Who",
+        "Who did",
+        "Whom did",
+        "What did"
+      ],
+      "answer": "Who",
+      "why": "When 'who' is the subject, use no auxiliary: 'Who broke...?'"
+    },
+    {
+      "type": "mc",
+      "q": "Object question: Who ___ you invite to dinner?",
+      "options": [
+        "did",
+        "do you",
+        "does",
+        "done"
+      ],
+      "answer": "did",
+      "why": "When 'who' is the object, use the auxiliary 'did' + base verb."
+    },
+    {
+      "type": "mc",
+      "q": "Which sentence is a subject question?",
+      "options": [
+        "Who did you call?",
+        "What did she buy?",
+        "Who lives next door?",
+        "Where did they go?"
+      ],
+      "answer": "Who lives next door?",
+      "why": "A subject question has no auxiliary; the verb agrees directly with 'who'."
+    },
+    {
+      "type": "mc",
+      "q": "___ wants ice cream? (asking which people)",
+      "options": [
+        "Who",
+        "Who does",
+        "Whom",
+        "Who do"
+      ],
+      "answer": "Who",
+      "why": "Subject 'who' takes a singular verb and no auxiliary: 'Who wants...?'"
+    },
+    {
+      "type": "mc",
+      "q": "What ___? (asking what caused this)",
+      "options": [
+        "did happen",
+        "happened",
+        "does happen",
+        "happen"
+      ],
+      "answer": "happened",
+      "why": "'What' is the subject here, so use no auxiliary: 'What happened?'"
+    },
+    {
+      "type": "mc",
+      "q": "You're coming, ___?",
+      "options": [
+        "aren't you",
+        "are you",
+        "don't you",
+        "isn't it"
+      ],
+      "answer": "aren't you",
+      "why": "A positive statement takes a negative tag using the same auxiliary."
+    },
+    {
+      "type": "mc",
+      "q": "She doesn't eat meat, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "is she",
+        "do she"
+      ],
+      "answer": "does she",
+      "why": "A negative statement takes a positive tag with the matching auxiliary."
+    },
+    {
+      "type": "mc",
+      "q": "They went home early, ___?",
+      "options": [
+        "did they",
+        "didn't they",
+        "do they",
+        "weren't they"
+      ],
+      "answer": "didn't they",
+      "why": "Past simple statements use 'didn't' in the question tag."
+    },
+    {
+      "type": "mc",
+      "q": "Let's go out, ___?",
+      "options": [
+        "shall we",
+        "will we",
+        "do we",
+        "don't we"
+      ],
+      "answer": "shall we",
+      "why": "After 'Let's', the question tag is 'shall we'."
+    },
+    {
+      "type": "mc",
+      "q": "I'm late, ___?",
+      "options": [
+        "am not I",
+        "aren't I",
+        "amn't I",
+        "isn't I"
+      ],
+      "answer": "aren't I",
+      "why": "The tag for 'I am' is the irregular 'aren't I'."
+    },
+    {
+      "type": "mc",
+      "q": "Indirect: Could you tell me where ___?",
+      "options": [
+        "is the station",
+        "the station is",
+        "does the station",
+        "is station"
+      ],
+      "answer": "the station is",
+      "why": "Indirect questions use statement word order, not inversion."
+    },
+    {
+      "type": "mc",
+      "q": "Indirect: Do you know what time ___?",
+      "options": [
+        "does it start",
+        "it starts",
+        "is it start",
+        "start it"
+      ],
+      "answer": "it starts",
+      "why": "After 'Do you know...' use statement order with no 'does'."
+    },
+    {
+      "type": "mc",
+      "q": "Indirect: I wonder ___ she has arrived.",
+      "options": [
+        "that",
+        "if",
+        "does",
+        "is"
+      ],
+      "answer": "if",
+      "why": "Indirect yes/no questions use 'if' or 'whether'."
+    },
+    {
+      "type": "mc",
+      "q": "Which indirect question is correct?",
+      "options": [
+        "Can you tell me where is the toilet?",
+        "Can you tell me where the toilet is?",
+        "Can you tell me where does the toilet?",
+        "Can you tell me where the toilet?"
+      ],
+      "answer": "Can you tell me where the toilet is?",
+      "why": "Indirect questions keep subject-verb order with no auxiliary inversion."
+    },
+    {
+      "type": "mc",
+      "q": "___ are you waiting for?",
+      "options": [
+        "Who",
+        "Whom",
+        "Whose",
+        "Which"
+      ],
+      "answer": "Who",
+      "why": "In everyday English 'Who...for?' is normal, keeping the preposition at the end."
+    },
+    {
+      "type": "mc",
+      "q": "What are you looking ___?",
+      "options": [
+        "at",
+        "for",
+        "to",
+        "on"
+      ],
+      "answer": "for",
+      "why": "'Look for' means to search; the preposition 'for' goes to the end of the question."
+    },
+    {
+      "type": "mc",
+      "q": "Where do you come ___?",
+      "options": [
+        "from",
+        "to",
+        "at",
+        "of"
+      ],
+      "answer": "from",
+      "why": "'Come from' shows origin; the preposition stays at the end of the question."
+    },
+    {
+      "type": "mc",
+      "q": "Who did you talk ___ at the meeting?",
+      "options": [
+        "to",
+        "at",
+        "with for",
+        "of"
+      ],
+      "answer": "to",
+      "why": "'Talk to' takes 'to', which goes to the end of the question."
+    },
+    {
+      "type": "fill",
+      "q": "Type the auxiliary: '___ he play tennis on Sundays?'",
+      "answer": [
+        "does"
+      ],
+      "why": "Third person singular present simple questions use 'does'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the question tag: 'You can drive, ___?'",
+      "answer": [
+        "can't you"
+      ],
+      "why": "A positive statement with 'can' takes the negative tag 'can't you'."
+    },
+    {
+      "type": "fill",
+      "q": "Subject or object? Type one word for the gap: 'Who ___ you meet yesterday?'",
+      "answer": [
+        "did"
+      ],
+      "why": "This is an object question, so it needs the auxiliary 'did'."
+    },
+    {
+      "type": "mc",
+      "q": "___ told you that?",
+      "options": [
+        "Who",
+        "Whom",
+        "Who did"
+      ],
+      "answer": "Who",
+      "why": "Subject questions use no auxiliary: 'Who told you?', not 'Who did tell you?'"
+    },
+    {
+      "type": "mc",
+      "q": "She's coming tonight, ___?",
+      "options": [
+        "isn't she",
+        "doesn't she",
+        "is she"
+      ],
+      "answer": "isn't she",
+      "why": "Positive statement → negative tag with the same auxiliary ('is')."
+    },
+    {
+      "type": "mc",
+      "q": "Could you tell me where ___?",
+      "options": [
+        "the station is",
+        "is the station",
+        "is station"
+      ],
+      "answer": "the station is",
+      "why": "Indirect questions use statement word order: 'where the station is'."
+    },
+    {
+      "type": "mc",
+      "q": "___ does the film start?",
+      "options": [
+        "What time",
+        "How long",
+        "How often"
+      ],
+      "answer": "What time",
+      "why": "'What time' asks for the exact starting time."
+    },
+    {
+      "type": "fill",
+      "q": "Complete the tag: 'You haven't seen my keys, ___ you?'",
+      "answer": [
+        "have"
+      ],
+      "why": "Negative statement → positive tag: 'haven't seen… have you?'"
+    }
   ]
 }

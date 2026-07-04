@@ -3,35 +3,401 @@
   "title": "Modal Verbs",
   "blurb": "can / must / should…",
   "questions": [
-    {"type":"mc","q":"When she was young, she ___ run very fast.","options":["can","could","must","should"],"answer":"could","why":"Use 'could' for general ability in the past."},
-    {"type":"mc","q":"I'm sorry, I ___ swim. I never learned.","options":["can't","mustn't","shouldn't","couldn't"],"answer":"can't","why":"'Can't' expresses lack of ability in the present."},
-    {"type":"mc","q":"You ___ wear a seatbelt; it's the law here.","options":["must","might","could","needn't"],"answer":"must","why":"'Must' expresses strong obligation, often a rule or law."},
-    {"type":"mc","q":"Everyone ___ have a passport to cross the border.","options":["has to","should","might","can"],"answer":"has to","why":"'Have to' expresses obligation that comes from outside rules or circumstances."},
-    {"type":"mc","q":"You ___ smoke in the hospital; it is strictly forbidden.","options":["don't have to","mustn't","needn't","shouldn't"],"answer":"mustn't","why":"'Mustn't' means it is prohibited to do something."},
-    {"type":"mc","q":"It's Sunday, so you ___ get up early. Sleep in!","options":["mustn't","don't have to","can't","shouldn't"],"answer":"don't have to","why":"'Don't have to' means there is no obligation, not a prohibition."},
-    {"type":"mc","q":"You look exhausted. You ___ get some rest.","options":["should","must","can","might"],"answer":"should","why":"'Should' is used to give advice."},
-    {"type":"mc","q":"You ___ to apologize to her for being so rude.","options":["should","ought","must","had"],"answer":"ought","why":"'Ought to' gives advice and is always followed by 'to'."},
-    {"type":"mc","q":"He's been working all day. He ___ be very tired now.","options":["must","can't","might not","needn't"],"answer":"must","why":"'Must' expresses a confident logical deduction."},
-    {"type":"mc","q":"That ___ be John at the door; he's in Australia right now.","options":["mustn't","can't","shouldn't","mightn't"],"answer":"can't","why":"'Can't' expresses certainty that something is impossible."},
-    {"type":"mc","q":"I'm not sure where she is. She ___ be at the library.","options":["might","must","can't","should"],"answer":"might","why":"'Might' expresses a possibility you are unsure about."},
-    {"type":"mc","q":"___ you pass me the salt, please?","options":["Should","Must","Could","May"],"answer":"Could","why":"'Could' makes a polite request."},
-    {"type":"mc","q":"___ I use your phone for a moment?","options":["May","Must","Should","Would"],"answer":"May","why":"'May I' is a polite way to ask for permission."},
-    {"type":"mc","q":"You ___ have told me earlier; now it's too late.","options":["should","must","can","would"],"answer":"should","why":"'Should have' criticizes a past action that did not happen."},
-    {"type":"mc","q":"The ground is wet. It ___ have rained last night.","options":["must","should","can","would"],"answer":"must","why":"'Must have' expresses a confident deduction about the past."},
-    {"type":"mc","q":"She didn't answer. She ___ have been asleep.","options":["could","should","must not","ought"],"answer":"could","why":"'Could have' expresses a past possibility."},
-    {"type":"mc","q":"He failed the exam, but he ___ have passed if he had studied.","options":["could","must","should","can"],"answer":"could","why":"'Could have' describes a past possibility that didn't happen."},
-    {"type":"mc","q":"You ___ worry about the bill; I've already paid it.","options":["needn't","mustn't","can't","shouldn't"],"answer":"needn't","why":"'Needn't' means it is not necessary to do something."},
-    {"type":"mc","q":"When I was a child, I ___ speak French fluently, but now I've forgotten it.","options":["could","can","must","should"],"answer":"could","why":"'Could' describes ability in the past."},
-    {"type":"mc","q":"They ___ be home; all the lights are off.","options":["can't","must","should","might not have"],"answer":"can't","why":"'Can't' expresses a confident negative deduction about the present."},
-    {"type":"mc","q":"You ___ have eaten so much cake; that's why you feel sick now.","options":["shouldn't","mustn't","can't","needn't"],"answer":"shouldn't","why":"'Shouldn't have' criticizes a past action that was a mistake."},
-    {"type":"mc","q":"In my country, children ___ go to school until they are sixteen.","options":["have to","should","might","can"],"answer":"have to","why":"'Have to' expresses external obligation such as a law."},
-    {"type":"mc","q":"I ___ to finish this report by Friday or my boss will be angry.","options":["have","must","should","ought"],"answer":"have","why":"'Have to' expresses obligation and is followed by 'to'."},
-    {"type":"mc","q":"___ you mind closing the window? It's cold.","options":["Would","Should","Must","May"],"answer":"Would","why":"'Would you mind' is a polite way to make a request."},
-    {"type":"fill","q":"Type the answer: 'It's a secret, so you ___ tell anyone.' (prohibition)","answer":["mustn't","must not"],"why":"'Mustn't' expresses prohibition."},
-    {"type":"fill","q":"Type the answer: 'You ___ have called me; I would have helped you.' (past advice/regret)","answer":["should","should've"],"why":"'Should have' expresses regret about something not done in the past."},
-    {"type":"fill","q":"Type the answer: 'Tomorrow is a holiday, so we ___ have to work.' (no obligation, negative)","answer":["don't","do not"],"why":"'Don't have to' means there is no obligation."},
-    {"type":"fill","q":"Type the answer: 'She studied hard, so she ___ pass the exam easily.' (deduction of certainty)","answer":["must"],"why":"'Must' expresses a confident logical conclusion."},
-    {"type":"fill","q":"Type the answer: '___ I leave early today, please?' (polite permission)","answer":["may","could","can"],"why":"'May', 'could', or 'can' can request permission."},
-    {"type":"fill","q":"Type the answer: 'When I was ten, I ___ ride a bike without help.' (past ability)","answer":["could"],"why":"'Could' is used for ability in the past."}
+    {
+      "type": "mc",
+      "q": "When she was young, she ___ run very fast.",
+      "options": [
+        "can",
+        "could",
+        "must",
+        "should"
+      ],
+      "answer": "could",
+      "why": "Use 'could' for general ability in the past."
+    },
+    {
+      "type": "mc",
+      "q": "I'm sorry, I ___ swim. I never learned.",
+      "options": [
+        "can't",
+        "mustn't",
+        "shouldn't",
+        "couldn't"
+      ],
+      "answer": "can't",
+      "why": "'Can't' expresses lack of ability in the present."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ wear a seatbelt; it's the law here.",
+      "options": [
+        "must",
+        "might",
+        "could",
+        "needn't"
+      ],
+      "answer": "must",
+      "why": "'Must' expresses strong obligation, often a rule or law."
+    },
+    {
+      "type": "mc",
+      "q": "Everyone ___ have a passport to cross the border.",
+      "options": [
+        "has to",
+        "should",
+        "might",
+        "can"
+      ],
+      "answer": "has to",
+      "why": "'Have to' expresses obligation that comes from outside rules or circumstances."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ smoke in the hospital; it is strictly forbidden.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "needn't",
+        "shouldn't"
+      ],
+      "answer": "mustn't",
+      "why": "'Mustn't' means it is prohibited to do something."
+    },
+    {
+      "type": "mc",
+      "q": "It's Sunday, so you ___ get up early. Sleep in!",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": "don't have to",
+      "why": "'Don't have to' means there is no obligation, not a prohibition."
+    },
+    {
+      "type": "mc",
+      "q": "You look exhausted. You ___ get some rest.",
+      "options": [
+        "should",
+        "must",
+        "can",
+        "might"
+      ],
+      "answer": "should",
+      "why": "'Should' is used to give advice."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ to apologize to her for being so rude.",
+      "options": [
+        "should",
+        "ought",
+        "must",
+        "had"
+      ],
+      "answer": "ought",
+      "why": "'Ought to' gives advice and is always followed by 'to'."
+    },
+    {
+      "type": "mc",
+      "q": "He's been working all day. He ___ be very tired now.",
+      "options": [
+        "must",
+        "can't",
+        "might not",
+        "needn't"
+      ],
+      "answer": "must",
+      "why": "'Must' expresses a confident logical deduction."
+    },
+    {
+      "type": "mc",
+      "q": "That ___ be John at the door; he's in Australia right now.",
+      "options": [
+        "mustn't",
+        "can't",
+        "shouldn't",
+        "mightn't"
+      ],
+      "answer": "can't",
+      "why": "'Can't' expresses certainty that something is impossible."
+    },
+    {
+      "type": "mc",
+      "q": "I'm not sure where she is. She ___ be at the library.",
+      "options": [
+        "might",
+        "must",
+        "can't",
+        "should"
+      ],
+      "answer": "might",
+      "why": "'Might' expresses a possibility you are unsure about."
+    },
+    {
+      "type": "mc",
+      "q": "___ you pass me the salt, please?",
+      "options": [
+        "Should",
+        "Must",
+        "Could",
+        "May"
+      ],
+      "answer": "Could",
+      "why": "'Could' makes a polite request."
+    },
+    {
+      "type": "mc",
+      "q": "___ I use your phone for a moment?",
+      "options": [
+        "May",
+        "Must",
+        "Should",
+        "Would"
+      ],
+      "answer": "May",
+      "why": "'May I' is a polite way to ask for permission."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ have told me earlier; now it's too late.",
+      "options": [
+        "should",
+        "must",
+        "can",
+        "would"
+      ],
+      "answer": "should",
+      "why": "'Should have' criticizes a past action that did not happen."
+    },
+    {
+      "type": "mc",
+      "q": "The ground is wet. It ___ have rained last night.",
+      "options": [
+        "must",
+        "should",
+        "can",
+        "would"
+      ],
+      "answer": "must",
+      "why": "'Must have' expresses a confident deduction about the past."
+    },
+    {
+      "type": "mc",
+      "q": "She didn't answer. She ___ have been asleep.",
+      "options": [
+        "could",
+        "should",
+        "must not",
+        "ought"
+      ],
+      "answer": "could",
+      "why": "'Could have' expresses a past possibility."
+    },
+    {
+      "type": "mc",
+      "q": "He failed the exam, but he ___ have passed if he had studied.",
+      "options": [
+        "could",
+        "must",
+        "should",
+        "can"
+      ],
+      "answer": "could",
+      "why": "'Could have' describes a past possibility that didn't happen."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ worry about the bill; I've already paid it.",
+      "options": [
+        "needn't",
+        "mustn't",
+        "can't",
+        "shouldn't"
+      ],
+      "answer": "needn't",
+      "why": "'Needn't' means it is not necessary to do something."
+    },
+    {
+      "type": "mc",
+      "q": "When I was a child, I ___ speak French fluently, but now I've forgotten it.",
+      "options": [
+        "could",
+        "can",
+        "must",
+        "should"
+      ],
+      "answer": "could",
+      "why": "'Could' describes ability in the past."
+    },
+    {
+      "type": "mc",
+      "q": "They ___ be home; all the lights are off.",
+      "options": [
+        "can't",
+        "must",
+        "should",
+        "might not have"
+      ],
+      "answer": "can't",
+      "why": "'Can't' expresses a confident negative deduction about the present."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ have eaten so much cake; that's why you feel sick now.",
+      "options": [
+        "shouldn't",
+        "mustn't",
+        "can't",
+        "needn't"
+      ],
+      "answer": "shouldn't",
+      "why": "'Shouldn't have' criticizes a past action that was a mistake."
+    },
+    {
+      "type": "mc",
+      "q": "In my country, children ___ go to school until they are sixteen.",
+      "options": [
+        "have to",
+        "should",
+        "might",
+        "can"
+      ],
+      "answer": "have to",
+      "why": "'Have to' expresses external obligation such as a law."
+    },
+    {
+      "type": "mc",
+      "q": "I ___ to finish this report by Friday or my boss will be angry.",
+      "options": [
+        "have",
+        "must",
+        "should",
+        "ought"
+      ],
+      "answer": "have",
+      "why": "'Have to' expresses obligation and is followed by 'to'."
+    },
+    {
+      "type": "mc",
+      "q": "___ you mind closing the window? It's cold.",
+      "options": [
+        "Would",
+        "Should",
+        "Must",
+        "May"
+      ],
+      "answer": "Would",
+      "why": "'Would you mind' is a polite way to make a request."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'It's a secret, so you ___ tell anyone.' (prohibition)",
+      "answer": [
+        "mustn't",
+        "must not"
+      ],
+      "why": "'Mustn't' expresses prohibition."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'You ___ have called me; I would have helped you.' (past advice/regret)",
+      "answer": [
+        "should",
+        "should've"
+      ],
+      "why": "'Should have' expresses regret about something not done in the past."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Tomorrow is a holiday, so we ___ have to work.' (no obligation, negative)",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "why": "'Don't have to' means there is no obligation."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'She studied hard, so she ___ pass the exam easily.' (deduction of certainty)",
+      "answer": [
+        "must"
+      ],
+      "why": "'Must' expresses a confident logical conclusion."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: '___ I leave early today, please?' (polite permission)",
+      "answer": [
+        "may",
+        "could",
+        "can"
+      ],
+      "why": "'May', 'could', or 'can' can request permission."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'When I was ten, I ___ ride a bike without help.' (past ability)",
+      "answer": [
+        "could"
+      ],
+      "why": "'Could' is used for ability in the past."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ smoke in here — it's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "shouldn't"
+      ],
+      "answer": "mustn't",
+      "why": "'Mustn't' = prohibition; 'don't have to' = no obligation."
+    },
+    {
+      "type": "mc",
+      "q": "You ___ pay — the entrance is free.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "can't"
+      ],
+      "answer": "don't have to",
+      "why": "'Don't have to' = it is not necessary."
+    },
+    {
+      "type": "mc",
+      "q": "She ___ be home; all the lights are on.",
+      "options": [
+        "must",
+        "can",
+        "should"
+      ],
+      "answer": "must",
+      "why": "'Must' for a logical deduction based on evidence."
+    },
+    {
+      "type": "mc",
+      "q": "___ I borrow your pen for a moment?",
+      "options": [
+        "May",
+        "Must",
+        "Should"
+      ],
+      "answer": "May",
+      "why": "'May' asks for permission politely."
+    },
+    {
+      "type": "mc",
+      "q": "You look exhausted. You ___ take a break.",
+      "options": [
+        "should",
+        "must",
+        "can"
+      ],
+      "answer": "should",
+      "why": "'Should' gives advice."
+    }
   ]
 }

@@ -3,35 +3,404 @@
   "title": "Reported Speech",
   "blurb": "He said that…",
   "questions": [
-    {"type":"mc","q":"Direct: \"I am tired.\" Reported: She said she ___ tired.","options":["is","was","were","has been"],"answer":"was","why":"Present simple backshifts to past simple when the reporting verb is in the past."},
-    {"type":"mc","q":"Direct: \"I work in a bank.\" He told me he ___ in a bank.","options":["works","worked","is working","has worked"],"answer":"worked","why":"Present simple 'work' becomes past simple 'worked' after a past reporting verb."},
-    {"type":"mc","q":"Direct: \"We are leaving now.\" They said they ___ leaving then.","options":["are","were","had been","will be"],"answer":"were","why":"Present continuous 'are leaving' backshifts to past continuous 'were leaving'."},
-    {"type":"mc","q":"Direct: \"I have finished.\" He said he ___ finished.","options":["has","had","have","was"],"answer":"had","why":"Present perfect 'have finished' backshifts to past perfect 'had finished'."},
-    {"type":"mc","q":"Direct: \"I saw her yesterday.\" He said he ___ her the day before.","options":["saw","has seen","had seen","sees"],"answer":"had seen","why":"Past simple usually backshifts to past perfect in reported speech."},
-    {"type":"mc","q":"Direct: \"I will call you.\" She said she ___ call me.","options":["will","would","will be","had"],"answer":"would","why":"'Will' backshifts to 'would' after a past reporting verb."},
-    {"type":"mc","q":"Direct: \"I can swim.\" He said he ___ swim.","options":["can","could","can't","would"],"answer":"could","why":"The modal 'can' backshifts to 'could' in reported speech."},
-    {"type":"mc","q":"Direct: \"I may be late.\" She said she ___ be late.","options":["may","might","must","can"],"answer":"might","why":"'May' backshifts to 'might' when reporting a past statement."},
-    {"type":"mc","q":"Direct: \"The Earth is round.\" The teacher said the Earth ___ round.","options":["was","is","were","had been"],"answer":"is","why":"Backshift is optional for general truths or facts that are still true."},
-    {"type":"mc","q":"Direct: \"I live here now.\" He said he lived there ___.","options":["now","then","tomorrow","yesterday"],"answer":"then","why":"In reported speech 'now' usually changes to 'then'."},
-    {"type":"mc","q":"Direct: \"I'll do it tomorrow.\" She said she would do it ___.","options":["tomorrow","the next day","yesterday","then"],"answer":"the next day","why":"'Tomorrow' becomes 'the next day' (or 'the following day') in reported speech."},
-    {"type":"mc","q":"Direct: \"I met him yesterday.\" He said he had met him ___.","options":["yesterday","the day before","tomorrow","the next day"],"answer":"the day before","why":"'Yesterday' becomes 'the day before' (or 'the previous day') in reported speech."},
-    {"type":"mc","q":"Direct: \"Come here.\" She told me to come ___.","options":["here","there","then","now"],"answer":"there","why":"The place word 'here' usually changes to 'there' in reported speech."},
-    {"type":"mc","q":"Direct: \"I bought this book.\" He said he had bought ___ book.","options":["this","that","these","the next"],"answer":"that","why":"The demonstrative 'this' changes to 'that' in reported speech."},
-    {"type":"mc","q":"She said to me, \"You look great.\" → She said ___ looked great.","options":["I","you","he","they"],"answer":"I","why":"Pronouns shift to the speaker's viewpoint; 'you' (me) becomes 'I'."},
-    {"type":"mc","q":"Tom said, \"My sister called.\" → Tom said ___ sister had called.","options":["my","your","his","her"],"answer":"his","why":"The possessive 'my' shifts to 'his' to match Tom's viewpoint."},
-    {"type":"mc","q":"Choose the correct verb: He ___ me that he was busy.","options":["said","told","spoke","asked"],"answer":"told","why":"'Tell' is followed by a person object; you tell someone something."},
-    {"type":"mc","q":"Choose the correct verb: She ___ that the shop was closed.","options":["told","said","told to","spoke"],"answer":"said","why":"'Say' is not followed by a person object; you say something (to someone)."},
-    {"type":"mc","q":"Direct: \"Where do you live?\" He asked me where I ___.","options":["do live","lived","did live","live"],"answer":"lived","why":"Reported questions use statement word order with no auxiliary 'do'."},
-    {"type":"mc","q":"Direct: \"What are you doing?\" She asked what I ___ doing.","options":["am","was","were","is"],"answer":"was","why":"Reported questions keep statement order and backshift the verb."},
-    {"type":"mc","q":"Direct: \"Are you ready?\" He asked ___ I was ready.","options":["that","what","if","do"],"answer":"if","why":"Yes/no questions are reported with 'if' or 'whether'."},
-    {"type":"mc","q":"Direct: \"Do you like tea?\" She asked me ___ I liked tea.","options":["that","whether","what","which"],"answer":"whether","why":"Yes/no questions use 'if' or 'whether'; there is no question word."},
-    {"type":"mc","q":"Which is correctly reported? Direct: \"When does the train leave?\"","options":["He asked when does the train leave.","He asked when the train left.","He asked when did the train leave.","He asked when the train did leave."],"answer":"He asked when the train left.","why":"Reported wh-questions use statement order and drop 'does/did'."},
-    {"type":"mc","q":"Direct: \"Close the door.\" She told me ___ the door.","options":["close","to close","closing","that close"],"answer":"to close","why":"Reported commands use 'tell/ask someone + to + infinitive'."},
-    {"type":"mc","q":"Direct: \"Please help me.\" He asked me ___ him.","options":["help","to help","helping","that help"],"answer":"to help","why":"Reported requests use 'ask someone + to + infinitive'."},
-    {"type":"mc","q":"Direct: \"Don't touch it.\" She told me ___ touch it.","options":["not to","to not","don't","not"],"answer":"not to","why":"Negative commands are reported as 'told/asked someone not to + verb'."},
-    {"type":"fill","q":"Type the answer: 'Direct: \"I am hungry.\" → He said he ___ hungry.'","answer":["was"],"why":"Present simple 'am' backshifts to past simple 'was'."},
-    {"type":"fill","q":"Type the answer with one word: 'She ___ me that she was leaving.' (tell/say)","answer":["told"],"why":"Use 'told' because there is a person object after the verb."},
-    {"type":"fill","q":"Type the answer: 'Direct: \"Are you coming?\" → He asked ___ I was coming.' (one word, not whether)","answer":["if"],"why":"Yes/no questions are reported with 'if' (or 'whether')."},
-    {"type":"fill","q":"Type the answer: 'Direct: \"Sit down.\" → The teacher told us ___ ___ down.' (two words)","answer":["to sit"],"why":"Reported commands use 'tell someone to + base verb'."}
+    {
+      "type": "mc",
+      "q": "Direct: \"I am tired.\" Reported: She said she ___ tired.",
+      "options": [
+        "is",
+        "was",
+        "were",
+        "has been"
+      ],
+      "answer": "was",
+      "why": "Present simple backshifts to past simple when the reporting verb is in the past."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I work in a bank.\" He told me he ___ in a bank.",
+      "options": [
+        "works",
+        "worked",
+        "is working",
+        "has worked"
+      ],
+      "answer": "worked",
+      "why": "Present simple 'work' becomes past simple 'worked' after a past reporting verb."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"We are leaving now.\" They said they ___ leaving then.",
+      "options": [
+        "are",
+        "were",
+        "had been",
+        "will be"
+      ],
+      "answer": "were",
+      "why": "Present continuous 'are leaving' backshifts to past continuous 'were leaving'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I have finished.\" He said he ___ finished.",
+      "options": [
+        "has",
+        "had",
+        "have",
+        "was"
+      ],
+      "answer": "had",
+      "why": "Present perfect 'have finished' backshifts to past perfect 'had finished'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I saw her yesterday.\" He said he ___ her the day before.",
+      "options": [
+        "saw",
+        "has seen",
+        "had seen",
+        "sees"
+      ],
+      "answer": "had seen",
+      "why": "Past simple usually backshifts to past perfect in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I will call you.\" She said she ___ call me.",
+      "options": [
+        "will",
+        "would",
+        "will be",
+        "had"
+      ],
+      "answer": "would",
+      "why": "'Will' backshifts to 'would' after a past reporting verb."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I can swim.\" He said he ___ swim.",
+      "options": [
+        "can",
+        "could",
+        "can't",
+        "would"
+      ],
+      "answer": "could",
+      "why": "The modal 'can' backshifts to 'could' in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I may be late.\" She said she ___ be late.",
+      "options": [
+        "may",
+        "might",
+        "must",
+        "can"
+      ],
+      "answer": "might",
+      "why": "'May' backshifts to 'might' when reporting a past statement."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"The Earth is round.\" The teacher said the Earth ___ round.",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "had been"
+      ],
+      "answer": "is",
+      "why": "Backshift is optional for general truths or facts that are still true."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I live here now.\" He said he lived there ___.",
+      "options": [
+        "now",
+        "then",
+        "tomorrow",
+        "yesterday"
+      ],
+      "answer": "then",
+      "why": "In reported speech 'now' usually changes to 'then'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I'll do it tomorrow.\" She said she would do it ___.",
+      "options": [
+        "tomorrow",
+        "the next day",
+        "yesterday",
+        "then"
+      ],
+      "answer": "the next day",
+      "why": "'Tomorrow' becomes 'the next day' (or 'the following day') in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I met him yesterday.\" He said he had met him ___.",
+      "options": [
+        "yesterday",
+        "the day before",
+        "tomorrow",
+        "the next day"
+      ],
+      "answer": "the day before",
+      "why": "'Yesterday' becomes 'the day before' (or 'the previous day') in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Come here.\" She told me to come ___.",
+      "options": [
+        "here",
+        "there",
+        "then",
+        "now"
+      ],
+      "answer": "there",
+      "why": "The place word 'here' usually changes to 'there' in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"I bought this book.\" He said he had bought ___ book.",
+      "options": [
+        "this",
+        "that",
+        "these",
+        "the next"
+      ],
+      "answer": "that",
+      "why": "The demonstrative 'this' changes to 'that' in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "She said to me, \"You look great.\" → She said ___ looked great.",
+      "options": [
+        "I",
+        "you",
+        "he",
+        "they"
+      ],
+      "answer": "I",
+      "why": "Pronouns shift to the speaker's viewpoint; 'you' (me) becomes 'I'."
+    },
+    {
+      "type": "mc",
+      "q": "Tom said, \"My sister called.\" → Tom said ___ sister had called.",
+      "options": [
+        "my",
+        "your",
+        "his",
+        "her"
+      ],
+      "answer": "his",
+      "why": "The possessive 'my' shifts to 'his' to match Tom's viewpoint."
+    },
+    {
+      "type": "mc",
+      "q": "Choose the correct verb: He ___ me that he was busy.",
+      "options": [
+        "said",
+        "told",
+        "spoke",
+        "asked"
+      ],
+      "answer": "told",
+      "why": "'Tell' is followed by a person object; you tell someone something."
+    },
+    {
+      "type": "mc",
+      "q": "Choose the correct verb: She ___ that the shop was closed.",
+      "options": [
+        "told",
+        "said",
+        "told to",
+        "spoke"
+      ],
+      "answer": "said",
+      "why": "'Say' is not followed by a person object; you say something (to someone)."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Where do you live?\" He asked me where I ___.",
+      "options": [
+        "do live",
+        "lived",
+        "did live",
+        "live"
+      ],
+      "answer": "lived",
+      "why": "Reported questions use statement word order with no auxiliary 'do'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"What are you doing?\" She asked what I ___ doing.",
+      "options": [
+        "am",
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": "was",
+      "why": "Reported questions keep statement order and backshift the verb."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Are you ready?\" He asked ___ I was ready.",
+      "options": [
+        "that",
+        "what",
+        "if",
+        "do"
+      ],
+      "answer": "if",
+      "why": "Yes/no questions are reported with 'if' or 'whether'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Do you like tea?\" She asked me ___ I liked tea.",
+      "options": [
+        "that",
+        "whether",
+        "what",
+        "which"
+      ],
+      "answer": "whether",
+      "why": "Yes/no questions use 'if' or 'whether'; there is no question word."
+    },
+    {
+      "type": "mc",
+      "q": "Which is correctly reported? Direct: \"When does the train leave?\"",
+      "options": [
+        "He asked when does the train leave.",
+        "He asked when the train left.",
+        "He asked when did the train leave.",
+        "He asked when the train did leave."
+      ],
+      "answer": "He asked when the train left.",
+      "why": "Reported wh-questions use statement order and drop 'does/did'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Close the door.\" She told me ___ the door.",
+      "options": [
+        "close",
+        "to close",
+        "closing",
+        "that close"
+      ],
+      "answer": "to close",
+      "why": "Reported commands use 'tell/ask someone + to + infinitive'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Please help me.\" He asked me ___ him.",
+      "options": [
+        "help",
+        "to help",
+        "helping",
+        "that help"
+      ],
+      "answer": "to help",
+      "why": "Reported requests use 'ask someone + to + infinitive'."
+    },
+    {
+      "type": "mc",
+      "q": "Direct: \"Don't touch it.\" She told me ___ touch it.",
+      "options": [
+        "not to",
+        "to not",
+        "don't",
+        "not"
+      ],
+      "answer": "not to",
+      "why": "Negative commands are reported as 'told/asked someone not to + verb'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Direct: \"I am hungry.\" → He said he ___ hungry.'",
+      "answer": [
+        "was"
+      ],
+      "why": "Present simple 'am' backshifts to past simple 'was'."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer with one word: 'She ___ me that she was leaving.' (tell/say)",
+      "answer": [
+        "told"
+      ],
+      "why": "Use 'told' because there is a person object after the verb."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Direct: \"Are you coming?\" → He asked ___ I was coming.' (one word, not whether)",
+      "answer": [
+        "if"
+      ],
+      "why": "Yes/no questions are reported with 'if' (or 'whether')."
+    },
+    {
+      "type": "fill",
+      "q": "Type the answer: 'Direct: \"Sit down.\" → The teacher told us ___ ___ down.' (two words)",
+      "answer": [
+        "to sit"
+      ],
+      "why": "Reported commands use 'tell someone to + base verb'."
+    },
+    {
+      "type": "mc",
+      "q": "'I'm tired,' he said. → He said he ___ tired.",
+      "options": [
+        "was",
+        "is",
+        "were"
+      ],
+      "answer": "was",
+      "why": "Present simple shifts back to past simple in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "'I'll help you,' she said. → She said she ___ help me.",
+      "options": [
+        "would",
+        "will",
+        "can"
+      ],
+      "answer": "would",
+      "why": "'Will' becomes 'would' in reported speech."
+    },
+    {
+      "type": "mc",
+      "q": "'Where do you live?' → He asked me where I ___ .",
+      "options": [
+        "lived",
+        "live",
+        "do live"
+      ],
+      "answer": "lived",
+      "why": "Reported questions: statement order + tense shift."
+    },
+    {
+      "type": "mc",
+      "q": "'Don't touch it!' → She told me ___ it.",
+      "options": [
+        "not to touch",
+        "to not touching",
+        "don't touch"
+      ],
+      "answer": "not to touch",
+      "why": "Negative reported commands: told + object + not to + verb."
+    },
+    {
+      "type": "mc",
+      "q": "'I saw the film yesterday.' → He said he had seen the film ___ .",
+      "options": [
+        "the day before",
+        "yesterday",
+        "last day"
+      ],
+      "answer": "the day before",
+      "why": "'Yesterday' becomes 'the day before' in reported speech."
+    }
   ]
 }
